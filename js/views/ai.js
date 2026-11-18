@@ -146,9 +146,9 @@ async function meTab(box, view, s) {
   box.innerHTML = `<div class="card"><h3>Gemini ayarları</h3>
     <p class="small muted">Ücretsiz anahtarı <b>aistudio.google.com</b> → “Get API key” bölümünden alabilirsin. Anahtar yalnızca bu cihazda saklanır; telefonu kullanan biri görebilir.</p>
     <label class="small muted">API anahtarı<input class="field" id="key" type="password" autocomplete="off" value="${esc(st.apiKey)}" placeholder="AIza…"></label>
-    <label class="small muted">Model<input class="field" id="model" list="models" value="${esc(st.model)}" autocapitalize="off" spellcheck="false"></label>
-    <datalist id="models"><option value="gemini-2.5-flash"><option value="gemini-2.5-flash-lite"><option value="gemini-2.5-pro"></datalist>
-    <div class="row" style="margin-top:8px"><button class="btn primary" id="saveKey">Kaydet</button><button class="btn" id="test">Bağlantıyı dene</button></div></div>
+    <label class="small muted">Model<select class="field" id="model"><option value="">Otomatik (önerilen)</option>${st.model ? `<option value="${esc(st.model)}" selected>${esc(st.model)}</option>` : ''}</select></label>
+    <p class="small muted" id="modelInfo">${st.model ? `Elle seçildi: <b>${esc(st.model)}</b>` : st.autoModel ? `Otomatik seçilen: <b>${esc(st.autoModel)}</b>` : 'Otomatik: anahtarı kaydedince en yeni hızlı model seçilir.'}</p>
+    <div class="row" style="margin-top:8px"><button class="btn primary" id="saveKey">Kaydet</button><button class="btn" id="test">Bağlantıyı dene</button><button class="btn ghost" id="models">Modelleri listele</button></div></div>
     <div class="card"><h3>Ses</h3>
       <label class="small muted">İngilizce ses<select class="field" id="voice"><option value="">Otomatik</option>${englishVoices().map(v => `<option value="${esc(v.voiceURI)}" ${v.voiceURI === st.voiceURI ? 'selected' : ''}>${esc(v.name)} (${esc(v.lang)})</option>`).join('')}</select></label>
       <label class="small muted">Hız: <span id="rv">${st.rate}</span>×<input type="range" id="rate" min="0.6" max="1.3" step="0.05" value="${st.rate}" style="width:100%"></label>
@@ -158,8 +158,29 @@ async function meTab(box, view, s) {
     <div class="card"><h3>Yedek</h3><div class="row"><button class="btn" id="exp">⬇︎ Yedeği indir</button><label class="btn">⬆︎ Yedeği yükle<input type="file" id="imp" accept="application/json,.json" hidden></label></div>
       <button class="btn ghost sm bad" id="reset" style="margin-top:10px">Tüm verileri sıfırla</button></div>`;
   const $ = q => box.querySelector(q);
-  $('#saveKey').onclick = () => { st.apiKey = $('#key').value.trim(); st.model = $('#model').value.trim() || 'gemini-2.5-flash'; save(); toast('Kaydedildi.'); };
-  $('#test').onclick = async () => { $('#saveKey').onclick(); busy($('#test'), true); try { await AI.chatTurn({ level: 'A1', scenario: 'Say hello in one short sentence.', history: [] }); toast('Bağlantı çalışıyor ✓'); } catch (e) { toast(e.message, 5000); } busy($('#test'), false, 'Bağlantıyı dene'); };
+  const fillModels = async () => {
+    const list = (await AI.listModels()).sort((a, b) => AI.rankModel(b.id) - AI.rankModel(a.id));
+    const sel = $('#model'), keep = st.model;
+    sel.innerHTML = `<option value="">Otomatik (önerilen)</option>` + list.map(m => `<option value="${esc(m.id)}" ${m.id === keep ? 'selected' : ''}>${esc(m.name)} — ${esc(m.id)}</option>`).join('');
+    return list;
+  };
+  const info = () => ($('#modelInfo').innerHTML = st.model ? `Elle seçildi: <b>${esc(st.model)}</b>` : st.autoModel ? `Otomatik seçilen: <b>${esc(st.autoModel)}</b>` : 'Otomatik');
+  const saveSettings = () => { const k = $('#key').value.trim(); if (k !== st.apiKey) st.autoModel = ''; st.apiKey = k; st.model = $('#model').value; save(); };
+  $('#saveKey').onclick = async () => {
+    saveSettings(); toast('Kaydedildi.');
+    if (st.apiKey && !st.model) { try { await AI.resolveAutoModel(true); info(); } catch (e) { toast(e.message, 5000); } }
+  };
+  $('#model').onchange = () => { st.model = $('#model').value; save(); info(); };
+  $('#models').onclick = async () => { saveSettings(); busy($('#models'), true); try { const l = await fillModels(); toast(`${l.length} model bulundu.`); } catch (e) { toast(e.message, 5000); } busy($('#models'), false, 'Modelleri listele'); };
+  $('#test').onclick = async () => {
+    saveSettings(); busy($('#test'), true);
+    try {
+      if (!st.model) await AI.resolveAutoModel(true);
+      await AI.chatTurn({ level: 'A1', scenario: 'Say hello in one short sentence.', history: [] });
+      info(); toast(`Bağlantı çalışıyor ✓ (${AI.currentModel()})`, 4000);
+    } catch (e) { toast(e.message, 6000); }
+    busy($('#test'), false, 'Bağlantıyı dene');
+  };
   $('#voice').onchange = e => { st.voiceURI = e.target.value; save(); };
   $('#rate').oninput = e => { st.rate = +e.target.value; $('#rv').textContent = st.rate; save(); };
   $('#vtest').onclick = () => speak('Hello! This is how your English voice sounds.');

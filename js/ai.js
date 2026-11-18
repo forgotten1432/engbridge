@@ -1,32 +1,87 @@
 // Gemini API (bring your own key). The key stays in this device's localStorage.
-import { get } from './store.js';
+// Model: if the user leaves it empty ("Otomatik"), the app asks Google which models
+// this key can use and picks the newest fast "flash" model that supports generateContent.
+import { get, save } from './store.js';
 
-const BASE = 'https://generativelanguage.googleapis.com/v1beta/models/';
+const API = 'https://generativelanguage.googleapis.com/v1beta/';
 
 export const hasKey = () => !!get().settings.apiKey?.trim();
 
-async function call(contents, { system, json = false, temperature = 0.4 } = {}) {
-  const { apiKey, model } = get().settings;
-  if (!apiKey) throw new Error('Önce AI ayarlarına Gemini API anahtarını gir.');
+function friendly(status, msg, model) {
+  if (status === 400 && /API key/i.test(msg)) return 'API anahtarı geçersiz görünüyor.';
+  if (status === 403) return 'Bu anahtarın Gemini API izni yok (Google AI Studio\'dan yeni anahtar oluştur).';
+  if (status === 404) return `Model bulunamadı: ${model}.`;
+  if (status === 429) return 'Kota/limit doldu. Biraz sonra tekrar dene.';
+  return `Gemini hatası (${status}): ${msg}`;
+}
+
+async function request(path, init = {}) {
+  const key = get().settings.apiKey?.trim();
+  if (!key) throw new Error('Önce AI ayarlarına Gemini API anahtarını gir.');
   if (!navigator.onLine) throw new Error('İnternet bağlantısı yok. AI özellikleri çevrimiçi çalışır.');
-  const body = {
+  const r = await fetch(API + path, { ...init, headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key, ...(init.headers || {}) } });
+  const data = await r.json().catch(() => ({}));
+  return { r, data };
+}
+
+// ---- model discovery ----
+export async function listModels() {
+  const out = [];
+  let token = '';
+  for (let page = 0; page < 5; page++) {
+    const { r, data } = await request(`models?pageSize=200${token ? `&pageToken=${encodeURIComponent(token)}` : ''}`);
+    if (!r.ok) throw new Error(friendly(r.status, data?.error?.message || r.statusText, '—'));
+    out.push(...(data.models || []));
+    token = data.nextPageToken; if (!token) break;
+  }
+  return out
+    .filter(m => (m.supportedGenerationMethods || []).includes('generateContent'))
+    .map(m => ({ id: m.name.replace(/^models\//, ''), name: m.displayName || m.name, desc: m.description || '' }))
+    .filter(m => /^gemini/i.test(m.id) && !/embed|image|tts|audio|live|vision|aqa|robotics|computer-use|learnlm/i.test(m.id));
+}
+
+export function rankModel(id) {
+  const v = parseFloat((id.match(/gemini-(\d+(?:\.\d+)?)/i) || [])[1] || '0');
+  let score = v * 20;
+  if (/flash/i.test(id)) score += 5;          // fast, generous free tier
+  else if (/pro|ultra/i.test(id)) score += 2;
+  else score += 3;                             // codename models (e.g. gemini-4-xxx)
+  if (/lite|nano|8b/i.test(id)) score -= 2;
+  if (/preview|exp/i.test(id)) score -= 0.5;
+  if (/-\d{3,}$|-\d{2}-\d{2}/.test(id)) score -= 0.2;   // pinned snapshots: prefer the alias
+  if (/latest/i.test(id)) score += 0.3;
+  return score;
+}
+
+export async function resolveAutoModel(force = false) {
+  const st = get().settings;
+  if (!force && st.autoModel) return st.autoModel;
+  const models = await listModels();
+  if (!models.length) throw new Error('Bu anahtarla kullanılabilir bir Gemini modeli bulunamadı.');
+  models.sort((a, b) => rankModel(b.id) - rankModel(a.id));
+  st.autoModel = models[0].id; st.autoModelAt = Date.now();
+  save();
+  return st.autoModel;
+}
+
+export const currentModel = () => get().settings.model?.trim() || get().settings.autoModel || '';
+
+async function call(contents, { system, json = false, temperature = 0.4 } = {}) {
+  const st = get().settings;
+  const auto = !st.model?.trim();
+  let model = auto ? await resolveAutoModel() : st.model.trim();
+  const body = JSON.stringify({
     contents,
     generationConfig: { temperature, ...(json ? { responseMimeType: 'application/json' } : {}) },
     ...(system ? { systemInstruction: { parts: [{ text: system }] } } : {}),
-  };
-  const r = await fetch(`${BASE}${encodeURIComponent(model || 'gemini-2.5-flash')}:generateContent`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey.trim() },
-    body: JSON.stringify(body),
   });
-  const data = await r.json().catch(() => ({}));
-  if (!r.ok) {
-    const msg = data?.error?.message || r.statusText;
-    if (r.status === 400 && /API key/i.test(msg)) throw new Error('API anahtarı geçersiz görünüyor.');
-    if (r.status === 404) throw new Error(`Model bulunamadı: ${model}. Ayarlardan başka bir model adı dene.`);
-    if (r.status === 429) throw new Error('Kota/limit doldu. Biraz sonra tekrar dene.');
-    throw new Error(`Gemini hatası (${r.status}): ${msg}`);
+  let { r, data } = await request(`models/${encodeURIComponent(model)}:generateContent`, { method: 'POST', body });
+  // Auto mode: the remembered model may have been retired – pick again once.
+  if (auto && (r.status === 404 || (r.status === 400 && /model/i.test(data?.error?.message || '')))) {
+    model = await resolveAutoModel(true);
+    ({ r, data } = await request(`models/${encodeURIComponent(model)}:generateContent`, { method: 'POST', body }));
   }
+  if (!r.ok) throw new Error(friendly(r.status, data?.error?.message || r.statusText, model) + (r.status === 404 && !auto ? ' Model kutusunu boş bırakırsan uygulama uygun modeli kendisi seçer.' : ''));
   const text = data?.candidates?.[0]?.content?.parts?.map(p => p.text || '').join('') || '';
   if (!text) throw new Error('Boş yanıt geldi (içerik filtresi olabilir).');
   if (!json) return text;

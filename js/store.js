@@ -12,13 +12,14 @@ function fresh() {
     reading: {},          // passageId -> {score, last}
     dictation: {},        // sentenceId -> {best, attempts}
     seeded: { errors: false, vault: false },
-    settings: { apiKey: '', model: 'gemini-2.5-flash', rate: 1, voiceURI: '' },
+    settings: { apiKey: '', model: '', autoModel: '', rate: 1, voiceURI: '' },
   };
 }
 
 function merge(base, data) {
   const out = { ...base, ...data };
   for (const k of ['profile', 'seeded', 'settings']) out[k] = { ...base[k], ...(data?.[k] || {}) };
+  if (out.settings.model === 'gemini-2.5-flash') out.settings.model = '';   // old default → automatic
   for (const k of ['lessons', 'reading', 'dictation']) out[k] = { ...(data?.[k] || {}) };
   for (const k of ['errors', 'vault']) out[k] = Array.isArray(data?.[k]) ? data[k] : [];
   return out;
