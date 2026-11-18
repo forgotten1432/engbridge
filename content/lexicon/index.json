@@ -1,0 +1,40 @@
+{
+ "levels": {
+  "A1": 1063,
+  "A2": 1241,
+  "B1": 2139,
+  "B2": 2417,
+  "C1": 913,
+  "C2": 875
+ },
+ "sources": [
+  {
+   "name": "CEFR-J Vocabulary Profile 1.5",
+   "by": "Yukio Tono, Tokyo University of Foreign Studies",
+   "url": "https://github.com/openlanguageprofiles/olp-en-cefrj",
+   "license": "Free for research and commercial use with citation",
+   "used": "A1–B2 levels and parts of speech"
+  },
+  {
+   "name": "Octanove Vocabulary Profile C1/C2 1.0",
+   "by": "Octanove Labs",
+   "url": "https://github.com/openlanguageprofiles/olp-en-cefrj",
+   "license": "CC BY-SA 4.0",
+   "used": "C1–C2 levels"
+  },
+  {
+   "name": "Princeton WordNet 3.1 (via Openjam)",
+   "by": "Princeton University; Openjam (amirj4m)",
+   "url": "https://github.com/amirj4m/openjam",
+   "license": "WordNet License / MIT",
+   "used": "English definitions and examples"
+  },
+  {
+   "name": "CMU Pronouncing Dictionary",
+   "by": "Carnegie Mellon University",
+   "url": "http://www.speech.cs.cmu.edu/cgi-bin/cmudict",
+   "license": "BSD-style",
+   "used": "US pronunciation, converted to IPA"
+  }
+ ]
+}

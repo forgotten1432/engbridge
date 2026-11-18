@@ -12,7 +12,7 @@ Derleme adımı yok: düz HTML, CSS ve ES modülleri. GitHub Pages'te ya da `pyt
 | 📘 Dersler | A1–C2 müfredat. Her derste Türkçe/İngilizce anlatım, yanlış ↔ doğal örnek çiftleri ve 4 tür alıştırma: boşluk doldurma, hatayı düzeltme, çoktan seçmeli, cümle birleştirme/dönüştürme. %80 ile ders tamamlanır. |
 | 🎧 Okuma | Seviyeli okuma parçaları. Altı çizili kelimeye dokununca IPA, Türkçe, Uygurca (sağdan sola) ve kalıplar; kelime kasasına ekleme. Sesli okuma (normal/yavaş), 4 soru. **Dikte:** 0.8× / 1× / 1.15× hızda dinle-yaz, kelime kelime karşılaştırma; atlanan küçük kelimeler (is, are, have, had, a, the…) kırmızı. |
 | 🎯 Hatalar | Derslerdeki, diktedeki ve AI değerlendirmesindeki her yanlış SM-2 ile tekrar listesine girer. Farklı günlerde 3 kez üst üste doğru cevaplanınca "ustalaşıldı" olur. 15 teşhis hatasıyla başlar. |
-| 🗂️ Kelimeler | SM-2 kelime kartları (Tekrar / Zor / İyi / Kolay), kendi kartını ekleme, **Anki için .tsv dışa aktarma**. |
+| 🗂️ Kelimeler | SM-2 kelime kartları (Tekrar / Zor / İyi / Kolay), kendi kartını ekleme, **Anki için .tsv dışa aktarma**. **📚 Sözlük:** A1–C2 seviyeli 8.648 kelime (IPA, İngilizce tanım ve örnek); Türkçe anlamı yazıp kasaya eklenir. Okuma parçalarında herhangi bir kelimeye dokununca da bu sözlük açılır. |
 | ✨ AI | Kendi Gemini anahtarınla (BYOK): paragraf değerlendirme, rol yapma sohbeti, en çok hata yapılan konuya göre sınırsız alıştırma, Markdown ilerleme özeti, yedek indir/yükle. |
 
 AI dışındaki her şey internetsiz çalışır. Gemini anahtarı yalnızca cihazın `localStorage`'ında durur.
@@ -80,3 +80,18 @@ content/         tüm ders içeriği (JSON)
 python3 -m http.server 8000
 ```
 ve tarayıcıda `http://localhost:8000`.
+
+## Açık kaynak veriler ve lisanslar
+
+`content/lexicon/` dosyaları `tools/build_lexicon.py` ile şu kaynaklardan üretilir (betik kaynakları kendisi indirir: `pip install cmudict && python3 tools/build_lexicon.py`):
+
+| Kaynak | Kullanım | Lisans |
+|---|---|---|
+| [CEFR-J Vocabulary Profile 1.5](https://github.com/openlanguageprofiles/olp-en-cefrj) — Yukio Tono, Tokyo University of Foreign Studies | A1–B2 seviye ve sözcük türü | Atıf yapılarak araştırma ve ticari kullanım serbest |
+| [Octanove Vocabulary Profile C1/C2 1.0](https://github.com/openlanguageprofiles/olp-en-cefrj) — Octanove Labs | C1–C2 seviyeleri | CC BY-SA 4.0 (`content/lexicon/C1.json` ve `C2.json` bu lisansı taşır) |
+| [Princeton WordNet 3.1](https://wordnet.princeton.edu/), [Openjam](https://github.com/amirj4m/openjam) üzerinden | İngilizce tanımlar ve örnek cümleler | WordNet lisansı / MIT |
+| [CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) | ABD telaffuzu (IPA'ya çevrildi) | BSD tarzı |
+
+Atıf: *The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of Foreign Studies.* · *Octanove Vocabulary Profile C1/C2 1.0, Octanove Labs, CC BY-SA 4.0.*
+
+Ders, okuma ve dikte içerikleri ile Türkçe/Uygurca açıklamalar EngBridge için yazılmıştır.

@@ -23,6 +23,8 @@
 - Lessons done: `A1-M1-L1` (am/is/are), `B1-M1-L1` (dropped "be"), 12 exercises each.
 - Reading: `a1-my-day`, `b1-remote-work` (glossary with IPA/TR/UG, 4 questions each).
 - 20 dictation sentences (A1–C2), 16 seed vocab cards, 15 diagnostic errors (from the owner's learner profile).
+- Open lexicon `content/lexicon/{A1..C2}.json` (8,648 words: CEFR-J/Octanove levels, WordNet definitions via Openjam, CMU IPA), built by `tools/build_lexicon.py`; shown in Kelimeler → 📚 Sözlük and on tapping any word in a reading passage. Keep the licence credits (README + AI → Profil) when changing it.
+- Candidate open sources not yet added: Tatoeba EN–TR/EN–UG sentence pairs (CC BY 2.0 FR, per-sentence attribution; tatoeba.org/manythings.org are not reachable from Claude's sandbox, the owner has to upload the file), VOA Learning English texts (public domain, credit learningenglish.voanews.com).
 - **Next:** the remaining 16 B1 lessons (B1 follows the owner's original spec: auxiliaries, used to, phrasal verbs, conditionals/past modals, paragraph writing, register), then more reading passages (spec asked for 10+) and dictation (40+), then the other levels.
 - Learner profile to target: B1 overall; weaknesses: dropping is/are/was/were/had in multi-clause sentences, irregular verbs (drive/drove/driven vs derive), phrasal verb precision (put off vs call off, come up, figure out, turn down, take over, catch up), third conditional, used to + V1 vs be used to + V-ing, run-on sentences instead of 4–5 sentence paragraphs with connectors.
 - Uyghur translations were written by Claude and have not been checked by a native speaker; say so when adding more.

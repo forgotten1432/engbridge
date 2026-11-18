@@ -32,3 +32,21 @@ export async function ruleName(rule) {
   const c = await curriculum();
   return c.rules?.[rule]?.tr || rule;
 }
+
+// Open lexicon (CEFR-J / Octanove levels, WordNet definitions, CMU IPA)
+export const lexiconIndex = () => json('content/lexicon/index.json');
+export const lexiconLevel = lv => json(`content/lexicon/${lv}.json`);
+let lexMap = null;
+export async function lexiconLookup(word) {
+  if (!lexMap) {
+    lexMap = new Map();
+    for (const lv of ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']) {
+      try { for (const e of await lexiconLevel(lv)) if (!lexMap.has(e.w.toLowerCase())) lexMap.set(e.w.toLowerCase(), { ...e, level: lv }); } catch {}
+    }
+  }
+  const w = String(word || '').toLowerCase().replace(/[’']s$/, '').replace(/[^a-z\-' ]/g, '');
+  const tries = [w, w.replace(/ies$/, 'y'), w.replace(/es$/, ''), w.replace(/s$/, ''), w.replace(/ied$/, 'y'), w.replace(/ed$/, ''), w.replace(/ed$/, 'e'), w.replace(/d$/, ''),
+    w.replace(/ing$/, ''), w.replace(/ing$/, 'e'), w.replace(/([a-z])\1ing$/, '$1'), w.replace(/([a-z])\1ed$/, '$1'), w.replace(/er$/, ''), w.replace(/est$/, ''), w.replace(/ly$/, ''), w.replace(/ier$/, 'y'), w.replace(/iest$/, 'y')];
+  for (const t of tries) if (t && lexMap.has(t)) return lexMap.get(t);
+  return null;
+}

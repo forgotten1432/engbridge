@@ -4,7 +4,7 @@ import * as C from '../content.js';
 import { esc, md, wordDiff, renderDiff } from '../text.js';
 import { speak, stop, canSpeak } from '../speech.js';
 import { openSheet, closeSheet, toast } from '../ui.js';
-import { addToVault } from './vault.js';
+import { addToVault, showLexEntry } from './vault.js';
 import { addError } from '../errors.js';
 
 let sub = 'reading';
@@ -22,7 +22,7 @@ async function renderLibrary(box) {
   const idx = await C.readingIndex();
   const s = get(), my = s.profile.level;
   const levels = [...new Set(idx.map(p => p.level))];
-  box.innerHTML = `<h1>Okuma kütüphanesi</h1><p class="muted small">Altı çizili kelimelere dokun: telaffuz, Türkçe ve Uygurca anlam, kalıplar.</p>
+  box.innerHTML = `<h1>Okuma kütüphanesi</h1><p class="muted small">Altı çizili kelimelere dokun: telaffuz, Türkçe ve Uygurca anlam, kalıplar. Diğer kelimelere dokununca açık kaynak sözlük açılır.</p>
     ${levels.map(lv => `<h2>${esc(lv)}${lv === my ? ' <span class="pill lv">Seviyem</span>' : ''}</h2>
       ${idx.filter(p => p.level === lv).map(p => `<button class="lesson" data-p="${esc(p.id)}"><span class="t">${esc(p.title)}<small>${esc(p.topic)} · ${p.words} kelime${s.reading[p.id] ? ` · son puan ${s.reading[p.id].score}/${s.reading[p.id].total}` : ''}</small></span><span class="pill">Oku</span></button>`).join('')}`).join('') || '<div class="empty">Henüz okuma parçası yok.</div>'}`;
   box.querySelectorAll('[data-p]').forEach(b => b.onclick = () => renderPassage(box, b.dataset.p));
@@ -50,7 +50,14 @@ async function renderPassage(box, id) {
   box.querySelector('#slow').onclick = () => speak(P.text.replace(/\n+/g, ' '), { rate: 0.8 });
   box.querySelector('#stop').onclick = stop;
   if (!canSpeak()) ['play', 'slow', 'stop'].forEach(i => box.querySelector('#' + i).disabled = true);
-  box.querySelectorAll('.gw').forEach(b => b.onclick = () => showWord(b.dataset.g, P.glossary[b.dataset.g], P));
+  box.querySelectorAll('.gw').forEach(b => b.onclick = ev => { ev.stopPropagation(); showWord(b.dataset.g, P.glossary[b.dataset.g], P); });
+  box.querySelector('.passage').addEventListener('click', async ev => {
+    if (ev.target.closest('.gw')) return;
+    const w = wordAt(ev.clientX, ev.clientY);
+    if (!w) return;
+    const e = await C.lexiconLookup(w);
+    if (e) showLexEntry(e, { source: P.title }); else toast(`“${w}” sözlükte yok.`);
+  });
 
   const qs = box.querySelector('#qs');
   qs.insertAdjacentHTML('beforeend', P.questions.map((q, i) => `<div class="card" style="background:var(--card2)" data-q="${i}">
@@ -139,4 +146,16 @@ async function renderDictation(box) {
   };
   if (!canSpeak()) { $('#play').disabled = true; $('#dres').innerHTML = '<div class="feedback bad">Bu tarayıcı sesli okumayı desteklemiyor.</div>'; }
   load();
+}
+
+function wordAt(x, y) {
+  let node, offset;
+  if (document.caretPositionFromPoint) { const p = document.caretPositionFromPoint(x, y); if (!p) return ''; node = p.offsetNode; offset = p.offset; }
+  else if (document.caretRangeFromPoint) { const r = document.caretRangeFromPoint(x, y); if (!r) return ''; node = r.startContainer; offset = r.startOffset; }
+  if (!node || node.nodeType !== 3) return '';
+  const t = node.textContent; let a = offset, b = offset;
+  const isW = c => /[A-Za-z'’\-]/.test(c);
+  while (a > 0 && isW(t[a - 1])) a--;
+  while (b < t.length && isW(t[b])) b++;
+  return t.slice(a, b).replace(/^['’\-]+|['’\-]+$/g, '');
 }

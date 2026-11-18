@@ -155,6 +155,7 @@ async function meTab(box, view, s) {
       <button class="btn sm" id="vtest">🔊 Dene</button></div>
     <div class="card"><h3>İlerleme özeti</h3><p class="small muted">${done.length} ders tamamlandı · ${activeErrors().length} aktif hata · ${s.vault.length} kelime kartı</p>
       <button class="btn" id="copy">📋 Profilimi kopyala (Markdown)</button><p class="small muted">Başka bir öğretmene ya da AI'ya ilerlemeni anlatmak için.</p></div>
+    <div class="card"><h3>Kaynaklar ve lisanslar</h3><div id="credits" class="small muted">…</div></div>
     <div class="card"><h3>Yedek</h3><div class="row"><button class="btn" id="exp">⬇︎ Yedeği indir</button><label class="btn">⬆︎ Yedeği yükle<input type="file" id="imp" accept="application/json,.json" hidden></label></div>
       <button class="btn ghost sm bad" id="reset" style="margin-top:10px">Tüm verileri sıfırla</button></div>`;
   const $ = q => box.querySelector(q);
@@ -187,6 +188,7 @@ async function meTab(box, view, s) {
   $('#vtest').onclick = () => speak('Hello! This is how your English voice sounds.');
   $('#copy').onclick = async () => { (await copyText(await profileMarkdown())) ? toast('Kopyalandı.') : toast('Kopyalanamadı.'); };
   $('#exp').onclick = exportBackup;
+  C.lexiconIndex().then(ix => { $('#credits').innerHTML = ix.sources.map(x => `<p style="margin:4px 0"><b>${esc(x.name)}</b> — ${esc(x.by)}. ${esc(x.used)}. Lisans: ${esc(x.license)}. <a href="${esc(x.url)}" target="_blank" rel="noopener">kaynak</a></p>`).join('') + '<p style="margin:4px 0">Ders, okuma ve dikte içerikleri, Türkçe ve Uygurca açıklamalar EngBridge için yazılmıştır.</p>'; }).catch(() => {});
   $('#imp').onchange = async e => { const f = e.target.files[0]; if (!f) return; try { await importBackup(f); toast('Yedek yüklendi.'); location.reload(); } catch (err) { toast(err.message, 5000); } };
   $('#reset').onclick = () => { if (confirm('Tüm ilerleme, hatalar ve kelimeler silinecek. Emin misin?') && confirm('Bu işlem geri alınamaz. Önce yedek indirdin mi? Silinsin mi?')) { resetAll(); location.reload(); } };
 }

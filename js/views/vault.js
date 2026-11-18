@@ -3,7 +3,8 @@ import { get, save, uid } from '../store.js';
 import { newSrs, review, isDue, preview } from '../srs.js';
 import { esc } from '../text.js';
 import { speak } from '../speech.js';
-import { download, toast } from '../ui.js';
+import { download, toast, openSheet, closeSheet } from '../ui.js';
+import * as C from '../content.js';
 
 const REG = { neutral: 'nötr', formal: 'resmî', informal: 'gündelik', workplace: 'iş', academic: 'akademik', slang: 'argo' };
 
@@ -22,13 +23,14 @@ export function renderVault(view) {
   view.innerHTML = `<h1>Kelime kasası</h1>
     <div class="row"><span class="pill warn">${due.length} tekrar bekliyor</span><span class="pill">${s.vault.length} kart</span><span class="grow"></span>
       <button class="btn sm" id="tsv">⬇︎ Anki (.tsv)</button></div>
-    <div class="seg" style="margin-top:10px"><button data-m="review" class="${mode === 'review' ? 'on' : ''}">Tekrar et</button><button data-m="list" class="${mode === 'list' ? 'on' : ''}">Liste</button><button data-m="add" class="${mode === 'add' ? 'on' : ''}">+ Ekle</button></div>
+    <div class="seg" style="margin-top:10px"><button data-m="review" class="${mode === 'review' ? 'on' : ''}">Tekrar et</button><button data-m="list" class="${mode === 'list' ? 'on' : ''}">Liste</button><button data-m="dict" class="${mode === 'dict' ? 'on' : ''}">📚 Sözlük</button><button data-m="add" class="${mode === 'add' ? 'on' : ''}">+ Ekle</button></div>
     <div id="vbox"></div>`;
   view.querySelectorAll('[data-m]').forEach(b => b.onclick = () => { mode = b.dataset.m; renderVault(view); });
   view.querySelector('#tsv').onclick = exportTSV;
   const box = view.querySelector('#vbox');
   if (mode === 'review') return reviewMode(box, view);
   if (mode === 'add') return addForm(box, view);
+  if (mode === 'dict') return dictMode(box, view);
   listMode(box);
 }
 
@@ -111,4 +113,57 @@ function exportTSV() {
   });
   download(`engbridge-anki-${new Date().toISOString().slice(0, 10)}.tsv`, '#separator:tab\n#html:true\n#tags column:3\n' + rows.join('\n') + '\n', 'text/tab-separated-values');
   toast('Anki dosyası indirildi. Anki: Dosya → İçe Aktar.');
+}
+
+// ---- Open lexicon browser (A1–C2) ----
+const POS_TR = { noun: 'isim', verb: 'fiil', adjective: 'sıfat', adverb: 'zarf', preposition: 'edat', conjunction: 'bağlaç', pronoun: 'zamir', determiner: 'belirteç', interjection: 'ünlem', number: 'sayı', numeral: 'sayı', 'modal verb': 'modal fiil', 'be-verb': 'be fiili', 'do-verb': 'do fiili', 'have-verb': 'have fiili', 'infinitive-to': 'to', article: 'artikel' };
+const posTr = p => POS_TR[String(p).toLowerCase()] || p;
+
+export function showLexEntry(e, { level, source } = {}) {
+  const lv = level || e.level;
+  const inVault = get().vault.some(v => v.term.toLowerCase() === e.w.toLowerCase());
+  openSheet(`<h2 style="margin-top:0">${esc(e.w)} <button class="btn sm" id="lxSay">🔊</button></h2>
+    <div class="row">${e.i ? `<span class="ipa">${esc(e.i)}</span>` : ''}${lv ? `<span class="pill lv">${esc(lv)}</span>` : ''}${(e.p || []).map(p => `<span class="pill">${esc(posTr(p))}</span>`).join('')}</div>
+    ${(e.d || []).map(([pos, def, ex]) => `<div class="card" style="background:var(--card2)"><div class="small muted">${esc(posTr(pos))} · English</div><div>${esc(def)}</div>${ex ? `<div class="small" style="margin-top:4px"><i>“${esc(ex)}”</i> <button class="btn sm ghost" data-lxs="${esc(ex)}">🔊</button></div>` : ''}</div>`).join('') || '<p class="muted small">Bu kelime için tanım yok.</p>'}
+    <h3>Kelime kasasına ekle</h3>
+    <label class="small muted">Türkçe anlam<input class="field" id="lxTr" placeholder="ör. ertelemek"></label>
+    <label class="small muted">Uygurca anlam (isteğe bağlı)<input class="field ug" id="lxUg" dir="rtl" lang="ug"></label>
+    <button class="btn primary" id="lxAdd" style="margin-top:8px" ${inVault ? 'disabled' : ''}>${inVault ? 'Kasada var ✓' : '+ Kasaya ekle'}</button>
+    <p class="small muted">Seviye: CEFR-J / Octanove · Tanım: WordNet · Telaffuz: CMU (ABD). Kaynaklar: AI → Profil.</p>`, root => {
+    root.querySelector('#lxSay').onclick = () => speak(e.w);
+    root.querySelectorAll('[data-lxs]').forEach(b => b.onclick = () => speak(b.dataset.lxs));
+    root.querySelector('#lxAdd').onclick = () => {
+      const tr = root.querySelector('#lxTr').value.trim();
+      if (!tr) return toast('Türkçe anlamı yaz (kartın arka yüzü için).');
+      addToVault({ term: e.w, ipa: e.i || '', tr, ug: root.querySelector('#lxUg').value.trim(), level: lv, register: 'neutral', coll: [], ex: (e.d || []).map(d => d[2]).filter(Boolean).slice(0, 2), source: source || 'Sözlük' });
+      toast('Kasaya eklendi.'); closeSheet();
+    };
+  });
+}
+
+let dictLevel = null, dictQuery = '', dictLimit = 120;
+async function dictMode(box) {
+  const s = get();
+  dictLevel ??= s.profile.level;
+  const idx = await C.lexiconIndex();
+  box.innerHTML = `<div class="row"><select class="field" id="dlv" style="width:auto">${Object.entries(idx.levels).map(([l, n]) => `<option value="${l}" ${l === dictLevel ? 'selected' : ''}>${l} · ${n} kelime</option>`).join('')}<option value="ALL" ${dictLevel === 'ALL' ? 'selected' : ''}>Tümü</option></select>
+    <input class="field grow" id="dq" placeholder="Ara (İngilizce)…" value="${esc(dictQuery)}" autocapitalize="off" spellcheck="false" style="flex:1"></div>
+    <p class="small muted">Açık kaynak seviyeli kelime listesi. Kelimeye dokun: telaffuz, İngilizce tanım ve örnek; Türkçe anlamını yazıp kasana ekle.</p>
+    <div id="dlist"><div class="empty"><span class="spin"></span></div></div>`;
+  const draw = async () => {
+    const lvls = dictLevel === 'ALL' ? Object.keys(idx.levels) : [dictLevel];
+    let items = [];
+    for (const lv of lvls) items.push(...(await C.lexiconLevel(lv)).map(e => ({ ...e, level: lv })));
+    const q = dictQuery.trim().toLowerCase();
+    if (q) items = items.filter(e => e.w.toLowerCase().includes(q)).sort((a, b) => (a.w.toLowerCase().startsWith(q) ? 0 : 1) - (b.w.toLowerCase().startsWith(q) ? 0 : 1) || a.w.length - b.w.length);
+    const vaultSet = new Set(s.vault.map(v => v.term.toLowerCase()));
+    const shown = items.slice(0, dictLimit);
+    box.querySelector('#dlist').innerHTML = `<div class="small muted" style="margin:6px 0">${items.length} sonuç</div>` + shown.map((e, k) => `<button class="lesson" data-k="${k}"><span class="t"><b>${esc(e.w)}</b> <span class="ipa small">${esc(e.i || '')}</span><small>${esc((e.p || []).map(posTr).join(', '))}${e.d?.[0] ? ' · ' + esc(e.d[0][1].slice(0, 70)) + (e.d[0][1].length > 70 ? '…' : '') : ''}</small></span>${vaultSet.has(e.w.toLowerCase()) ? '<span class="pill ok">✓</span>' : `<span class="pill lv">${e.level}</span>`}</button>`).join('')
+      + (items.length > shown.length ? `<button class="btn" id="more" style="width:100%;margin-top:8px">Daha fazla göster (${items.length - shown.length})</button>` : '');
+    box.querySelectorAll('[data-k]').forEach(b => b.onclick = () => showLexEntry(shown[+b.dataset.k]));
+    box.querySelector('#more')?.addEventListener('click', () => { dictLimit += 200; draw(); });
+  };
+  box.querySelector('#dlv').onchange = e => { dictLevel = e.target.value; dictLimit = 120; draw(); };
+  let t; box.querySelector('#dq').oninput = e => { clearTimeout(t); t = setTimeout(() => { dictQuery = e.target.value; dictLimit = 120; draw(); }, 200); };
+  draw();
 }

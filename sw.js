@@ -1,6 +1,6 @@
 // Offline support. App shell: cache-first. Content JSON: network-first with cache fallback,
 // so new lessons appear as soon as they are published.
-const VERSION = 'engbridge-v4';
+const VERSION = 'engbridge-v5';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './icon.svg', './icon-180.png', './icon-192.png', './icon-512.png',
   './css/app.css?v=1', './js/app.js?v=1', './js/app.js', './js/store.js', './js/srs.js', './js/text.js', './js/speech.js',
