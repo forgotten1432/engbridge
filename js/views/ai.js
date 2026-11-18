@@ -161,7 +161,7 @@ async function meTab(box, view, s) {
   const fillModels = async () => {
     const list = (await AI.listModels()).sort((a, b) => AI.rankModel(b.id) - AI.rankModel(a.id));
     const sel = $('#model'), keep = st.model;
-    sel.innerHTML = `<option value="">Otomatik (önerilen)</option>` + list.map(m => `<option value="${esc(m.id)}" ${m.id === keep ? 'selected' : ''}>${esc(m.name)} — ${esc(m.id)}</option>`).join('');
+    sel.innerHTML = `<option value="">Otomatik (önerilen)${st.autoModel ? ` – şu an ${esc(st.autoModel)}` : ''}</option>` + list.map(m => `<option value="${esc(m.id)}" ${m.id === keep ? 'selected' : ''}>${esc(m.name)} — ${esc(m.id)}</option>`).join('');
     return list;
   };
   const info = () => ($('#modelInfo').innerHTML = st.model ? `Elle seçildi: <b>${esc(st.model)}</b>` : st.autoModel ? `Otomatik seçilen: <b>${esc(st.autoModel)}</b>` : 'Otomatik');
@@ -171,6 +171,7 @@ async function meTab(box, view, s) {
     if (st.apiKey && !st.model) { try { await AI.resolveAutoModel(true); info(); } catch (e) { toast(e.message, 5000); } }
   };
   $('#model').onchange = () => { st.model = $('#model').value; save(); info(); };
+  if (st.apiKey && navigator.onLine) fillModels().then(l => { $('#modelInfo').innerHTML += ` · <span class="muted">${l.length} model kullanılabilir</span>`; }).catch(() => {});
   $('#models').onclick = async () => { saveSettings(); busy($('#models'), true); try { const l = await fillModels(); toast(`${l.length} model bulundu.`); } catch (e) { toast(e.message, 5000); } busy($('#models'), false, 'Modelleri listele'); };
   $('#test').onclick = async () => {
     saveSettings(); busy($('#test'), true);
