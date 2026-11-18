@@ -1,0 +1,22 @@
+[
+  { "id": "a1-01", "level": "A1", "text": "My name is Ali and I am from Turkey.", "tr": "Adım Ali ve Türkiye'denim." },
+  { "id": "a1-02", "level": "A1", "text": "She is a teacher at a big school.", "tr": "O büyük bir okulda öğretmen." },
+  { "id": "a1-03", "level": "A1", "text": "We are at home today because it is cold.", "tr": "Bugün evdeyiz çünkü hava soğuk." },
+  { "id": "a1-04", "level": "A1", "text": "There is a bank next to the station.", "tr": "İstasyonun yanında bir banka var." },
+  { "id": "a2-01", "level": "A2", "text": "I was very tired after work yesterday.", "tr": "Dün işten sonra çok yorgundum." },
+  { "id": "a2-02", "level": "A2", "text": "Have you ever been to London?", "tr": "Hiç Londra'ya gittin mi?" },
+  { "id": "a2-03", "level": "A2", "text": "We are going to visit our grandparents at the weekend.", "tr": "Hafta sonu büyükanne ve büyükbabamızı ziyaret edeceğiz." },
+  { "id": "a2-04", "level": "A2", "text": "The train was late, so I took a taxi.", "tr": "Tren gecikti, bu yüzden taksiye bindim." },
+  { "id": "b1-01", "level": "B1", "text": "Watching films in English is a good way to improve your listening.", "tr": "İngilizce film izlemek dinlemeyi geliştirmenin iyi bir yoludur." },
+  { "id": "b1-02", "level": "B1", "text": "When you are learning a language, it is normal to make mistakes.", "tr": "Bir dil öğrenirken hata yapmak normaldir." },
+  { "id": "b1-03", "level": "B1", "text": "The meeting has been put off until next Monday.", "tr": "Toplantı gelecek pazartesiye ertelendi." },
+  { "id": "b1-04", "level": "B1", "text": "If I had known about the traffic, I would have left earlier.", "tr": "Trafiği bilseydim daha erken çıkardım." },
+  { "id": "b1-05", "level": "B1", "text": "I am not used to getting up so early in the morning.", "tr": "Sabah bu kadar erken kalkmaya alışkın değilim." },
+  { "id": "b1-06", "level": "B1", "text": "She had already left when I arrived at the office.", "tr": "Ben ofise vardığımda o çoktan çıkmıştı." },
+  { "id": "b2-01", "level": "B2", "text": "The report should have been finished before the deadline.", "tr": "Rapor son tarihten önce bitirilmiş olmalıydı." },
+  { "id": "b2-02", "level": "B2", "text": "It is widely believed that technology has changed the way we communicate.", "tr": "Teknolojinin iletişim şeklimizi değiştirdiğine yaygın olarak inanılır." },
+  { "id": "b2-03", "level": "B2", "text": "Having finished the project, the team was given a week off.", "tr": "Projeyi bitirdikten sonra ekibe bir hafta izin verildi." },
+  { "id": "c1-01", "level": "C1", "text": "Not only did the company miss its targets, but it also lost several key clients.", "tr": "Şirket yalnızca hedeflerini kaçırmakla kalmadı, birkaç önemli müşterisini de kaybetti." },
+  { "id": "c1-02", "level": "C1", "text": "What we need is a clear strategy rather than another round of meetings.", "tr": "İhtiyacımız olan yeni bir toplantı turu değil, net bir stratejidir." },
+  { "id": "c2-01", "level": "C2", "text": "Had the proposal been presented more convincingly, it might well have been approved.", "tr": "Teklif daha ikna edici sunulsaydı pekâlâ onaylanabilirdi." }
+]

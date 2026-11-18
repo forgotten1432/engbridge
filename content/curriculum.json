@@ -1,0 +1,149 @@
+{
+  "rules": {
+    "aux-drop": { "tr": "Yardımcı fiili düşürme (is/are/was/had)", "en": "Missing auxiliary or linking verbs (be/have/do) in clauses" },
+    "be-basics": { "tr": "be fiili (am/is/are)", "en": "The verb to be: am/is/are" },
+    "tenses": { "tr": "Zamanlar", "en": "Choosing the correct tense" },
+    "irregular-verbs": { "tr": "Düzensiz fiiller", "en": "Irregular verb forms (V2/V3)" },
+    "used-to": { "tr": "used to / be used to", "en": "used to + V1 vs be/get used to + V-ing" },
+    "gerund-infinitive": { "tr": "-ing mi, to mu?", "en": "Gerunds vs infinitives after verbs" },
+    "phrasal-verbs": { "tr": "Phrasal verb'ler", "en": "Phrasal verbs in daily and workplace contexts" },
+    "conditionals": { "tr": "Koşul cümleleri", "en": "Conditional sentences (zero, first, second, third, mixed)" },
+    "modals": { "tr": "Modal fiiller", "en": "Modal verbs and past modals" },
+    "connectors": { "tr": "Bağlaçlar ve paragraf", "en": "Linking words and paragraph cohesion" },
+    "prepositions": { "tr": "Edatlar", "en": "Prepositions (time, place, dependent prepositions)" },
+    "articles": { "tr": "a / an / the", "en": "Articles" },
+    "word-order": { "tr": "Kelime sırası", "en": "Word order in statements and questions" },
+    "register": { "tr": "Üslup (resmî/gündelik)", "en": "Formal vs informal register" },
+    "vocabulary": { "tr": "Kelime seçimi", "en": "Word choice and collocations" },
+    "listening": { "tr": "Dinleme", "en": "Listening accuracy" },
+    "general": { "tr": "Genel", "en": "General accuracy" }
+  },
+  "levels": [
+    {
+      "id": "A1", "title": "Başlangıç", "desc": "Kendini tanıtma, günlük basit cümleler, sorular.",
+      "modules": [
+        { "id": "A1-M1", "title": "1. be fiili ve kendini tanıtma", "lessons": [
+          { "id": "A1-M1-L1", "title": "am / is / are", "ready": true, "count": 12 },
+          { "id": "A1-M1-L2", "title": "Olumsuz ve soru: isn't, Are you…?" },
+          { "id": "A1-M1-L3", "title": "this/that, my/your, there is/are" } ] },
+        { "id": "A1-M2", "title": "2. Geniş zaman (Present Simple)", "lessons": [
+          { "id": "A1-M2-L1", "title": "I work / she works" },
+          { "id": "A1-M2-L2", "title": "do / does ile soru ve olumsuz" },
+          { "id": "A1-M2-L3", "title": "Sıklık zarfları: always, usually, never" } ] },
+        { "id": "A1-M3", "title": "3. İsimler ve sayılar", "lessons": [
+          { "id": "A1-M3-L1", "title": "a / an / the, tekil-çoğul" },
+          { "id": "A1-M3-L2", "title": "Sayılar, saat, tarih" },
+          { "id": "A1-M3-L3", "title": "some / any, much / many" } ] },
+        { "id": "A1-M4", "title": "4. Şimdiki zaman ve can", "lessons": [
+          { "id": "A1-M4-L1", "title": "I am working (şu anda)" },
+          { "id": "A1-M4-L2", "title": "can / can't" },
+          { "id": "A1-M4-L3", "title": "Yer edatları: in, on, at, under" } ] }
+      ]
+    },
+    {
+      "id": "A2", "title": "Temel", "desc": "Geçmiş ve gelecek, karşılaştırma, günlük ihtiyaçlar.",
+      "modules": [
+        { "id": "A2-M1", "title": "1. Geçmiş zaman (Past Simple)", "lessons": [
+          { "id": "A2-M1-L1", "title": "was / were" },
+          { "id": "A2-M1-L2", "title": "Düzenli fiiller: worked, played" },
+          { "id": "A2-M1-L3", "title": "En sık 30 düzensiz fiil" } ] },
+        { "id": "A2-M2", "title": "2. Gelecek", "lessons": [
+          { "id": "A2-M2-L1", "title": "going to (plan)" },
+          { "id": "A2-M2-L2", "title": "will (karar, tahmin)" },
+          { "id": "A2-M2-L3", "title": "Present Continuous ile randevular" } ] },
+        { "id": "A2-M3", "title": "3. Karşılaştırma", "lessons": [
+          { "id": "A2-M3-L1", "title": "bigger / more expensive" },
+          { "id": "A2-M3-L2", "title": "the biggest / the most" },
+          { "id": "A2-M3-L3", "title": "as … as, too / enough" } ] },
+        { "id": "A2-M4", "title": "4. Present Perfect'e giriş", "lessons": [
+          { "id": "A2-M4-L1", "title": "I have been / Have you ever…?" },
+          { "id": "A2-M4-L2", "title": "already, yet, just" },
+          { "id": "A2-M4-L3", "title": "Past Simple mi, Present Perfect mi?" } ] }
+      ]
+    },
+    {
+      "id": "B1", "title": "Orta", "desc": "Çok cümleli yapılar, phrasal verb'ler, koşul cümleleri, paragraf yazma.",
+      "modules": [
+        { "id": "B1-M1", "title": "1. Cümle yapısı ve yardımcı fiiller", "desc": "Düşen be/have/had'i ortadan kaldırmak, Present Simple vs Continuous, düzensiz fiiller.", "lessons": [
+          { "id": "B1-M1-L1", "title": "Düşen 'be': uzun cümlelerde is/are", "ready": true, "count": 12 },
+          { "id": "B1-M1-L2", "title": "Present Simple mi, Continuous mı?" },
+          { "id": "B1-M1-L3", "title": "Düzensiz fiiller: drive–drove–driven" } ] },
+        { "id": "B1-M2", "title": "2. -ing, to ve used to", "desc": "used to + V1 ile be/get used to + V-ing farkı, fiil + edat kalıpları.", "lessons": [
+          { "id": "B1-M2-L1", "title": "used to + V1 (eskiden)" },
+          { "id": "B1-M2-L2", "title": "be / get used to + V-ing" },
+          { "id": "B1-M2-L3", "title": "Fiil + edat + -ing (look forward to…)" } ] },
+        { "id": "B1-M3", "title": "3. Sık kullanılan phrasal verb'ler", "desc": "put off, call off, come up, figure out, look into, turn down, catch up…", "lessons": [
+          { "id": "B1-M3-L1", "title": "İş hayatı: put off, call off, take over" },
+          { "id": "B1-M3-L2", "title": "Problem çözme: figure out, look into, come up" },
+          { "id": "B1-M3-L3", "title": "İlişkiler: turn down, catch up, get along" } ] },
+        { "id": "B1-M4", "title": "4. Koşul cümleleri ve geçmiş modallar", "desc": "2. ve 3. koşul, must/should/might have + V3.", "lessons": [
+          { "id": "B1-M4-L1", "title": "2. koşul: If I had…, I would…" },
+          { "id": "B1-M4-L2", "title": "3. koşul: If I had known…, I would have…" },
+          { "id": "B1-M4-L3", "title": "must have / should have / might have" } ] },
+        { "id": "B1-M5", "title": "5. Paragraf yazma", "desc": "Konu cümlesi, açıklama, örnek, sonuç; bağlaçlar.", "lessons": [
+          { "id": "B1-M5-L1", "title": "Konu cümlesi ve destekleyici cümleler" },
+          { "id": "B1-M5-L2", "title": "Bağlaçlar: however, furthermore, as a result" },
+          { "id": "B1-M5-L3", "title": "Uzun tek cümleden 4–5 cümlelik paragrafa" } ] },
+        { "id": "B1-M6", "title": "6. Akıcılık ve üslup", "desc": "Gündelik ve resmî dil, e-posta, kalıp ifadeler.", "lessons": [
+          { "id": "B1-M6-L1", "title": "Gündelik mi, resmî mi?" },
+          { "id": "B1-M6-L2", "title": "Resmî e-posta yazmak" },
+          { "id": "B1-M6-L3", "title": "Collocation ve deyimler" } ] }
+      ]
+    },
+    {
+      "id": "B2", "title": "Orta üstü", "desc": "Karmaşık zamanlar, edilgen yapı, dolaylı anlatım, tartışma ve ikna.",
+      "modules": [
+        { "id": "B2-M1", "title": "1. Perfect zamanlar", "lessons": [
+          { "id": "B2-M1-L1", "title": "Present Perfect Continuous" },
+          { "id": "B2-M1-L2", "title": "Past Perfect: hikâye anlatırken" },
+          { "id": "B2-M1-L3", "title": "Future Perfect ve Future Continuous" } ] },
+        { "id": "B2-M2", "title": "2. Edilgen yapı", "lessons": [
+          { "id": "B2-M2-L1", "title": "is made / was built / has been done" },
+          { "id": "B2-M2-L2", "title": "It is said that… / He is believed to…" },
+          { "id": "B2-M2-L3", "title": "have something done" } ] },
+        { "id": "B2-M3", "title": "3. Dolaylı anlatım", "lessons": [
+          { "id": "B2-M3-L1", "title": "He said (that)… zaman kaydırma" },
+          { "id": "B2-M3-L2", "title": "Dolaylı sorular: Could you tell me where…?" },
+          { "id": "B2-M3-L3", "title": "Anlatma fiilleri: suggest, admit, deny" } ] },
+        { "id": "B2-M4", "title": "4. İlgi cümleleri ve karmaşık cümle", "lessons": [
+          { "id": "B2-M4-L1", "title": "who / which / whose / where" },
+          { "id": "B2-M4-L2", "title": "Belirleyici olmayan ilgi cümlesi (virgüllü)" },
+          { "id": "B2-M4-L3", "title": "Participle cümleleri: Having finished…" } ] },
+        { "id": "B2-M5", "title": "5. Tartışma ve ikna yazısı", "lessons": [
+          { "id": "B2-M5-L1", "title": "Görüş bildirme ve karşı görüş" },
+          { "id": "B2-M5-L2", "title": "Hedging: It seems that, tend to" },
+          { "id": "B2-M5-L3", "title": "Deneme yazısı yapısı" } ] }
+      ]
+    },
+    {
+      "id": "C1", "title": "İleri", "desc": "Vurgu yapıları, akademik ve iş dili, nüanslı kelime seçimi.",
+      "modules": [
+        { "id": "C1-M1", "title": "1. Vurgu ve devrik yapılar", "lessons": [
+          { "id": "C1-M1-L1", "title": "Cleft cümleler: What I need is…" },
+          { "id": "C1-M1-L2", "title": "Devrik yapı: Never have I…, Not only…" },
+          { "id": "C1-M1-L3", "title": "Karışık koşul cümleleri" } ] },
+        { "id": "C1-M2", "title": "2. Akademik ve iş dili", "lessons": [
+          { "id": "C1-M2-L1", "title": "İsimleştirme (nominalisation)" },
+          { "id": "C1-M2-L2", "title": "Rapor ve sunum dili" },
+          { "id": "C1-M2-L3", "title": "Toplantı ve müzakere ifadeleri" } ] },
+        { "id": "C1-M3", "title": "3. Nüans ve kelime", "lessons": [
+          { "id": "C1-M3-L1", "title": "Eş anlamlıların farkı" },
+          { "id": "C1-M3-L2", "title": "İleri collocation'lar" },
+          { "id": "C1-M3-L3", "title": "Deyimler ve mecaz anlam" } ] }
+      ]
+    },
+    {
+      "id": "C2", "title": "Ustalık", "desc": "Anadil düzeyine yakın üslup, ima, retorik ve ince anlam farkları.",
+      "modules": [
+        { "id": "C2-M1", "title": "1. Üslup ustalığı", "lessons": [
+          { "id": "C2-M1-L1", "title": "Register kaydırma ve ton" },
+          { "id": "C2-M1-L2", "title": "İma, ironi ve dolaylı anlatım" },
+          { "id": "C2-M1-L3", "title": "Retorik araçlar" } ] },
+        { "id": "C2-M2", "title": "2. İnce dilbilgisi", "lessons": [
+          { "id": "C2-M2-L1", "title": "Subjunctive: It is essential that he be…" },
+          { "id": "C2-M2-L2", "title": "Elips ve ikame: so do I, if so" },
+          { "id": "C2-M2-L3", "title": "Bilgi yapısı ve cümle ritmi" } ] }
+      ]
+    }
+  ]
+}

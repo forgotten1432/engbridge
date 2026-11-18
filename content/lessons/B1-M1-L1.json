@@ -1,0 +1,45 @@
+{
+  "id": "B1-M1-L1",
+  "level": "B1",
+  "title": "Düşen 'be': uzun cümlelerde is/are",
+  "rule": "aux-drop",
+  "explain_tr": [
+    "Türkçede ve Uygurcada \"-dır/-dur\" çoğu zaman söylenmez: *\"Video izlemek daha etkili.\"* İngilizcede ise her cümlenin (ve her yan cümlenin) **bir çekimli fiili olmak zorundadır.** Cümlede başka fiil yoksa bu fiil **be** olur: *am / is / are / was / were*.",
+    "Hata en çok **uzun özne** olduğunda olur. Özne bir -ing yapısı ya da uzun bir isim grubu olunca beyin onu fiil sanıyor: *Watching videos* → özne, asıl fiil hâlâ eksik: *Watching videos **is** more effective.*",
+    "İkinci tehlikeli yer **yan cümleler**: *when, because, if, while, that* ile başlayan her parçanın kendi öznesi ve fiili olmalı: *when you **are** learning*, *because it **is** expensive*.",
+    "Kontrol yöntemi: Cümleyi parçalara ayır ve her parçada **\"kim? + ne yapıyor/ne?\"** sor. Sıfat (*tired, important*), isim (*a teacher*), yer (*at home*) ya da **-ing/-ed hâli** (*learning, finished*) tek başına fiil değildir; önüne **be** gerekir."
+  ],
+  "explain_en": [
+    "Every English clause needs a finite verb. When there is no other verb, that verb is **be**.",
+    "Long subjects (gerunds, noun phrases) and subordinate clauses (when, because, if, while, that) are where *be* is most often dropped.",
+    "Adjectives, nouns, places and -ing / -ed participles are not finite verbs on their own: *She tired* ✗ → *She **is** tired* ✓; *when you learning* ✗ → *when you **are** learning* ✓."
+  ],
+  "table": [
+    ["Yapı", "Eksik (✗)", "Doğru (✓)"],
+    ["-ing özne + sıfat", "Watching videos more effective.", "Watching videos **is** more effective."],
+    ["Yan cümle + -ing", "when you learning", "when you **are** learning"],
+    ["Yan cümle + sıfat", "because it expensive", "because it **is** expensive"],
+    ["Edilgen (V3)", "The report finished yesterday.", "The report **was** finished yesterday."],
+    ["Yer / isim", "My brother a doctor in Ankara.", "My brother **is** a doctor in Ankara."]
+  ],
+  "pairs": [
+    { "wrong": "Learning new words every day very important.", "right": "Learning new words every day is very important.", "note_tr": "Özne \"Learning new words every day\" (uzun -ing grubu). Sıfat \"important\" fiil değil → **is** gerekir." },
+    { "wrong": "I think when you tired, you can't study well.", "right": "I think when you are tired, you can't study well.", "note_tr": "\"when\" ile başlayan yan cümlenin kendi fiili olmalı: you **are** tired." },
+    { "wrong": "The meeting cancelled because the manager sick.", "right": "The meeting was cancelled because the manager was sick.", "note_tr": "İki eksik var: edilgen yapı (**was** cancelled) ve sıfattan önce be (**was** sick)." },
+    { "wrong": "My colleagues who working in Berlin very helpful.", "right": "My colleagues who are working in Berlin are very helpful.", "note_tr": "İlgi cümlesi (who …) ve ana cümle ayrı ayrı fiil ister." }
+  ],
+  "exercises": [
+    { "type": "cloze", "prompt": "Watching English videos with subtitles ___ more effective than reading grammar books.", "answer": ["is"], "explain_tr": "Özne \"Watching English videos with subtitles\" tek bir eylem → tekil sayılır: **is**.", "rule": "aux-drop" },
+    { "type": "cloze", "prompt": "When you ___ learning a new language, mistakes are normal.", "answer": ["are"], "explain_tr": "\"when\" yan cümlesi: you + **are** + learning.", "rule": "aux-drop" },
+    { "type": "fix", "prompt": "My sister a nurse and she very busy this week.", "answer": ["My sister is a nurse and she is very busy this week.", "My sister is a nurse and she's very busy this week."], "explain_tr": "İki cümleciğin ikisinde de fiil yok: **is** a nurse, **is** very busy.", "rule": "aux-drop" },
+    { "type": "mcq", "prompt": "Choose the correct sentence.", "options": ["Because the shop closed on Sundays, we went on Saturday.", "Because the shop is closed on Sundays, we go on Saturday.", "Because the shop closing on Sundays, we go on Saturday.", "Because shop is close on Sundays, we going on Saturday."], "answer": ["Because the shop is closed on Sundays, we go on Saturday."], "explain_tr": "\"closed\" burada sıfat (kapalı) → **is** closed. Ana cümlede de çekimli fiil var: we **go**.", "rule": "aux-drop" },
+    { "type": "cloze", "prompt": "The new rules ___ explained to all employees at yesterday's meeting.", "answer": ["were"], "explain_tr": "Edilgen yapı, geçmiş, çoğul özne: **were** explained.", "rule": "aux-drop" },
+    { "type": "fix", "prompt": "I think online courses useful because they flexible.", "answer": ["I think online courses are useful because they are flexible.", "I think online courses are useful because they're flexible."], "explain_tr": "\"useful\" ve \"flexible\" sıfat; her ikisinin önüne **are** gerekir.", "rule": "aux-drop" },
+    { "type": "cloze", "prompt": "Everyone in my class ___ worried about the exam last week.", "answer": ["was"], "explain_tr": "\"Everyone\" tekil kabul edilir; geçmiş zaman: **was**.", "rule": "aux-drop" },
+    { "type": "mcq", "prompt": "Which sentence is missing a verb?", "options": ["She is tired because she worked late.", "The people who live next door are friendly.", "Driving in Istanbul at rush hour really stressful.", "It was raining when I left the office."], "answer": ["Driving in Istanbul at rush hour really stressful."], "explain_tr": "Özne \"Driving in Istanbul at rush hour\", ama fiil yok: Driving … **is** really stressful.", "rule": "aux-drop" },
+    { "type": "fix", "prompt": "While we waiting for the bus, it started to rain.", "answer": ["While we were waiting for the bus, it started to rain."], "explain_tr": "\"While\" yan cümlesi ve geçmişte devam eden eylem: we **were** waiting.", "rule": "aux-drop" },
+    { "type": "cloze", "prompt": "If the instructions ___ not clear, please ask the teacher.", "answer": ["are"], "explain_tr": "Koşul yan cümlesi, çoğul özne, sıfat \"clear\": **are** not clear.", "rule": "aux-drop" },
+    { "type": "transform", "prompt": "İki cümleyi **because** ile birleştir:\nI stay at home. It is very cold outside.", "answer": ["I stay at home because it is very cold outside.", "I stay at home because it's very cold outside.", "I'm staying at home because it is very cold outside.", "I am staying at home because it's very cold outside."], "explain_tr": "Yan cümlede **is** düşmemeli: because it **is** very cold.", "rule": "aux-drop" },
+    { "type": "transform", "prompt": "İki cümleyi **who** ile birleştir:\nThe engineers are very experienced. They are working on this project.", "answer": ["The engineers who are working on this project are very experienced.", "The engineers who are working on this project are really experienced."], "explain_tr": "Hem ilgi cümlesinde (who **are** working) hem ana cümlede (**are** very experienced) fiil olmalı.", "rule": "aux-drop" }
+  ]
+}

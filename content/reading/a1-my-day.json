@@ -1,0 +1,23 @@
+{
+  "id": "a1-my-day",
+  "level": "A1",
+  "title": "Aylin's Day",
+  "topic": "Günlük hayat",
+  "text": "Aylin is twenty-four years old. She is from Izmir, but now she lives in Istanbul. She works in a small office near the sea.\n\nEvery morning, Aylin gets up at seven o'clock. She has breakfast with her sister. They usually eat bread, cheese and olives, and they drink tea. Then Aylin takes the bus to work. The bus is often full, so she listens to music.\n\nShe starts work at nine. She answers emails and talks to customers on the phone. At one o'clock, she has lunch with her colleagues. In the evening, she goes home, cooks dinner and watches a film. She goes to bed at eleven.",
+  "glossary": {
+    "lives": { "ipa": "/lɪvz/", "pos": "verb", "tr": "yaşıyor, oturuyor", "ug": "تۇرىدۇ؛ ياشايدۇ", "coll": ["live in a city", "live with family"] },
+    "gets up": { "ipa": "/ɡets ʌp/", "pos": "phrasal verb", "tr": "(yataktan) kalkar", "ug": "ئورنىدىن تۇرىدۇ", "coll": ["get up early", "get up at seven"] },
+    "breakfast": { "ipa": "/ˈbrek.fəst/", "pos": "noun", "tr": "kahvaltı", "ug": "ناشتا", "coll": ["have breakfast", "for breakfast"] },
+    "usually": { "ipa": "/ˈjuː.ʒu.ə.li/", "pos": "adverb", "tr": "genellikle", "ug": "ئادەتتە", "coll": ["usually eat", "I usually…"] },
+    "takes the bus": { "ipa": "/teɪks ðə bʌs/", "pos": "phrase", "tr": "otobüse biner", "ug": "ئاپتوبۇسقا چىقىدۇ", "coll": ["take the bus", "take a taxi"] },
+    "full": { "ipa": "/fʊl/", "pos": "adjective", "tr": "dolu", "ug": "تولۇق؛ لىق", "coll": ["completely full", "full of people"] },
+    "customers": { "ipa": "/ˈkʌs.tə.məz/", "pos": "noun", "tr": "müşteriler", "ug": "خېرىدارلار", "coll": ["serve customers", "talk to customers"] },
+    "colleagues": { "ipa": "/ˈkɒl.iːɡz/", "pos": "noun", "tr": "iş arkadaşları", "ug": "خىزمەتداشلار", "coll": ["work with colleagues"] }
+  },
+  "questions": [
+    { "kind": "comprehension", "q": "Where is Aylin from?", "options": ["Istanbul", "Izmir", "Ankara", "Antalya"], "answer": 1, "explain_tr": "\"She is from Izmir, but now she lives in Istanbul.\"" },
+    { "kind": "comprehension", "q": "What time does she start work?", "options": ["At seven", "At eight", "At nine", "At one"], "answer": 2, "explain_tr": "\"She starts work at nine.\"" },
+    { "kind": "inference", "q": "Why does she listen to music on the bus?", "options": ["Because she works in a music shop.", "Because the bus is full and she can't sit or do much.", "Because her sister likes music.", "Because the bus is empty."], "answer": 1, "explain_tr": "\"The bus is often full, so she listens to music\" → **so** sonuç bildirir." },
+    { "kind": "vocab", "q": "\"She gets up at seven\" means…", "options": ["She goes to bed at seven.", "She leaves the house at seven.", "She wakes up and leaves her bed at seven.", "She arrives at work at seven."], "answer": 2, "explain_tr": "**get up** = yataktan kalkmak." }
+  ]
+}

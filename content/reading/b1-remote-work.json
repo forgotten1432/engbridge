@@ -1,0 +1,27 @@
+{
+  "id": "b1-remote-work",
+  "level": "B1",
+  "title": "Working from Home: Freedom or Trap?",
+  "topic": "İş hayatı",
+  "text": "When the pandemic started, millions of office workers suddenly had to work from home. At first, many people were excited. They no longer had to sit in traffic for an hour every morning, and they could finally spend more time with their families.\n\nHowever, after a few months, some problems came up. Many employees found it hard to separate their work life from their private life. Because their laptop was always on the kitchen table, they kept checking emails late at night. Others felt lonely, as they missed the small conversations with colleagues that used to happen around the coffee machine.\n\nCompanies also had to figure out new ways of working. Managers who were used to seeing their team every day had to learn to trust people they could not see. Some companies decided to put off important decisions about offices until the situation was clearer.\n\nToday, most experts agree that the best solution is a mix of both. Working from home two or three days a week gives people flexibility, while days in the office help teams stay connected. As a result, many companies now offer hybrid contracts, and employees who are used to this model rarely want to go back.",
+  "glossary": {
+    "suddenly": { "ipa": "/ˈsʌd.ən.li/", "pos": "adverb", "tr": "aniden, birdenbire", "ug": "تۇيۇقسىز", "coll": ["suddenly realise", "suddenly stop"], "ex": ["The lights suddenly went out."] },
+    "came up": { "ipa": "/keɪm ʌp/", "pos": "phrasal verb", "tr": "(sorun, konu) ortaya çıktı", "ug": "(مەسىلە) كۆرۈلدى؛ ئوتتۇرىغا چىقتى", "coll": ["a problem came up", "something came up", "come up with an idea"], "register": "neutral", "ex": ["Sorry, something came up and I can't come tonight."] },
+    "separate": { "ipa": "/ˈsep.ə.reɪt/", "pos": "verb", "tr": "ayırmak", "ug": "ئايرىماق", "coll": ["separate A from B", "keep separate"], "ex": ["Try to separate your work from your free time."] },
+    "colleagues": { "ipa": "/ˈkɒl.iːɡz/", "pos": "noun", "tr": "iş arkadaşları", "ug": "خىزمەتداشلار", "coll": ["a close colleague", "work with colleagues"], "register": "workplace" },
+    "used to happen": { "ipa": "/juːst tə ˈhæp.ən/", "pos": "used to + V1", "tr": "eskiden olurdu (artık olmuyor)", "ug": "ئىلگىرى بولاتتى (ھازىر بولمايدۇ)", "coll": ["used to live", "used to work"], "ex": ["I used to walk to work, but now I drive."] },
+    "figure out": { "ipa": "/ˈfɪɡ.ər aʊt/", "pos": "phrasal verb", "tr": "çözmek, anlamak, bulmak", "ug": "ئويلاپ تاپماق؛ چۈشىنىۋالماق", "coll": ["figure out a solution", "figure out how to"], "register": "neutral", "ex": ["I can't figure out how this printer works."] },
+    "were used to": { "ipa": "/wə juːst tuː/", "pos": "be used to + V-ing", "tr": "-e alışkındı", "ug": "… قا كۆنگەن ئىدى", "coll": ["be used to working", "get used to living"], "ex": ["She is used to getting up early."] },
+    "trust": { "ipa": "/trʌst/", "pos": "verb", "tr": "güvenmek", "ug": "ئىشەنمەك", "coll": ["trust someone", "build trust"], "ex": ["You can trust him with the keys."] },
+    "put off": { "ipa": "/pʊt ɒf/", "pos": "phrasal verb", "tr": "ertelemek", "ug": "كېچىكتۈرمەك؛ كەينىگە سۈرمەك", "coll": ["put off a meeting", "put off doing something"], "register": "neutral", "ex": ["Don't put off your homework until Sunday."] },
+    "flexibility": { "ipa": "/ˌflek.səˈbɪl.ə.ti/", "pos": "noun", "tr": "esneklik", "ug": "جانلىقلىق؛ ئەپچىللىك", "coll": ["offer flexibility", "more flexibility"], "register": "workplace" },
+    "As a result": { "ipa": "/æz ə rɪˈzʌlt/", "pos": "connector", "tr": "sonuç olarak, bunun sonucunda", "ug": "نەتىجىدە", "coll": ["As a result, …", "as a result of something"], "register": "formal", "ex": ["It rained all day. As a result, the match was cancelled."] },
+    "rarely": { "ipa": "/ˈreə.li/", "pos": "adverb", "tr": "nadiren", "ug": "ناھايىتى ئاز؛ سىرەك", "coll": ["rarely happen", "very rarely"] }
+  },
+  "questions": [
+    { "kind": "comprehension", "q": "Why were many workers happy at the beginning?", "options": ["They earned more money.", "They didn't have to travel to the office.", "They could work fewer hours.", "Their managers trusted them more."], "answer": 1, "explain_tr": "Metin: \"They no longer had to sit in traffic…\" → işe gidip gelmek zorunda değillerdi." },
+    { "kind": "comprehension", "q": "What problem is NOT mentioned in the text?", "options": ["Checking emails late at night", "Feeling lonely", "Having a slow internet connection", "Mixing work and private life"], "answer": 2, "explain_tr": "İnternet yavaşlığından hiç bahsedilmiyor; diğer üçü metinde var." },
+    { "kind": "inference", "q": "What can we infer about managers?", "options": ["They preferred to control their teams by seeing them.", "They all lost their jobs.", "They wanted everyone to work from home forever.", "They did not use email."], "answer": 0, "explain_tr": "\"were used to seeing their team every day\" ve \"had to learn to trust\" → ekibi görerek kontrol etmeye alışkındılar." },
+    { "kind": "vocab", "q": "In the text, \"put off important decisions\" means…", "options": ["cancelled them completely", "made them quickly", "delayed them", "explained them"], "answer": 2, "explain_tr": "**put off** = ertelemek. İptal etmek **call off** olurdu." }
+  ]
+}

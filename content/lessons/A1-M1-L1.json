@@ -1,0 +1,174 @@
+{
+  "id": "A1-M1-L1",
+  "level": "A1",
+  "title": "am / is / are",
+  "rule": "be-basics",
+  "explain_tr": [
+    "İngilizcede \"-ım, -sın, -dır\" ekleri yerine **be** fiili kullanılır ve **asla atlanmaz**: *Ben öğretmenim* = *I **am** a teacher.*",
+    "**I → am**, **he / she / it → is**, **you / we / they → are**.",
+    "Konuşmada kısaltılır: *I'm, you're, he's, she's, it's, we're, they're*.",
+    "Meslek ve tekil isimlerden önce **a / an** gelir: *She is **a** doctor. He is **an** engineer.*"
+  ],
+  "table": [
+    [
+      "Özne",
+      "be",
+      "Kısa",
+      "Örnek"
+    ],
+    [
+      "I",
+      "am",
+      "I'm",
+      "I am from Turkey."
+    ],
+    [
+      "he / she / it",
+      "is",
+      "he's / she's / it's",
+      "She is a student."
+    ],
+    [
+      "you / we / they",
+      "are",
+      "you're / we're / they're",
+      "They are at home."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I teacher.",
+      "right": "I am a teacher.",
+      "note_tr": "Hem **am** hem **a** gerekir."
+    },
+    {
+      "wrong": "She from Istanbul.",
+      "right": "She is from Istanbul.",
+      "note_tr": "\"from\" fiil değildir, önüne **is** gelir."
+    },
+    {
+      "wrong": "We is friends.",
+      "right": "We are friends.",
+      "note_tr": "we → **are**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I ___ a student.",
+      "answer": [
+        "am"
+      ],
+      "explain_tr": "I → **am**."
+    },
+    {
+      "type": "cloze",
+      "prompt": "She ___ from Kashgar.",
+      "answer": [
+        "is"
+      ],
+      "explain_tr": "she → **is**."
+    },
+    {
+      "type": "cloze",
+      "prompt": "We ___ in the classroom.",
+      "answer": [
+        "are"
+      ],
+      "explain_tr": "we → **are**."
+    },
+    {
+      "type": "cloze",
+      "prompt": "My father ___ a driver.",
+      "answer": [
+        "is"
+      ],
+      "explain_tr": "\"My father\" = he → **is**."
+    },
+    {
+      "type": "cloze",
+      "prompt": "You and Ali ___ good friends.",
+      "answer": [
+        "are"
+      ],
+      "explain_tr": "\"You and Ali\" = you (çoğul) → **are**."
+    },
+    {
+      "type": "mcq",
+      "prompt": "They ___ hungry.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": [
+        "are"
+      ],
+      "shuffle": false,
+      "explain_tr": "they → **are**."
+    },
+    {
+      "type": "mcq",
+      "prompt": "It ___ cold today.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": [
+        "is"
+      ],
+      "shuffle": false,
+      "explain_tr": "it → **is**. Hava durumunda özne **it** olur."
+    },
+    {
+      "type": "fix",
+      "prompt": "He a teacher.",
+      "answer": [
+        "He is a teacher.",
+        "He's a teacher."
+      ],
+      "explain_tr": "Eksik fiil: He **is** a teacher."
+    },
+    {
+      "type": "fix",
+      "prompt": "I from Turkey.",
+      "answer": [
+        "I am from Turkey.",
+        "I'm from Turkey."
+      ],
+      "explain_tr": "Eksik fiil: I **am** from Turkey."
+    },
+    {
+      "type": "fix",
+      "prompt": "They is at home.",
+      "answer": [
+        "They are at home.",
+        "They're at home."
+      ],
+      "explain_tr": "they → **are**."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "She is engineer.",
+        "She is an engineer.",
+        "She an engineer.",
+        "She are an engineer."
+      ],
+      "answer": [
+        "She is an engineer."
+      ],
+      "explain_tr": "**is** + meslekten önce **an** (sesli harfle başladığı için)."
+    },
+    {
+      "type": "transform",
+      "prompt": "Soru cümlesine çevir:\nShe is a doctor.",
+      "answer": [
+        "Is she a doctor?"
+      ],
+      "explain_tr": "Soruda **is** öznenin önüne geçer: **Is** she a doctor?"
+    }
+  ]
+}
