@@ -12,6 +12,7 @@ function friendly(status, msg, model) {
   if (status === 403) return 'Bu anahtarın Gemini API izni yok (Google AI Studio\'dan yeni anahtar oluştur).';
   if (status === 404) return `Model bulunamadı: ${model}.`;
   if (status === 429) return 'Kota/limit doldu. Biraz sonra tekrar dene.';
+  if (status === 503 || status === 500 || status === 502) return 'Gemini şu an çok yoğun (tüm modeller denendi). Birkaç dakika sonra tekrar dene.';
   return `Gemini hatası (${status}): ${msg}`;
 }
 
@@ -53,18 +54,25 @@ export function rankModel(id) {
   return score;
 }
 
+async function rankedModels(force = false) {
+  const st = get().settings;
+  if (!force && st.modelList?.length && Date.now() - (st.modelListAt || 0) < 86400000) return st.modelList;
+  const models = (await listModels()).sort((a, b) => rankModel(b.id) - rankModel(a.id));
+  st.modelList = models.map(m => m.id); st.modelListAt = Date.now(); save();
+  return st.modelList;
+}
+
 export async function resolveAutoModel(force = false) {
   const st = get().settings;
   if (!force && st.autoModel) return st.autoModel;
-  const models = await listModels();
+  const models = (await rankedModels(force)).map(id => ({ id }));
   if (!models.length) throw new Error('Bu anahtarla kullanılabilir bir Gemini modeli bulunamadı.');
-  models.sort((a, b) => rankModel(b.id) - rankModel(a.id));
   st.autoModel = models[0].id; st.autoModelAt = Date.now();
   save();
   return st.autoModel;
 }
 
-export const currentModel = () => get().settings.model?.trim() || get().settings.autoModel || '';
+export const currentModel = () => get().settings.lastModel || get().settings.model?.trim() || get().settings.autoModel || '';
 
 async function call(contents, { system, json = false, temperature = 0.4 } = {}) {
   const st = get().settings;
@@ -75,12 +83,29 @@ async function call(contents, { system, json = false, temperature = 0.4 } = {}) 
     generationConfig: { temperature, ...(json ? { responseMimeType: 'application/json' } : {}) },
     ...(system ? { systemInstruction: { parts: [{ text: system }] } } : {}),
   });
-  let { r, data } = await request(`models/${encodeURIComponent(model)}:generateContent`, { method: 'POST', body });
+  const gen = m => request(`models/${encodeURIComponent(m)}:generateContent`, { method: 'POST', body });
+  const busy = st => st === 429 || st === 500 || st === 502 || st === 503 || st === 504;
+  let { r, data } = await gen(model);
   // Auto mode: the remembered model may have been retired – pick again once.
   if (auto && (r.status === 404 || (r.status === 400 && /model/i.test(data?.error?.message || '')))) {
     model = await resolveAutoModel(true);
-    ({ r, data } = await request(`models/${encodeURIComponent(model)}:generateContent`, { method: 'POST', body }));
+    ({ r, data } = await gen(model));
   }
+  // Overloaded / temporary error: wait a moment and retry, then fall back to the next models.
+  if (busy(r.status)) {
+    await new Promise(res => setTimeout(res, 1500));
+    ({ r, data } = await gen(model));
+  }
+  if (busy(r.status)) {
+    let others = [];
+    try { others = (await rankedModels()).filter(id => id !== model); } catch {}
+    for (const alt of others.slice(0, 4)) {
+      const res = await gen(alt);
+      if (res.r.ok) { r = res.r; data = res.data; model = alt; break; }
+      if (!busy(res.r.status)) break;
+    }
+  }
+  if (r.ok) { get().settings.lastModel = model; save(); }
   if (!r.ok) throw new Error(friendly(r.status, data?.error?.message || r.statusText, model) + (r.status === 404 && !auto ? ' Model kutusunu boş bırakırsan uygulama uygun modeli kendisi seçer.' : ''));
   const text = data?.candidates?.[0]?.content?.parts?.map(p => p.text || '').join('') || '';
   if (!text) throw new Error('Boş yanıt geldi (içerik filtresi olabilir).');
