@@ -1,0 +1,213 @@
+{
+  "id": "B1-M2-L2",
+  "level": "B1",
+  "title": "be / get used to + V-ing",
+  "rule": "used-to",
+  "explain_tr": [
+    "**be used to + V-ing / isim** = *bir şeye alışkın olmak* (artık garip gelmiyor): *I **am used to getting up** early.* (Erken kalkmaya alışkınım.)",
+    "**get used to + V-ing / isim** = *alışmak* (alışma süreci): *I'm slowly **getting used to living** alone.* / *You'll **get used to** the weather.*",
+    "Buradaki **to** bir **edattır**, fiilin parçası değildir. Bu yüzden arkasından **-ing** ya da **isim** gelir: *used to work* ✗ (bu \"eskiden çalışırdım\" olur) → *I'm used to **working** at night.*",
+    "En sık hata **be**'yi düşürmek: *I used to living here* ✗. Doğrusu: *I **am** used to living here* (alışkınım) veya *I **used to live** here* (eskiden yaşardım). Anlam tamamen değişir!",
+    "Zamanlar: *I **was** used to…* (alışkındım), *I **have got** used to…* (alıştım), *I **will get** used to…* (alışacağım), *I **can't get** used to…* (alışamıyorum)."
+  ],
+  "explain_en": [
+    "be used to + V-ing / noun = be accustomed to. get used to + V-ing / noun = become accustomed to.",
+    "'to' is a preposition here, so it is followed by -ing or a noun. Compare: I used to work (past habit) vs I am used to working (accustomed)."
+  ],
+  "table": [
+    [
+      "Yapı",
+      "Anlam",
+      "Örnek"
+    ],
+    [
+      "used to + V1",
+      "eskiden …ardım",
+      "I **used to drive** a lot."
+    ],
+    [
+      "be used to + V-ing",
+      "…maya alışkınım",
+      "I**'m used to driving** in traffic."
+    ],
+    [
+      "get used to + V-ing",
+      "…maya alışıyorum/alıştım",
+      "I'm **getting used to driving** on the left."
+    ],
+    [
+      "be used to + isim",
+      "…e alışkınım",
+      "She **is used to** the noise."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I am used to work late.",
+      "right": "I am used to working late.",
+      "note_tr": "be used to + **V-ing**."
+    },
+    {
+      "wrong": "I used to living in a big city.",
+      "right": "I am used to living in a big city.",
+      "note_tr": "\"Alışkınım\" demek için **am** gerekir."
+    },
+    {
+      "wrong": "You will soon used to the food.",
+      "right": "You will soon get used to the food.",
+      "note_tr": "\"alışacaksın\" → will **get** used to."
+    },
+    {
+      "wrong": "She isn't used to speak English at work.",
+      "right": "She isn't used to speaking English at work.",
+      "note_tr": "to bir edat → **speaking**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I'm a nurse, so I'm used to ___ (work) at night.",
+      "answer": [
+        "working"
+      ],
+      "explain_tr": "be used to + **V-ing**.",
+      "rule": "used-to"
+    },
+    {
+      "type": "cloze",
+      "prompt": "It took me months to get used to ___ (drive) on the left in London.",
+      "answer": [
+        "driving"
+      ],
+      "explain_tr": "get used to + **V-ing**.",
+      "rule": "used-to"
+    },
+    {
+      "type": "cloze",
+      "prompt": "When I was a student, I ___ (live) in a small flat, but now I have a house.",
+      "answer": [
+        "used to live"
+      ],
+      "explain_tr": "Geçmiş alışkanlık/durum → **used to + V1**.",
+      "rule": "used-to"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Don't worry, you will ___ used to the new software soon.",
+      "answer": [
+        "get"
+      ],
+      "explain_tr": "Alışma süreci → **get** used to.",
+      "rule": "used-to"
+    },
+    {
+      "type": "cloze",
+      "prompt": "She ___ used to cold weather because she grew up in Erzurum.",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "explain_tr": "\"alışkın\" → **is** used to.",
+      "rule": "used-to"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Kalabalık sınıflara alışkınım.\"",
+      "options": [
+        "I used to crowded classes.",
+        "I'm used to crowded classes.",
+        "I used to be crowded classes.",
+        "I'm use to crowded classes."
+      ],
+      "answer": [
+        "I'm used to crowded classes."
+      ],
+      "explain_tr": "be used to + isim.",
+      "rule": "used-to"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence means \"Eskiden sigara içerdim\"?",
+      "options": [
+        "I'm used to smoking.",
+        "I used to smoke.",
+        "I got used to smoking.",
+        "I'm getting used to smoking."
+      ],
+      "answer": [
+        "I used to smoke."
+      ],
+      "explain_tr": "Eskiden → used to + V1.",
+      "rule": "used-to"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "I can't get used to wake up so early.",
+        "I can't get used to waking up so early.",
+        "I can't used to waking up so early.",
+        "I can't be used to wake up so early."
+      ],
+      "answer": [
+        "I can't get used to waking up so early."
+      ],
+      "explain_tr": "get used to + V-ing.",
+      "rule": "used-to"
+    },
+    {
+      "type": "fix",
+      "prompt": "I used to living alone, so it isn't difficult for me.",
+      "answer": [
+        "I am used to living alone, so it isn't difficult for me.",
+        "I'm used to living alone, so it isn't difficult for me."
+      ],
+      "explain_tr": "Bugünkü alışkınlık → **am** used to living.",
+      "rule": "used-to"
+    },
+    {
+      "type": "fix",
+      "prompt": "Are you used to eat with chopsticks?",
+      "answer": [
+        "Are you used to eating with chopsticks?"
+      ],
+      "explain_tr": "be used to + **eating**.",
+      "rule": "used-to"
+    },
+    {
+      "type": "fix",
+      "prompt": "After a few weeks I got used to work from home.",
+      "answer": [
+        "After a few weeks I got used to working from home."
+      ],
+      "explain_tr": "got used to + **working**.",
+      "rule": "used-to"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"be used to\" ile yeniden yaz:\nTraffic doesn't bother me. I drive in Istanbul every day.",
+      "answer": [
+        "I am used to driving in traffic.",
+        "I'm used to driving in traffic.",
+        "I am used to traffic.",
+        "I'm used to traffic.",
+        "I'm used to driving in Istanbul traffic.",
+        "I am used to driving in Istanbul traffic."
+      ],
+      "explain_tr": "Alışkınlık → be used to + V-ing / isim.",
+      "rule": "used-to"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"get used to\" ve will ile yeniden yaz:\nThe new job is strange now, but it will feel normal later.",
+      "answer": [
+        "I will get used to the new job.",
+        "I'll get used to the new job.",
+        "You will get used to the new job.",
+        "You'll get used to the new job."
+      ],
+      "explain_tr": "Gelecekte alışma → will get used to + isim.",
+      "rule": "used-to"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "b1-language-learning",
+  "level": "B1",
+  "title": "How I Learned to Love English",
+  "topic": "Dil öğrenme",
+  "text": "When I was at school, I used to hate English lessons. We spent hours memorising grammar rules and lists of words, but we never actually spoke. I could fill in gaps in a test, but when a tourist asked me for directions, I froze.\n\nEverything changed when I started working at a hotel in Antalya. At first, I wasn't used to speaking English all day, and I made a lot of mistakes. Some guests corrected me, which was embarrassing. However, most people were patient, and slowly I got used to it. I also started watching series with English subtitles and writing down useful phrases in a notebook.\n\nThe most important lesson I learned is that mistakes are part of learning. Native speakers don't expect you to be perfect; they just want to understand you. Today I still make mistakes, especially with phrasal verbs, but I'm no longer afraid of speaking. In fact, I'm looking forward to taking the IELTS exam next spring.",
+  "glossary": {
+    "used to hate": {
+      "ipa": "/juːst tə heɪt/",
+      "pos": "used to + V1",
+      "tr": "eskiden nefret ederdim",
+      "ug": "ئىلگىرى ئۆچ كۆرەتتىم",
+      "coll": [
+        "used to live",
+        "used to be"
+      ]
+    },
+    "memorising": {
+      "ipa": "/ˈmem.ə.raɪ.zɪŋ/",
+      "pos": "verb (-ing)",
+      "tr": "ezberlemek",
+      "ug": "يادلاش",
+      "coll": [
+        "memorise words",
+        "memorise a poem"
+      ]
+    },
+    "froze": {
+      "ipa": "/frəʊz/",
+      "pos": "verb (past of freeze)",
+      "tr": "dondum kaldım, kilitlendim",
+      "ug": "تېڭىرقاپ قالدىم",
+      "coll": [
+        "freeze with fear"
+      ],
+      "ex": [
+        "freeze–froze–frozen"
+      ]
+    },
+    "used to speaking": {
+      "ipa": "/juːst tə ˈspiː.kɪŋ/",
+      "pos": "be used to + V-ing",
+      "tr": "(be) used to speaking: konuşmaya alışkın (olmak)",
+      "ug": "سۆزلەشكە ئادەتلەنگەن (بولماق)",
+      "coll": [
+        "be used to + V-ing"
+      ]
+    },
+    "embarrassing": {
+      "ipa": "/ɪmˈbær.ə.sɪŋ/",
+      "pos": "adjective",
+      "tr": "utandırıcı",
+      "ug": "خىجىل قىلارلىق",
+      "coll": [
+        "an embarrassing mistake"
+      ],
+      "ex": [
+        "embarrassing (durum) / embarrassed (kişi)"
+      ]
+    },
+    "patient": {
+      "ipa": "/ˈpeɪ.ʃənt/",
+      "pos": "adjective",
+      "tr": "sabırlı",
+      "ug": "سەۋرچان",
+      "coll": [
+        "be patient with sb"
+      ]
+    },
+    "got used to it": {
+      "ipa": "/ɡɒt juːst tuː ɪt/",
+      "pos": "get used to",
+      "tr": "ona alıştım",
+      "ug": "ئۇنىڭغا ئادەتلەندىم",
+      "coll": [
+        "get used to + noun / V-ing"
+      ]
+    },
+    "subtitles": {
+      "ipa": "/ˈsʌbˌtaɪ.təlz/",
+      "pos": "noun (plural)",
+      "tr": "altyazı",
+      "ug": "ئاستى خەت",
+      "coll": [
+        "with English subtitles",
+        "turn on subtitles"
+      ]
+    },
+    "looking forward to taking": {
+      "ipa": "/ˈlʊk.ɪŋ ˈfɔː.wəd tə ˈteɪ.kɪŋ/",
+      "pos": "look forward to + V-ing",
+      "tr": "girmeyi sabırsızlıkla bekliyorum",
+      "ug": "…قا تەقەززالىق بىلەن كۈتۈۋاتىمەن",
+      "coll": [
+        "look forward to hearing from you"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "kind": "comprehension",
+      "q": "What was the problem with English lessons at school?",
+      "options": [
+        "The teacher was strict.",
+        "They never practised speaking.",
+        "They had no books.",
+        "The lessons were too short."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…but we never actually spoke.\""
+    },
+    {
+      "kind": "comprehension",
+      "q": "Where did the writer's English start to improve?",
+      "options": [
+        "At university",
+        "At a hotel in Antalya",
+        "In London",
+        "On an online course"
+      ],
+      "answer": 1,
+      "explain_tr": "\"…started working at a hotel in Antalya.\""
+    },
+    {
+      "kind": "vocab",
+      "q": "\"I wasn't used to speaking English\" means …",
+      "options": [
+        "I didn't speak English in the past.",
+        "Speaking English all day was new and strange for me.",
+        "I didn't want to speak English.",
+        "I spoke English very well."
+      ],
+      "answer": 1,
+      "explain_tr": "be used to + V-ing = alışkın olmak."
+    },
+    {
+      "kind": "inference",
+      "q": "What is the writer's main message?",
+      "options": [
+        "Grammar rules are useless.",
+        "Don't be afraid of making mistakes.",
+        "Hotels are good places to work.",
+        "IELTS is easy."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…mistakes are part of learning.\""
+    },
+    {
+      "kind": "comprehension",
+      "q": "What is the writer planning to do?",
+      "options": [
+        "Move to England",
+        "Change jobs",
+        "Take the IELTS exam",
+        "Teach English"
+      ],
+      "answer": 2,
+      "explain_tr": "\"…looking forward to taking the IELTS exam next spring.\""
+    }
+  ]
+}

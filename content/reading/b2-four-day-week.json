@@ -1,0 +1,159 @@
+{
+  "id": "b2-four-day-week",
+  "level": "B2",
+  "title": "Is the Four-Day Week the Future?",
+  "topic": "İş hayatı",
+  "text": "In recent years, several companies in Europe have experimented with a four-day working week, in which employees work 32 hours instead of 40 but receive the same salary. Supporters argue that this arrangement improves well-being without reducing productivity. Critics, on the other hand, claim it is unrealistic for many sectors.\n\nThe results of the largest trial so far, carried out in the UK in 2022, were surprisingly positive. Of the 61 participating companies, the vast majority decided to continue with the new schedule. Employees reported lower levels of stress and burnout, and many firms found that sick days had dropped significantly. Interestingly, revenue remained broadly the same.\n\nNevertheless, the model is not suitable for everyone. Hospitals, schools and factories cannot simply close one day a week; they would need to hire additional staff, which would increase costs. Moreover, some workers found that they had to squeeze the same amount of work into fewer hours, which made their days more intense. Had the trial lasted longer, researchers argue, we would have a clearer picture of the long-term effects.",
+  "glossary": {
+    "experimented with": {
+      "ipa": "/ɪkˈsper.ɪ.men.tɪd wɪð/",
+      "pos": "verb + preposition",
+      "tr": "denedi, deneme yaptı",
+      "ug": "سىناپ باقتى",
+      "coll": [
+        "experiment with new ideas"
+      ]
+    },
+    "well-being": {
+      "ipa": "/ˌwelˈbiː.ɪŋ/",
+      "pos": "noun",
+      "tr": "esenlik, iyi oluş",
+      "ug": "ساغلاملىق ۋە خاتىرجەملىك",
+      "coll": [
+        "mental well-being",
+        "improve well-being"
+      ]
+    },
+    "productivity": {
+      "ipa": "/ˌprɒd.ʌkˈtɪv.ə.ti/",
+      "pos": "noun",
+      "tr": "verimlilik",
+      "ug": "ئۈنۈمدارلىق",
+      "coll": [
+        "increase productivity",
+        "reduce productivity"
+      ],
+      "register": "formal"
+    },
+    "carried out": {
+      "ipa": "/ˈkær.id aʊt/",
+      "pos": "phrasal verb (passive)",
+      "tr": "yürütülen, gerçekleştirilen",
+      "ug": "ئېلىپ بېرىلغان",
+      "coll": [
+        "carry out research",
+        "carry out a survey"
+      ],
+      "register": "formal"
+    },
+    "the vast majority": {
+      "ipa": "/ðə vɑːst məˈdʒɒr.ə.ti/",
+      "pos": "phrase",
+      "tr": "büyük çoğunluk",
+      "ug": "مۇتلەق كۆپ قىسمى",
+      "coll": [
+        "the vast majority of people"
+      ]
+    },
+    "burnout": {
+      "ipa": "/ˈbɜːn.aʊt/",
+      "pos": "noun",
+      "tr": "tükenmişlik",
+      "ug": "ھېرىپ-چارچاپ كېتىش",
+      "coll": [
+        "suffer from burnout"
+      ]
+    },
+    "nevertheless": {
+      "ipa": "/ˌnev.ə.ðəˈles/",
+      "pos": "connector",
+      "tr": "yine de, buna rağmen",
+      "ug": "شۇنداقتىمۇ",
+      "coll": [
+        "Nevertheless, …"
+      ],
+      "register": "formal"
+    },
+    "squeeze": {
+      "ipa": "/skwiːz/",
+      "pos": "verb",
+      "tr": "sıkıştırmak",
+      "ug": "قىستۇرماق",
+      "coll": [
+        "squeeze sth into a small space / short time"
+      ]
+    },
+    "had the trial lasted longer": {
+      "ipa": "/hæd ðə ˈtraɪ.əl ˈlɑːs.tɪd ˈlɒŋ.ɡər/",
+      "pos": "inverted third conditional",
+      "tr": "deneme daha uzun sürseydi",
+      "ug": "سىناق ئۇزۇنراق داۋاملاشقان بولسا",
+      "coll": [
+        "Had I known… = If I had known…"
+      ],
+      "register": "formal"
+    }
+  },
+  "questions": [
+    {
+      "kind": "comprehension",
+      "q": "In a four-day week, employees …",
+      "options": [
+        "work 40 hours in four days",
+        "work fewer hours for the same pay",
+        "earn less money",
+        "work only from home"
+      ],
+      "answer": 1,
+      "explain_tr": "\"…work 32 hours instead of 40 but receive the same salary.\""
+    },
+    {
+      "kind": "comprehension",
+      "q": "What happened to sick days during the UK trial?",
+      "options": [
+        "They increased.",
+        "They stayed the same.",
+        "They fell considerably.",
+        "They were not measured."
+      ],
+      "answer": 2,
+      "explain_tr": "\"…sick days had dropped significantly.\""
+    },
+    {
+      "kind": "inference",
+      "q": "Why might hospitals find the model difficult?",
+      "options": [
+        "Doctors don't like it.",
+        "They would need more staff, which costs more.",
+        "Patients would complain.",
+        "The government doesn't allow it."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…would need to hire additional staff, which would increase costs.\""
+    },
+    {
+      "kind": "vocab",
+      "q": "\"Had the trial lasted longer\" means …",
+      "options": [
+        "Because the trial lasted longer",
+        "If the trial had lasted longer",
+        "The trial has lasted longer",
+        "When the trial lasts longer"
+      ],
+      "answer": 1,
+      "explain_tr": "Devrik 3. koşul: Had + özne + V3 = If + had + V3."
+    },
+    {
+      "kind": "inference",
+      "q": "What is the writer's overall position?",
+      "options": [
+        "Strongly against",
+        "Completely in favour",
+        "Balanced: positive results but some limitations",
+        "Not interested"
+      ],
+      "answer": 2,
+      "explain_tr": "Olumlu sonuçlar + 'Nevertheless…' sınırlamalar → dengeli."
+    }
+  ]
+}

@@ -1,4 +1,12 @@
 [
-  { "id": "a1-my-day", "level": "A1", "title": "Aylin's Day", "topic": "Günlük hayat", "words": 115 },
-  { "id": "b1-remote-work", "level": "B1", "title": "Working from Home: Freedom or Trap?", "topic": "İş hayatı", "words": 215 }
+  {"id": "a1-my-day", "level": "A1", "title": "Aylin's Day", "topic": "Günlük hayat", "words": 115},
+  {"id": "a2-new-neighbours", "level": "A2", "title": "New Neighbours", "topic": "Komşular", "words": 140},
+  {"id": "a2-busy-weekend", "level": "A2", "title": "A Busy Weekend", "topic": "Hafta sonu", "words": 142},
+  {"id": "b1-remote-work", "level": "B1", "title": "Working from Home: Freedom or Trap?", "topic": "İş hayatı", "words": 215},
+  {"id": "b1-first-interview", "level": "B1", "title": "My First Job Interview", "topic": "İş hayatı", "words": 173},
+  {"id": "b1-language-learning", "level": "B1", "title": "How I Learned to Love English", "topic": "Dil öğrenme", "words": 162},
+  {"id": "b1-moving-city", "level": "B1", "title": "From a Village to the City", "topic": "Şehir hayatı", "words": 166},
+  {"id": "b1-smartphones", "level": "B1", "title": "Are We Addicted to Our Phones?", "topic": "Teknoloji", "words": 180},
+  {"id": "b2-four-day-week", "level": "B2", "title": "Is the Four-Day Week the Future?", "topic": "İş hayatı", "words": 176},
+  {"id": "b2-silk-road", "level": "B2", "title": "The Silk Road: More Than a Trade Route", "topic": "Tarih ve kültür", "words": 172}
 ]

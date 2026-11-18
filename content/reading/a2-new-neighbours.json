@@ -1,0 +1,144 @@
+{
+  "id": "a2-new-neighbours",
+  "level": "A2",
+  "title": "New Neighbours",
+  "topic": "Komşular",
+  "text": "Last month a new family moved into the flat next to ours. Their names are Mehmet and Leyla, and they have two small children. They came from Kayseri because Mehmet found a job at a hospital in our city.\n\nOn their first day, my mother made a big plate of börek and we took it to their door. Leyla was very happy. She invited us in for tea, and we talked for almost two hours. The children were a bit shy at first, but soon they were playing with my little brother.\n\nNow we see each other almost every day. Last Saturday they asked us to dinner, and Leyla cooked a delicious Kayseri dish called mantı. My father said it was the best mantı he had ever eaten. I think we are very lucky to have such friendly neighbours.",
+  "glossary": {
+    "moved into": {
+      "ipa": "/muːvd ˈɪn.tuː/",
+      "pos": "phrasal verb (past)",
+      "tr": "(bir eve) taşındı",
+      "ug": "(ئۆيگە) كۆچۈپ كەلدى",
+      "coll": [
+        "move into a flat",
+        "move into a new house"
+      ],
+      "ex": [
+        "We moved into our new flat in May."
+      ]
+    },
+    "next to": {
+      "ipa": "/nekst tuː/",
+      "pos": "preposition",
+      "tr": "yanında, bitişiğinde",
+      "ug": "يېنىدا",
+      "coll": [
+        "next to the station",
+        "sit next to me"
+      ]
+    },
+    "invited": {
+      "ipa": "/ɪnˈvaɪ.tɪd/",
+      "pos": "verb (past)",
+      "tr": "davet etti",
+      "ug": "تەكلىپ قىلدى",
+      "coll": [
+        "invite sb in",
+        "invite sb to dinner"
+      ]
+    },
+    "shy": {
+      "ipa": "/ʃaɪ/",
+      "pos": "adjective",
+      "tr": "utangaç",
+      "ug": "تارتىنچاق",
+      "coll": [
+        "a bit shy",
+        "shy at first"
+      ]
+    },
+    "asked us to dinner": {
+      "ipa": "/ɑːskt ʌs tə ˈdɪn.ər/",
+      "pos": "phrase",
+      "tr": "bizi yemeğe çağırdılar",
+      "ug": "بىزنى كەچلىك تاماققا چاقىردى",
+      "coll": [
+        "ask sb to dinner",
+        "ask sb out"
+      ]
+    },
+    "delicious": {
+      "ipa": "/dɪˈlɪʃ.əs/",
+      "pos": "adjective",
+      "tr": "çok lezzetli",
+      "ug": "ناھايىتى تەملىك",
+      "coll": [
+        "delicious food",
+        "smell delicious"
+      ]
+    },
+    "lucky": {
+      "ipa": "/ˈlʌk.i/",
+      "pos": "adjective",
+      "tr": "şanslı",
+      "ug": "تەلەيلىك",
+      "coll": [
+        "be lucky to have",
+        "a lucky day"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "kind": "comprehension",
+      "q": "Why did the new family move?",
+      "options": [
+        "They wanted a bigger flat.",
+        "Mehmet found a job in the city.",
+        "Their children started school.",
+        "They didn't like Kayseri."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…because Mehmet found a job at a hospital in our city.\""
+    },
+    {
+      "kind": "comprehension",
+      "q": "What did the writer's family take to the neighbours?",
+      "options": [
+        "Mantı",
+        "Tea",
+        "Börek",
+        "Flowers"
+      ],
+      "answer": 2,
+      "explain_tr": "\"my mother made a big plate of börek\""
+    },
+    {
+      "kind": "inference",
+      "q": "How did the children feel at the beginning?",
+      "options": [
+        "Angry",
+        "A little nervous",
+        "Very tired",
+        "Bored"
+      ],
+      "answer": 1,
+      "explain_tr": "\"a bit shy at first\" → biraz çekingen / gergin."
+    },
+    {
+      "kind": "vocab",
+      "q": "\"Moved into\" in the text means …",
+      "options": [
+        "visited",
+        "started living in",
+        "cleaned",
+        "bought"
+      ],
+      "answer": 1,
+      "explain_tr": "move into = bir eve taşınmak, orada yaşamaya başlamak."
+    },
+    {
+      "kind": "comprehension",
+      "q": "What did the writer's father say about the mantı?",
+      "options": [
+        "It was too spicy.",
+        "It was the best he had ever eaten.",
+        "It was like his mother's.",
+        "He didn't like it."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…the best mantı he had ever eaten.\""
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "B1-M1-L3",
+  "level": "B1",
+  "title": "Düzensiz fiiller: drive–drove–driven",
+  "rule": "irregular-verbs",
+  "explain_tr": [
+    "Düzensiz fiillerin üç hâli vardır: **V1** (şimdiki), **V2** (geçmiş: *Yesterday I drove*), **V3** (have/had/be ile: *I have driven*, *It was driven*).",
+    "**V2** tek başına kullanılır: *I **went** home.* **V3** asla tek başına kullanılmaz; önünde **have / has / had** (Perfect) ya da **be** (edilgen) olmalı: *I **have gone**, The car **was driven**.* *I gone* ✗, *I have went* ✗.",
+    "Benzer görünen kelimelere dikkat: **drive** (araba sürmek) – drove – driven, düzensiz. **derive** (türetmek, elde etmek) – derived – derived, düzenli. *The word is **derived** from Latin.* / *She **drove** to work.*",
+    "Sık karışanlar: *bring–brought–brought* ve *buy–bought–bought* (yazılışı farklı!), *think–thought–thought*, *catch–caught–caught*, *teach–taught–taught*, *choose–chose–chosen*, *write–wrote–written*, *ride–rode–ridden*, *rise–rose–risen*, *fall–fell–fallen*, *feel–felt–felt*, *leave–left–left*, *lose–lost–lost*.",
+    "Olumsuz ve soru cümlesinde geçmiş **did** ile gösterilir, fiil V1'e döner: *I **didn't go*** (✗ didn't went), *Did you **see** it?* (✗ Did you saw)."
+  ],
+  "explain_en": [
+    "Irregular verbs have three forms: V1 (base), V2 (past simple), V3 (past participle). V3 always needs have/has/had or be.",
+    "Do not confuse drive–drove–driven (irregular) with derive–derived–derived (regular). After did / didn't use V1."
+  ],
+  "table": [
+    [
+      "V1",
+      "V2",
+      "V3",
+      "Anlam"
+    ],
+    [
+      "drive",
+      "drove",
+      "driven",
+      "araba sürmek"
+    ],
+    [
+      "derive",
+      "derived",
+      "derived",
+      "türetmek, elde etmek"
+    ],
+    [
+      "bring",
+      "brought",
+      "brought",
+      "getirmek"
+    ],
+    [
+      "buy",
+      "bought",
+      "bought",
+      "satın almak"
+    ],
+    [
+      "choose",
+      "chose",
+      "chosen",
+      "seçmek"
+    ],
+    [
+      "write",
+      "wrote",
+      "written",
+      "yazmak"
+    ],
+    [
+      "rise",
+      "rose",
+      "risen",
+      "yükselmek"
+    ],
+    [
+      "lose",
+      "lost",
+      "lost",
+      "kaybetmek"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I have drove this car for ten years.",
+      "right": "I have driven this car for ten years.",
+      "note_tr": "have + **V3** → driven."
+    },
+    {
+      "wrong": "She drived to Bursa yesterday.",
+      "right": "She drove to Bursa yesterday.",
+      "note_tr": "drive düzensiz: V2 = **drove**."
+    },
+    {
+      "wrong": "I didn't went to work on Monday.",
+      "right": "I didn't go to work on Monday.",
+      "note_tr": "didn't'tan sonra **V1**."
+    },
+    {
+      "wrong": "This data is drived from the survey.",
+      "right": "This data is derived from the survey.",
+      "note_tr": "Anlam \"elde edilmek\" → **derive–derived**, düzenli."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "Last summer we ___ (drive) from Istanbul to Antalya.",
+      "answer": [
+        "drove"
+      ],
+      "explain_tr": "Geçmiş, tek başına → V2: **drove**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Have you ever ___ (drive) on the left side of the road?",
+      "answer": [
+        "driven"
+      ],
+      "explain_tr": "have + V3 → **driven**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Many English words are ___ (derive) from Latin and Greek.",
+      "answer": [
+        "derived"
+      ],
+      "explain_tr": "\"türetilmek\" → düzenli fiil: **derived**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I ___ (bring) some cake for everyone this morning.",
+      "answer": [
+        "brought"
+      ],
+      "explain_tr": "bring → **brought** (buy → bought ile karıştırma).",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "The price of petrol has ___ (rise) again.",
+      "answer": [
+        "risen"
+      ],
+      "explain_tr": "has + V3: rise–rose–**risen**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "He has wrote three books.",
+        "He has written three books.",
+        "He has writed three books.",
+        "He written three books."
+      ],
+      "answer": [
+        "He has written three books."
+      ],
+      "explain_tr": "has + V3: write–wrote–**written**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Dün anahtarlarımı kaybettim.\"",
+      "options": [
+        "I lose my keys yesterday.",
+        "I losed my keys yesterday.",
+        "I lost my keys yesterday.",
+        "I have lost my keys yesterday."
+      ],
+      "answer": [
+        "I lost my keys yesterday."
+      ],
+      "explain_tr": "\"yesterday\" → Past Simple, lose–**lost**. (yesterday ile Present Perfect kullanılmaz.)",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word fits? \"Did you ___ the new manager?\"",
+      "options": [
+        "met",
+        "meet",
+        "meeting",
+        "meeted"
+      ],
+      "answer": [
+        "meet"
+      ],
+      "explain_tr": "Did + **V1**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "The car was drove by my uncle.",
+      "answer": [
+        "The car was driven by my uncle."
+      ],
+      "explain_tr": "Edilgen: was + **V3** → driven.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "I buyed a new laptop last week.",
+      "answer": [
+        "I bought a new laptop last week."
+      ],
+      "explain_tr": "buy → **bought**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "Have you choosed a topic for your presentation?",
+      "answer": [
+        "Have you chosen a topic for your presentation?"
+      ],
+      "explain_tr": "choose–chose–**chosen**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "She teached English in Konya for five years.",
+      "answer": [
+        "She taught English in Konya for five years."
+      ],
+      "explain_tr": "teach → **taught**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "Present Perfect'e çevir (already ile):\nI wrote the report.",
+      "answer": [
+        "I have already written the report.",
+        "I've already written the report."
+      ],
+      "explain_tr": "have + already + V3 (written).",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "Olumsuz yap:\nWe caught the last bus.",
+      "answer": [
+        "We didn't catch the last bus.",
+        "We did not catch the last bus."
+      ],
+      "explain_tr": "didn't + V1: caught → **catch**.",
+      "rule": "irregular-verbs"
+    }
+  ]
+}

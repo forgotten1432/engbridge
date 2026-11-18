@@ -1,0 +1,223 @@
+{
+  "id": "B1-M3-L2",
+  "level": "B1",
+  "title": "Problem çözme: figure out, look into, come up",
+  "rule": "phrasal-verbs",
+  "explain_tr": [
+    "**figure out** = *(düşünerek) çözmek, anlamak, bulmak*: *I can't **figure out** how this app works.*",
+    "**look into** = *araştırmak, incelemek* (resmî ve iş dilinde çok sık): *We'll **look into** the problem and get back to you.* Ayrılmaz: *look into it* ✓, *look it into* ✗.",
+    "**come up** = *(sorun, konu, fırsat) ortaya çıkmak, gündeme gelmek*: *A problem **came up** at work.* / *Sorry, something **came up**.* Nesne almaz. **come up with** = *(fikir, çözüm) bulmak, üretmek*: *She **came up with** a great idea.*",
+    "Diğerleri: **work out** (çözmek / sonuçlanmak: Things will work out), **sort out** (halletmek, düzene sokmak), **find out** (öğrenmek, bilgi edinmek: find out the truth), **point out** (belirtmek, dikkat çekmek), **deal with** (ilgilenmek, başa çıkmak).",
+    "*figure out* = kafa yorarak çözmek; *find out* = bir bilgiyi öğrenmek. *I **found out** that the meeting was cancelled* (biri söyledi). *I **figured out** why the code wasn't working* (kendim çözdüm)."
+  ],
+  "explain_en": [
+    "figure out = understand or solve by thinking; look into = investigate; come up = arise; come up with = produce an idea; find out = discover information."
+  ],
+  "table": [
+    [
+      "Phrasal verb",
+      "Anlam",
+      "Örnek"
+    ],
+    [
+      "figure out",
+      "çözmek, anlamak",
+      "I finally **figured out** the answer."
+    ],
+    [
+      "look into",
+      "araştırmak",
+      "The police are **looking into** the case."
+    ],
+    [
+      "come up",
+      "ortaya çıkmak",
+      "Several questions **came up** in the meeting."
+    ],
+    [
+      "come up with",
+      "(fikir) bulmak",
+      "We need to **come up with** a plan."
+    ],
+    [
+      "find out",
+      "öğrenmek",
+      "How did you **find out** about the job?"
+    ],
+    [
+      "sort out",
+      "halletmek",
+      "Don't worry, I'll **sort** it **out**."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I can't figure how this works.",
+      "right": "I can't figure out how this works.",
+      "note_tr": "**out** düşmez: figure **out**."
+    },
+    {
+      "wrong": "Something came up with, so I can't come.",
+      "right": "Something came up, so I can't come.",
+      "note_tr": "\"ortaya çıktı\" → **came up** (with yok)."
+    },
+    {
+      "wrong": "She came up a brilliant solution.",
+      "right": "She came up with a brilliant solution.",
+      "note_tr": "Bir şey üretmek → come up **with**."
+    },
+    {
+      "wrong": "We will look it into.",
+      "right": "We will look into it.",
+      "note_tr": "look into ayrılmaz: look into **it**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I've read the instructions three times, but I still can't ___ out how to install it.",
+      "answer": [
+        "figure",
+        "work"
+      ],
+      "explain_tr": "çözmek → **figure** out.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Thank you for your complaint. We will look ___ the matter immediately.",
+      "answer": [
+        "into"
+      ],
+      "explain_tr": "araştırmak → look **into**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I'm sorry I missed your call. Something ___ up at work.",
+      "answer": [
+        "came"
+      ],
+      "explain_tr": "ortaya çıktı → **came** up.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Our team came up ___ three new ideas for the campaign.",
+      "answer": [
+        "with"
+      ],
+      "explain_tr": "fikir üretmek → come up **with**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I just found ___ that my flight is delayed.",
+      "answer": [
+        "out"
+      ],
+      "explain_tr": "bilgiyi öğrendim → found **out**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Bu konuyu araştırıp size dönüş yapacağız.\"",
+      "options": [
+        "We'll look after this and get back to you.",
+        "We'll look into this and get back to you.",
+        "We'll look up this and get back to you.",
+        "We'll look for this and get back to you."
+      ],
+      "answer": [
+        "We'll look into this and get back to you."
+      ],
+      "explain_tr": "araştırmak → look into.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence uses \"come up\" correctly?",
+      "options": [
+        "She came up the answer.",
+        "An interesting question came up during the lesson.",
+        "He came up a plan.",
+        "I came up it."
+      ],
+      "answer": [
+        "An interesting question came up during the lesson."
+      ],
+      "explain_tr": "come up nesne almaz: bir şey ortaya çıkar.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "You discovered the code error yourself after an hour of thinking. You ___ the problem.",
+      "options": [
+        "found out",
+        "figured out",
+        "looked into",
+        "came up"
+      ],
+      "answer": [
+        "figured out"
+      ],
+      "explain_tr": "Düşünerek çözdün → figured out.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "Don't worry about the booking problem, I'll sort out it.",
+      "answer": [
+        "Don't worry about the booking problem, I'll sort it out."
+      ],
+      "explain_tr": "Zamir ortaya: sort **it** out.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "We need to come up a better strategy.",
+      "answer": [
+        "We need to come up with a better strategy."
+      ],
+      "explain_tr": "come up **with** + isim.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "The manager pointed that the budget was too small.",
+      "answer": [
+        "The manager pointed out that the budget was too small."
+      ],
+      "explain_tr": "belirtmek → point **out**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "How did you figure out that the meeting was cancelled? – My boss told me.",
+      "answer": [
+        "How did you find out that the meeting was cancelled? – My boss told me.",
+        "How did you find out that the meeting was cancelled?"
+      ],
+      "explain_tr": "Biri söyledi → bilgi öğrenmek: **find out** (figure out = kafa yorarak çözmek).",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"come up with\" ile yeniden yaz:\nShe thought of a good solution.",
+      "answer": [
+        "She came up with a good solution."
+      ],
+      "explain_tr": "think of (an idea) ≈ come up with.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"look into\" ile yeniden yaz:\nThe company is investigating the complaint.",
+      "answer": [
+        "The company is looking into the complaint."
+      ],
+      "explain_tr": "investigate = look into.",
+      "rule": "phrasal-verbs"
+    }
+  ]
+}

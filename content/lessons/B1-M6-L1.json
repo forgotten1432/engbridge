@@ -1,0 +1,235 @@
+{
+  "id": "B1-M6-L1",
+  "level": "B1",
+  "title": "Gündelik mi, resmî mi?",
+  "rule": "register",
+  "explain_tr": [
+    "**Register (üslup)**, kime yazdığına göre kelime ve yapı seçmektir. Arkadaşa *\"Hey, what's up?\"*, iş başvurusuna *\"Dear Ms Yılmaz,\"*.",
+    "**Gündelik (informal):** kısaltmalar (*I'm, can't*), phrasal verb'ler (*find out, put off*), kısa cümleler, *Hi, Thanks, Cheers, See you*. **Resmî (formal):** kısaltma yok (*I am, cannot*), Latin kökenli tek kelime (*discover, postpone*), kibar kalıplar (*I would like to…, Could you please…?*).",
+    "Phrasal verb ↔ resmî karşılık: *find out → discover*, *put off → postpone*, *call off → cancel*, *ask for → request*, *get → receive/obtain*, *help → assist*, *need → require*, *look into → investigate*, *go up → increase*.",
+    "Rica: *Give me…* çok sert ✗ (Türkçedeki *\"Verir misin\"* kadar kibar değil). Bunun yerine: *Can I have…?* (gündelik), *Could you send me…?* (nötr), *I would be grateful if you could…* (çok resmî).",
+    "Selam/kapanış: gündelik *Hi Ali / Cheers, See you*; resmî *Dear Mr Demir / Kind regards, Best regards, Yours sincerely*."
+  ],
+  "explain_en": [
+    "Informal: contractions, phrasal verbs, short sentences. Formal: full forms, single-word Latin verbs, polite structures (I would like to…, Could you…?, I would be grateful if…)."
+  ],
+  "table": [
+    [
+      "Gündelik",
+      "Resmî",
+      "Türkçe"
+    ],
+    [
+      "find out",
+      "discover / learn",
+      "öğrenmek"
+    ],
+    [
+      "put off",
+      "postpone",
+      "ertelemek"
+    ],
+    [
+      "ask for",
+      "request",
+      "talep etmek"
+    ],
+    [
+      "get",
+      "receive",
+      "almak (gelen)"
+    ],
+    [
+      "help",
+      "assist",
+      "yardım etmek"
+    ],
+    [
+      "Thanks!",
+      "Thank you for your help.",
+      "Teşekkürler"
+    ],
+    [
+      "Can you…?",
+      "Could you please…? / I would be grateful if you could…",
+      "…-ebilir misiniz?"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "Hey boss, gimme the report.",
+      "right": "Could you please send me the report?",
+      "note_tr": "Amire / iş yazışmasına kibar rica kalıbı."
+    },
+    {
+      "wrong": "Dear Sir, I wanna ask about the job.",
+      "right": "Dear Sir or Madam, I would like to ask about the position.",
+      "note_tr": "wanna → would like to; resmî kelime: position."
+    },
+    {
+      "wrong": "We've put off the meeting, sorry!",
+      "right": "We regret to inform you that the meeting has been postponed.",
+      "note_tr": "Resmî duyuru: postpone + edilgen."
+    },
+    {
+      "wrong": "Hi Mr Brown, thanks a lot, bye!",
+      "right": "Dear Mr Brown, Thank you for your help. Kind regards,",
+      "note_tr": "Resmî selam ve kapanış."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt": "Which is the most formal way to ask?",
+      "options": [
+        "Give me the price list.",
+        "Can I have the price list?",
+        "I would be grateful if you could send me the price list.",
+        "Price list, please!"
+      ],
+      "answer": [
+        "I would be grateful if you could send me the price list."
+      ],
+      "explain_tr": "En resmî rica kalıbı.",
+      "rule": "register"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Formal equivalent of \"put off\":",
+      "options": [
+        "cancel",
+        "postpone",
+        "delay off",
+        "refuse"
+      ],
+      "answer": [
+        "postpone"
+      ],
+      "explain_tr": "put off = **postpone** (call off = cancel).",
+      "rule": "register"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which closing is suitable for an email to a company you don't know?",
+      "options": [
+        "Cheers,",
+        "See ya,",
+        "Kind regards,",
+        "Love,"
+      ],
+      "answer": [
+        "Kind regards,"
+      ],
+      "explain_tr": "Resmî kapanış.",
+      "rule": "register"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is informal?",
+      "options": [
+        "I am writing to request further information.",
+        "We regret to inform you that the event has been cancelled.",
+        "Sorry, we've had to call off the party!",
+        "Please find attached my CV."
+      ],
+      "answer": [
+        "Sorry, we've had to call off the party!"
+      ],
+      "explain_tr": "Kısaltma (we've) + phrasal verb (call off) → gündelik.",
+      "rule": "register"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Formal: \"I ___ like to apply for the position of sales assistant.\"",
+      "answer": [
+        "would"
+      ],
+      "explain_tr": "Resmî istek → I **would** like to.",
+      "rule": "register"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Formal: \"___ you please confirm the date of the interview?\"",
+      "answer": [
+        "Could",
+        "Would"
+      ],
+      "explain_tr": "Kibar soru → **Could** you please…?",
+      "rule": "register"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Formal: \"We need to ___ the problem.\" (= look into)",
+      "answer": [
+        "investigate",
+        "examine"
+      ],
+      "explain_tr": "look into → **investigate**.",
+      "rule": "register"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Formal: \"I have ___ your letter of 12 May.\" (= got)",
+      "answer": [
+        "received"
+      ],
+      "explain_tr": "get (bir mektup) → **receive**.",
+      "rule": "register"
+    },
+    {
+      "type": "fix",
+      "prompt": "Dear Mr Aksoy, I wanna know the price of the course.",
+      "answer": [
+        "Dear Mr Aksoy, I would like to know the price of the course."
+      ],
+      "explain_tr": "wanna → **would like to**.",
+      "rule": "register"
+    },
+    {
+      "type": "fix",
+      "prompt": "Formal: \"We can't help you at the moment.\"",
+      "answer": [
+        "We cannot assist you at the moment.",
+        "We are unable to assist you at the moment.",
+        "We cannot help you at the moment."
+      ],
+      "explain_tr": "Resmî: kısaltma yok, help → assist.",
+      "rule": "register"
+    },
+    {
+      "type": "transform",
+      "prompt": "Resmî hâle getir:\nThe price went up last month.",
+      "answer": [
+        "The price increased last month.",
+        "The price was increased last month."
+      ],
+      "explain_tr": "go up → **increase**.",
+      "rule": "register"
+    },
+    {
+      "type": "transform",
+      "prompt": "Resmî hâle getir:\nCan you send me the form?",
+      "answer": [
+        "Could you please send me the form?",
+        "Could you send me the form, please?",
+        "I would be grateful if you could send me the form.",
+        "Would you please send me the form?"
+      ],
+      "explain_tr": "Kibar rica kalıbı.",
+      "rule": "register"
+    },
+    {
+      "type": "transform",
+      "prompt": "Gündelik hâle getir (arkadaşa mesaj):\nThe meeting has been postponed.",
+      "answer": [
+        "The meeting has been put off.",
+        "They've put off the meeting.",
+        "They put off the meeting.",
+        "We've put off the meeting.",
+        "They've put the meeting off."
+      ],
+      "explain_tr": "postpone → **put off**.",
+      "rule": "register"
+    }
+  ]
+}

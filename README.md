@@ -94,4 +94,4 @@ ve tarayıcıda `http://localhost:8000`.
 
 Atıf: *The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of Foreign Studies.* · *Octanove Vocabulary Profile C1/C2 1.0, Octanove Labs, CC BY-SA 4.0.*
 
-Ders, okuma ve dikte içerikleri ile Türkçe/Uygurca açıklamalar EngBridge için yazılmıştır.
+Ders, okuma ve dikte içerikleri ile Türkçe/Uygurca açıklamalar EngBridge için yazılmıştır. Uygurca çeviriler henüz anadili Uygurca olan biri tarafından kontrol edilmedi.

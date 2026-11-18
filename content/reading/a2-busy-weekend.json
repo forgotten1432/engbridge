@@ -1,0 +1,143 @@
+{
+  "id": "a2-busy-weekend",
+  "level": "A2",
+  "title": "A Busy Weekend",
+  "topic": "Hafta sonu",
+  "text": "Last weekend was very busy for Zeynep. On Saturday morning she got up early and went to the market with her grandmother. They bought fresh tomatoes, cheese and some fruit. After that, they went home and made breakfast together.\n\nIn the afternoon Zeynep met her friends in the park. They played volleyball for two hours, and then they ate ice cream because it was very hot. In the evening she was tired, so she watched a film at home and went to bed at ten.\n\nOn Sunday it rained all day. Zeynep stayed at home and did her homework. She also called her cousin in Germany. They usually talk once a week, but this time they talked for an hour because her cousin had a lot of news. Zeynep enjoyed her weekend, but on Monday morning she was still a little tired.",
+  "glossary": {
+    "got up": {
+      "ipa": "/ɡɒt ʌp/",
+      "pos": "phrasal verb (past)",
+      "tr": "kalktı (yataktan)",
+      "ug": "ئورنىدىن تۇردى",
+      "coll": [
+        "get up early",
+        "get up late"
+      ]
+    },
+    "fresh": {
+      "ipa": "/freʃ/",
+      "pos": "adjective",
+      "tr": "taze",
+      "ug": "يېڭى، ساپ",
+      "coll": [
+        "fresh fruit",
+        "fresh bread"
+      ]
+    },
+    "after that": {
+      "ipa": "/ˈɑːf.tər ðæt/",
+      "pos": "connector",
+      "tr": "ondan sonra",
+      "ug": "ئۇنىڭدىن كېيىن",
+      "coll": [
+        "After that, we went home."
+      ]
+    },
+    "tired": {
+      "ipa": "/taɪəd/",
+      "pos": "adjective",
+      "tr": "yorgun",
+      "ug": "چارچىغان",
+      "coll": [
+        "feel tired",
+        "too tired to…"
+      ]
+    },
+    "stayed at home": {
+      "ipa": "/steɪd ət həʊm/",
+      "pos": "phrase",
+      "tr": "evde kaldı",
+      "ug": "ئۆيدە قالدى",
+      "coll": [
+        "stay at home",
+        "stay in bed"
+      ]
+    },
+    "once a week": {
+      "ipa": "/wʌns ə wiːk/",
+      "pos": "adverb phrase",
+      "tr": "haftada bir",
+      "ug": "ھەپتىدە بىر قېتىم",
+      "coll": [
+        "twice a week",
+        "once a month"
+      ]
+    },
+    "news": {
+      "ipa": "/njuːz/",
+      "pos": "noun (uncountable)",
+      "tr": "haber(ler)",
+      "ug": "خەۋەر",
+      "coll": [
+        "a lot of news",
+        "good news"
+      ],
+      "ex": [
+        "I have some good news! (✗ a news)"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "kind": "comprehension",
+      "q": "Who did Zeynep go to the market with?",
+      "options": [
+        "Her friends",
+        "Her cousin",
+        "Her grandmother",
+        "Her mother"
+      ],
+      "answer": 2,
+      "explain_tr": "\"…went to the market with her grandmother.\""
+    },
+    {
+      "kind": "comprehension",
+      "q": "Why did Zeynep and her friends eat ice cream?",
+      "options": [
+        "It was her birthday.",
+        "It was very hot.",
+        "They won the game.",
+        "They were hungry."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…because it was very hot.\""
+    },
+    {
+      "kind": "comprehension",
+      "q": "What did Zeynep do on Sunday?",
+      "options": [
+        "She played volleyball.",
+        "She went to the market.",
+        "She did homework and called her cousin.",
+        "She went to Germany."
+      ],
+      "answer": 2,
+      "explain_tr": "Pazar: ev ödevi + kuzenini aradı."
+    },
+    {
+      "kind": "inference",
+      "q": "Why was the phone call longer than usual?",
+      "options": [
+        "The cousin had a lot to tell her.",
+        "Zeynep was bored.",
+        "It was cheaper on Sunday.",
+        "The cousin was ill."
+      ],
+      "answer": 0,
+      "explain_tr": "\"…because her cousin had a lot of news.\""
+    },
+    {
+      "kind": "vocab",
+      "q": "\"Once a week\" means …",
+      "options": [
+        "every day",
+        "one time every week",
+        "one week ago",
+        "for one week"
+      ],
+      "answer": 1,
+      "explain_tr": "once a week = haftada bir kez."
+    }
+  ]
+}

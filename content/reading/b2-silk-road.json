@@ -1,0 +1,163 @@
+{
+  "id": "b2-silk-road",
+  "level": "B2",
+  "title": "The Silk Road: More Than a Trade Route",
+  "topic": "Tarih ve kültür",
+  "text": "For more than 1,500 years, a network of routes known as the Silk Road connected China with the Mediterranean. Although silk was one of the most valuable goods transported along it, merchants also carried spices, paper, glass, horses and precious metals. Cities such as Kashgar, Samarkand and Bukhara grew rich because they were located at important crossroads.\n\nHowever, the Silk Road was not only about trade. Ideas, religions and technologies travelled along the same paths. Buddhism spread from India to China, while papermaking and, later, gunpowder made their way westwards. Musicians, scholars and craftsmen exchanged knowledge in the busy markets and caravanserais, where travellers could rest and their animals could be fed.\n\nThe journey itself was extremely dangerous. Caravans had to cross the Taklamakan Desert, whose name is often said to mean \"you go in, but you never come out\". Few merchants travelled the entire distance; instead, goods passed from hand to hand, and prices rose with every stage. Today, historians regard the Silk Road as one of the earliest examples of globalisation.",
+  "glossary": {
+    "merchants": {
+      "ipa": "/ˈmɜː.tʃənts/",
+      "pos": "noun (plural)",
+      "tr": "tüccarlar",
+      "ug": "سودىگەرلەر",
+      "coll": [
+        "wealthy merchants"
+      ]
+    },
+    "precious metals": {
+      "ipa": "/ˈpreʃ.əs ˈmet.əlz/",
+      "pos": "noun phrase",
+      "tr": "değerli metaller",
+      "ug": "قىممەتلىك مېتاللار",
+      "coll": [
+        "gold and other precious metals"
+      ]
+    },
+    "crossroads": {
+      "ipa": "/ˈkrɒs.rəʊdz/",
+      "pos": "noun",
+      "tr": "kavşak, yol ayrımı",
+      "ug": "دوقمۇش، تۈگۈن",
+      "coll": [
+        "at a crossroads"
+      ]
+    },
+    "spread": {
+      "ipa": "/spred/",
+      "pos": "verb (past)",
+      "tr": "yayıldı",
+      "ug": "تارقالدى",
+      "coll": [
+        "spread–spread–spread",
+        "spread quickly"
+      ]
+    },
+    "made their way": {
+      "ipa": "/meɪd ðeə weɪ/",
+      "pos": "idiom",
+      "tr": "yol aldılar, ulaştılar",
+      "ug": "يول ئالدى",
+      "coll": [
+        "make your way home"
+      ]
+    },
+    "caravanserais": {
+      "ipa": "/ˌkær.əˈvæn.sə.raɪz/",
+      "pos": "noun (plural)",
+      "tr": "kervansaraylar",
+      "ug": "كارۋانسارايلار",
+      "coll": [
+        "an old caravanserai"
+      ]
+    },
+    "caravans": {
+      "ipa": "/ˈkær.ə.vænz/",
+      "pos": "noun (plural)",
+      "tr": "kervanlar",
+      "ug": "كارۋانلار",
+      "coll": [
+        "a camel caravan"
+      ]
+    },
+    "from hand to hand": {
+      "ipa": "/frəm hænd tə hænd/",
+      "pos": "idiom",
+      "tr": "elden ele",
+      "ug": "قولدىن قولغا",
+      "coll": [
+        "pass from hand to hand"
+      ]
+    },
+    "regard": {
+      "ipa": "/rɪˈɡɑːd/",
+      "pos": "verb",
+      "tr": "saymak, kabul etmek",
+      "ug": "…دەپ قارىماق",
+      "coll": [
+        "regard sth as sth"
+      ],
+      "register": "formal"
+    },
+    "globalisation": {
+      "ipa": "/ˌɡləʊ.bəl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "tr": "küreselleşme",
+      "ug": "يەرشارىلىشىش",
+      "coll": [
+        "the effects of globalisation"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "kind": "comprehension",
+      "q": "Which of these was NOT mentioned as a good carried on the Silk Road?",
+      "options": [
+        "Spices",
+        "Paper",
+        "Tea",
+        "Horses"
+      ],
+      "answer": 2,
+      "explain_tr": "Çay metinde geçmiyor."
+    },
+    {
+      "kind": "comprehension",
+      "q": "Why did cities like Kashgar become rich?",
+      "options": [
+        "They had gold mines.",
+        "They were at important crossroads.",
+        "They produced silk.",
+        "They were capitals of empires."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…because they were located at important crossroads.\""
+    },
+    {
+      "kind": "inference",
+      "q": "What is the main idea of paragraph 2?",
+      "options": [
+        "Trade was dangerous.",
+        "The Silk Road also spread ideas and technologies.",
+        "Buddhism started in China.",
+        "Markets were very busy."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…not only about trade. Ideas, religions and technologies travelled…\""
+    },
+    {
+      "kind": "vocab",
+      "q": "\"Goods passed from hand to hand\" means …",
+      "options": [
+        "goods were stolen",
+        "goods were carried by many different traders",
+        "goods were made by hand",
+        "goods were cheap"
+      ],
+      "answer": 1,
+      "explain_tr": "Mal birçok tüccarın elinden geçerek taşındı."
+    },
+    {
+      "kind": "inference",
+      "q": "Why did prices rise with every stage?",
+      "options": [
+        "Because of taxes only",
+        "Because each trader added a profit",
+        "Because the goods got older",
+        "Because of the weather"
+      ],
+      "answer": 1,
+      "explain_tr": "Her aşamada mal başka tüccara geçiyor ve her biri kâr ekliyor."
+    }
+  ]
+}

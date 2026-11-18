@@ -20,12 +20,13 @@
 - `[hidden]{display:none!important}` in CSS is required (the bottom sheet used `display:flex` and blocked all taps).
 
 ## Content status (as of 2026-11-18)
-- Lessons done: `A1-M1-L1` (am/is/are), `B1-M1-L1` (dropped "be"), 12 exercises each.
-- Reading: `a1-my-day`, `b1-remote-work` (glossary with IPA/TR/UG, 4 questions each).
-- 20 dictation sentences (A1–C2), 16 seed vocab cards, 15 diagnostic errors (from the owner's learner profile).
+- Lessons done: `A1-M1-L1` (am/is/are) and **all 18 B1 lessons** (B1-M1 … B1-M6), 12–14 exercises each.
+- Reading (10): `a1-my-day`, `a2-new-neighbours`, `a2-busy-weekend`, `b1-remote-work`, `b1-first-interview`, `b1-language-learning`, `b1-moving-city`, `b1-smartphones`, `b2-four-day-week`, `b2-silk-road` (glossary with IPA/TR/UG, 4–5 questions each). Glossary keys must not contain apostrophes (text is HTML-escaped before matching).
+- 44 dictation sentences (A1–C2), 16 seed vocab cards, 15 diagnostic errors (from the owner's learner profile).
+- `matches()` in `text.js` ignores punctuation, so a `fix` item must need a word change (not only punctuation); MCQ compares the chosen option exactly.
 - Open lexicon `content/lexicon/{A1..C2}.json` (8,648 words: CEFR-J/Octanove levels, WordNet definitions via Openjam, CMU IPA), built by `tools/build_lexicon.py`; shown in Kelimeler → 📚 Sözlük and on tapping any word in a reading passage. Keep the licence credits (README + AI → Profil) when changing it.
 - Candidate open sources not yet added: Tatoeba EN–TR/EN–UG sentence pairs (CC BY 2.0 FR, per-sentence attribution; tatoeba.org/manythings.org are not reachable from Claude's sandbox, the owner has to upload the file), VOA Learning English texts (public domain, credit learningenglish.voanews.com).
-- **Next:** the remaining 16 B1 lessons (B1 follows the owner's original spec: auxiliaries, used to, phrasal verbs, conditionals/past modals, paragraph writing, register), then more reading passages (spec asked for 10+) and dictation (40+), then the other levels.
+- **Next:** A2 lessons (12) and the rest of A1 (11), then B2, C1, C2; more C1/C2 reading passages and dictation.
 - Learner profile to target: B1 overall; weaknesses: dropping is/are/was/were/had in multi-clause sentences, irregular verbs (drive/drove/driven vs derive), phrasal verb precision (put off vs call off, come up, figure out, turn down, take over, catch up), third conditional, used to + V1 vs be used to + V-ing, run-on sentences instead of 4–5 sentence paragraphs with connectors.
 - Uyghur translations were written by Claude and have not been checked by a native speaker; say so when adding more.
 

@@ -1,0 +1,219 @@
+{
+  "id": "B1-M6-L3",
+  "level": "B1",
+  "title": "Collocation ve deyimler",
+  "rule": "vocabulary",
+  "explain_tr": [
+    "**Collocation** = birlikte kullanılan kelime çiftleri. Kelime kelime çeviri çoğu zaman yanlış olur: Türkçede *\"karar almak\"* ama İngilizcede **make a decision** (✗ take a decision da duyulur, İngiliz kullanımı), *\"fotoğraf çekmek\"* → **take a photo**, *\"ödev yapmak\"* → **do homework**.",
+    "**make vs do:** *make* = bir şey üretmek/oluşturmak: *make a mistake, make a decision, make money, make a plan, make progress, make an effort, make a phone call, make friends*. *do* = bir işi/aktiviteyi yapmak: *do homework, do the shopping, do business, do research, do your best, do a favour, do exercise*.",
+    "**have / take / pay:** *have a shower, have breakfast, have a good time*; *take a break, take a photo, take an exam, take a risk*; *pay attention, pay a visit, pay a compliment*.",
+    "**Sıfat + isim:** *heavy rain* (✗ strong rain), *strong coffee*, *high price* (✗ expensive price), *fast food*, *quick shower*, *a big/serious mistake*.",
+    "Sık deyimler: *a piece of cake* (çok kolay), *break the ice* (buzları eritmek), *once in a blue moon* (kırk yılda bir), *under the weather* (biraz hasta), *hit the books* (sıkı ders çalışmak), *cost an arm and a leg* (çok pahalı)."
+  ],
+  "explain_en": [
+    "Collocations are natural word partnerships. make = create/produce (a mistake, a decision); do = perform a task (homework, research). Adjective + noun: heavy rain, strong coffee, high price."
+  ],
+  "table": [
+    [
+      "Fiil",
+      "Collocation'lar"
+    ],
+    [
+      "make",
+      "a mistake, a decision, money, progress, an effort, a phone call"
+    ],
+    [
+      "do",
+      "homework, the shopping, research, business, your best, a favour"
+    ],
+    [
+      "take",
+      "a break, a photo, an exam, a risk, notes"
+    ],
+    [
+      "pay",
+      "attention, a visit, a compliment"
+    ],
+    [
+      "have",
+      "a shower, lunch, a good time, an argument"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I did a big mistake.",
+      "right": "I made a big mistake.",
+      "note_tr": "mistake → **make**."
+    },
+    {
+      "wrong": "Can you make me a favour?",
+      "right": "Can you do me a favour?",
+      "note_tr": "favour → **do**."
+    },
+    {
+      "wrong": "There was strong rain yesterday.",
+      "right": "There was heavy rain yesterday.",
+      "note_tr": "yağmur → **heavy** rain."
+    },
+    {
+      "wrong": "Please give attention to the teacher.",
+      "right": "Please pay attention to the teacher.",
+      "note_tr": "dikkat etmek → **pay** attention."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I need to ___ a decision about my new job by Friday.",
+      "answer": [
+        "make"
+      ],
+      "explain_tr": "**make** a decision.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Have you ___ your homework yet?",
+      "answer": [
+        "done"
+      ],
+      "explain_tr": "**do** homework → done.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Let's ___ a short break and have some tea.",
+      "answer": [
+        "take",
+        "have"
+      ],
+      "explain_tr": "**take** a break.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Please ___ attention. This information is important.",
+      "answer": [
+        "pay"
+      ],
+      "explain_tr": "**pay** attention.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We had to drive slowly because of the ___ rain.",
+      "answer": [
+        "heavy"
+      ],
+      "explain_tr": "**heavy** rain.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Fotoğraf çekebilir misin?\"",
+      "options": [
+        "Can you make a photo?",
+        "Can you take a photo?",
+        "Can you do a photo?",
+        "Can you pull a photo?"
+      ],
+      "answer": [
+        "Can you take a photo?"
+      ],
+      "explain_tr": "**take** a photo.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which collocation is correct?",
+      "options": [
+        "do a mistake",
+        "make research",
+        "make progress",
+        "do a decision"
+      ],
+      "answer": [
+        "make progress"
+      ],
+      "explain_tr": "**make** progress.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"The exam was a piece of cake\" means the exam was …",
+      "options": [
+        "delicious",
+        "very easy",
+        "very long",
+        "about food"
+      ],
+      "answer": [
+        "very easy"
+      ],
+      "explain_tr": "a piece of cake = çok kolay.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"I only go to the cinema once in a blue moon\" means …",
+      "options": [
+        "every evening",
+        "very rarely",
+        "on full-moon nights",
+        "with my family"
+      ],
+      "answer": [
+        "very rarely"
+      ],
+      "explain_tr": "once in a blue moon = kırk yılda bir.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "fix",
+      "prompt": "My brother does a lot of money in his new job.",
+      "answer": [
+        "My brother makes a lot of money in his new job."
+      ],
+      "explain_tr": "para kazanmak → **make** money.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "fix",
+      "prompt": "I always make the shopping on Saturdays.",
+      "answer": [
+        "I always do the shopping on Saturdays."
+      ],
+      "explain_tr": "**do** the shopping.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "fix",
+      "prompt": "The hotel was very nice, but the expensive price was a problem.",
+      "answer": [
+        "The hotel was very nice, but the high price was a problem."
+      ],
+      "explain_tr": "fiyat → **high** price (expensive price ✗).",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "transform",
+      "prompt": "Collocation kullanarak yeniden yaz (make):\nI phoned my bank this morning.",
+      "answer": [
+        "I made a phone call to my bank this morning.",
+        "I made a call to my bank this morning.",
+        "This morning I made a phone call to my bank."
+      ],
+      "explain_tr": "**make** a (phone) call.",
+      "rule": "vocabulary"
+    },
+    {
+      "type": "transform",
+      "prompt": "Deyim kullanarak yeniden yaz (cost an arm and a leg):\nThe new iPhone is extremely expensive.",
+      "answer": [
+        "The new iPhone costs an arm and a leg."
+      ],
+      "explain_tr": "cost an arm and a leg = çok pahalı.",
+      "rule": "vocabulary"
+    }
+  ]
+}

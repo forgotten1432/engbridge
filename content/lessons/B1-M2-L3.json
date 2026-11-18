@@ -1,0 +1,220 @@
+{
+  "id": "B1-M2-L3",
+  "level": "B1",
+  "title": "Fiil + edat + -ing (look forward to…)",
+  "rule": "gerund-infinitive",
+  "explain_tr": [
+    "İngilizcede bir **edattan** (in, on, at, of, about, for, without, before, after, to…) sonra fiil gelirse fiil **-ing** olur: *interested **in learning***, *good **at cooking***, ***before leaving***.",
+    "En çok karışan kalıplar **to** ile biter, çünkü burada *to* edattır, mastar değildir: **look forward to** (sabırsızlıkla beklemek), **be used to**, **get used to**, **object to**, **when it comes to**. *I look forward to **hearing** from you.* (✗ to hear)",
+    "Sık kalıplar: *think **about/of** doing*, *be interested **in** doing*, *be good/bad **at** doing*, *be afraid **of** doing*, *be tired **of** doing*, *apologise **for** doing*, *thank sb **for** doing*, *insist **on** doing*, *succeed **in** doing*, *instead **of** doing*, *without doing*.",
+    "Türkçedeki *\"-mek/-meyi/-mekten\"* eklerinin karşılığı çoğu zaman **edat + -ing**'dir: *Yüzmekten korkuyorum* → *I'm afraid **of swimming**.*"
+  ],
+  "explain_en": [
+    "After a preposition, a verb takes the -ing form. In look forward to, be/get used to, object to, the word 'to' is a preposition, so -ing follows."
+  ],
+  "table": [
+    [
+      "Kalıp",
+      "Örnek",
+      "Türkçe"
+    ],
+    [
+      "look forward to + V-ing",
+      "I look forward to **meeting** you.",
+      "Sizinle tanışmayı sabırsızlıkla bekliyorum."
+    ],
+    [
+      "be interested in + V-ing",
+      "She's interested in **learning** Chinese.",
+      "Çince öğrenmekle ilgileniyor."
+    ],
+    [
+      "be good at + V-ing",
+      "He's good at **solving** problems.",
+      "Problem çözmekte iyidir."
+    ],
+    [
+      "thank sb for + V-ing",
+      "Thank you for **helping** me.",
+      "Yardım ettiğin için teşekkürler."
+    ],
+    [
+      "without + V-ing",
+      "He left without **saying** goodbye.",
+      "Hoşça kal demeden gitti."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I look forward to hear from you.",
+      "right": "I look forward to hearing from you.",
+      "note_tr": "look forward **to** + V-ing."
+    },
+    {
+      "wrong": "She is good at cook.",
+      "right": "She is good at cooking.",
+      "note_tr": "Edat (at) + **-ing**."
+    },
+    {
+      "wrong": "Thank you for help me.",
+      "right": "Thank you for helping me.",
+      "note_tr": "for + **helping**."
+    },
+    {
+      "wrong": "He is thinking about change his job.",
+      "right": "He is thinking about changing his job.",
+      "note_tr": "about + **changing**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I'm really looking forward to ___ (see) you next week.",
+      "answer": [
+        "seeing"
+      ],
+      "explain_tr": "look forward to + **V-ing**.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Are you interested in ___ (join) our English club?",
+      "answer": [
+        "joining"
+      ],
+      "explain_tr": "interested in + **joining**.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "cloze",
+      "prompt": "She left the meeting without ___ (say) a word.",
+      "answer": [
+        "saying"
+      ],
+      "explain_tr": "without + **saying**.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I'm tired of ___ (wait) for the bus every morning.",
+      "answer": [
+        "waiting"
+      ],
+      "explain_tr": "tired of + **waiting**.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "cloze",
+      "prompt": "He apologised for ___ (be) late.",
+      "answer": [
+        "being"
+      ],
+      "explain_tr": "apologise for + **being**.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct ending for a formal email: \"I look forward to …\"",
+      "options": [
+        "hear from you.",
+        "hearing from you.",
+        "heard from you.",
+        "be hearing from you."
+      ],
+      "answer": [
+        "hearing from you."
+      ],
+      "explain_tr": "look forward to + V-ing.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Yalnız seyahat etmekten korkmuyor.\"",
+      "options": [
+        "She isn't afraid to traveling alone.",
+        "She isn't afraid of travel alone.",
+        "She isn't afraid of travelling alone.",
+        "She isn't afraid for travelling alone."
+      ],
+      "answer": [
+        "She isn't afraid of travelling alone."
+      ],
+      "explain_tr": "afraid **of** + V-ing.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Instead of take a taxi, we walked.",
+        "Instead of taking a taxi, we walked.",
+        "Instead to take a taxi, we walked.",
+        "Instead taking a taxi, we walked."
+      ],
+      "answer": [
+        "Instead of taking a taxi, we walked."
+      ],
+      "explain_tr": "instead of + V-ing.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "fix",
+      "prompt": "I'm good at remember names.",
+      "answer": [
+        "I'm good at remembering names.",
+        "I am good at remembering names."
+      ],
+      "explain_tr": "at + **remembering**.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "fix",
+      "prompt": "We are looking forward to visit Kashgar in May.",
+      "answer": [
+        "We are looking forward to visiting Kashgar in May.",
+        "We're looking forward to visiting Kashgar in May."
+      ],
+      "explain_tr": "look forward to + **visiting**.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "fix",
+      "prompt": "Before go to bed, I always read for a while.",
+      "answer": [
+        "Before going to bed, I always read for a while.",
+        "Before I go to bed, I always read for a while."
+      ],
+      "explain_tr": "before + **going** (veya before + özne + fiil).",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "fix",
+      "prompt": "Thank you for invite me to your wedding.",
+      "answer": [
+        "Thank you for inviting me to your wedding."
+      ],
+      "explain_tr": "for + **inviting**.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"look forward to\" ile yeniden yaz:\nI'm excited because I will start my new job.",
+      "answer": [
+        "I'm looking forward to starting my new job.",
+        "I am looking forward to starting my new job.",
+        "I look forward to starting my new job."
+      ],
+      "explain_tr": "look forward to + starting.",
+      "rule": "gerund-infinitive"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"without\" ile birleştir:\nHe passed the exam. He didn't study much.",
+      "answer": [
+        "He passed the exam without studying much."
+      ],
+      "explain_tr": "without + V-ing (didn't study → without studying).",
+      "rule": "gerund-infinitive"
+    }
+  ]
+}

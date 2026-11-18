@@ -1,0 +1,225 @@
+{
+  "id": "B1-M3-L3",
+  "level": "B1",
+  "title": "İlişkiler: turn down, catch up, get along",
+  "rule": "phrasal-verbs",
+  "explain_tr": [
+    "**turn down** = *reddetmek* (teklif, davet, iş): *She **turned down** the job offer.* Ayrıca *(sesi) kısmak*: *Turn down the music.* Zıttı **turn up** (sesi açmak / gelmek, ortaya çıkmak: He turned up late).",
+    "**catch up** = *(arkadaşla) hasret gidermek, sohbet etmek* veya *geride kaldığını yetiştirmek*: *Let's meet and **catch up**.* / *I missed two lessons, I need to **catch up**.* Kişiyle: **catch up with** sb: *I'll **catch up with** you later.*",
+    "**get along (with)** = *iyi geçinmek*: *I **get along** well **with** my colleagues.* İngiliz İngilizcesinde *get on (with)* de denir.",
+    "Diğerleri: **fall out (with)** = küsmek, bozuşmak; **make up** = barışmak; **look up to** = örnek almak, saygı duymak; **let down** = hayal kırıklığına uğratmak (Don't let me down); **break up** = ayrılmak (çift); **bring up** = yetiştirmek (çocuk) / konuyu açmak; **show up** = gelmek, görünmek.",
+    "Nesne zamirse: *turn **it** down*, *let **me** down*. *get along with, look up to, catch up with* üç parçalıdır ve ayrılmaz."
+  ],
+  "explain_en": [
+    "turn down = refuse; catch up (with) = meet and talk after a long time / reach the same level; get along (with) = have a good relationship; fall out = argue and stop being friends; let sb down = disappoint."
+  ],
+  "table": [
+    [
+      "Phrasal verb",
+      "Anlam",
+      "Örnek"
+    ],
+    [
+      "turn down",
+      "reddetmek",
+      "He **turned down** the invitation."
+    ],
+    [
+      "catch up (with)",
+      "hasret gidermek / yetişmek",
+      "Let's **catch up** over coffee."
+    ],
+    [
+      "get along (with)",
+      "iyi geçinmek",
+      "Do you **get along with** your boss?"
+    ],
+    [
+      "fall out (with)",
+      "bozuşmak",
+      "They **fell out** over money."
+    ],
+    [
+      "let sb down",
+      "hayal kırıklığı yaşatmak",
+      "Please don't **let** me **down**."
+    ],
+    [
+      "look up to",
+      "örnek almak",
+      "I've always **looked up to** my mother."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "She turned off the job offer.",
+      "right": "She turned down the job offer.",
+      "note_tr": "Reddetmek → turn **down** (turn off = kapatmak)."
+    },
+    {
+      "wrong": "I get along my roommate very well.",
+      "right": "I get along with my roommate very well.",
+      "note_tr": "get along **with** + kişi."
+    },
+    {
+      "wrong": "Let's meet for coffee and catch.",
+      "right": "Let's meet for coffee and catch up.",
+      "note_tr": "Sohbet / hasret gidermek → catch **up**."
+    },
+    {
+      "wrong": "I don't want to let down you.",
+      "right": "I don't want to let you down.",
+      "note_tr": "Zamir ortaya: let **you** down."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "He offered me a lift, but I turned it ___ because I wanted to walk.",
+      "answer": [
+        "down"
+      ],
+      "explain_tr": "reddettim → turned it **down**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We haven't seen each other for years. Let's meet and catch ___.",
+      "answer": [
+        "up"
+      ],
+      "explain_tr": "hasret gidermek → catch **up**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Do you get along ___ your new flatmates?",
+      "answer": [
+        "with"
+      ],
+      "explain_tr": "get along **with** sb.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "My brother and I fell ___ last year, but now we're friends again.",
+      "answer": [
+        "out"
+      ],
+      "explain_tr": "bozuştuk → fell **out**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I've always looked up ___ my grandfather. He's my hero.",
+      "answer": [
+        "to"
+      ],
+      "explain_tr": "örnek almak → look up **to**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Teklifi reddetti çünkü maaş düşüktü.\"",
+      "options": [
+        "She turned down the offer because the salary was low.",
+        "She turned up the offer because the salary was low.",
+        "She let down the offer because the salary was low.",
+        "She put off the offer because the salary was low."
+      ],
+      "answer": [
+        "She turned down the offer because the salary was low."
+      ],
+      "explain_tr": "reddetmek → turn down.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "You missed a week of classes. You need to ___ with the other students.",
+      "options": [
+        "catch up",
+        "get along",
+        "turn up",
+        "make up"
+      ],
+      "answer": [
+        "catch up"
+      ],
+      "explain_tr": "Geride kaldığını yetiştirmek → catch up (with).",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "He promised to come, but he let down us.",
+        "He promised to come, but he let us down.",
+        "He promised to come, but he let us off.",
+        "He promised to come, but he down let us."
+      ],
+      "answer": [
+        "He promised to come, but he let us down."
+      ],
+      "explain_tr": "let **us** down.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "I get along very good with my sister.",
+      "answer": [
+        "I get along very well with my sister."
+      ],
+      "explain_tr": "Zarf: **well** (good sıfattır).",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "Only five people turned down for the meeting, so we cancelled it.",
+      "answer": [
+        "Only five people turned up for the meeting, so we cancelled it.",
+        "Only five people showed up for the meeting, so we cancelled it."
+      ],
+      "explain_tr": "gelmek → turn **up** / show up.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "They argued and made out the next day.",
+      "answer": [
+        "They argued and made up the next day."
+      ],
+      "explain_tr": "barışmak → make **up**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "I'll catch up you later, I need to finish this email.",
+      "answer": [
+        "I'll catch up with you later, I need to finish this email."
+      ],
+      "explain_tr": "catch up **with** + kişi.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"turn down\" ile yeniden yaz:\nShe refused their invitation.",
+      "answer": [
+        "She turned down their invitation.",
+        "She turned their invitation down."
+      ],
+      "explain_tr": "refuse = turn down.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"get along with\" ile yeniden yaz:\nI have a good relationship with my manager.",
+      "answer": [
+        "I get along with my manager.",
+        "I get along well with my manager.",
+        "I get along very well with my manager."
+      ],
+      "explain_tr": "iyi ilişki = get along (well) with.",
+      "rule": "phrasal-verbs"
+    }
+  ]
+}

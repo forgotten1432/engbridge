@@ -1,0 +1,211 @@
+{
+  "id": "B1-M4-L1",
+  "level": "B1",
+  "title": "2. koşul: If I had…, I would…",
+  "rule": "conditionals",
+  "explain_tr": [
+    "**2. koşul (Second Conditional)** şimdi ya da gelecekte **gerçek olmayan / hayalî** durumları anlatır. Türkçedeki *\"Param olsa, ev alırdım\"* yapısı.",
+    "Kalıp: **If + Past Simple, … would + V1**: *If I **had** more money, I **would buy** a house.* Geçmiş zaman kullanılıyor ama anlam **şimdi**: şu anda param yok.",
+    "**be** fiilinde tüm kişiler için **were** kullanılır (özellikle resmî dilde): *If I **were** you, I **would** take the job.* (Senin yerinde olsam…) *If I was* gündelik konuşmada duyulur ama sınavlarda ve yazıda **were** tercih et.",
+    "En sık hatalar: if'li kısımda **would** kullanmak (*If I would have time* ✗) ve ana cümlede **would**'u düşürmek (*If I had time, I go* ✗). Kural: **would** sadece if'siz kısımda.",
+    "1. koşulla karşılaştır: *If it **rains** tomorrow, I **will** stay home* (gerçekten olabilir). *If I **won** the lottery, I **would** travel* (pek olası değil, hayal). *would* yerine **could** (yapabilirdim) veya **might** (belki yapardım) de gelebilir."
+  ],
+  "explain_en": [
+    "Second conditional: If + past simple, would + base verb. It describes unreal or unlikely present/future situations. Use 'were' for all persons in formal English: If I were you…",
+    "Do not use 'would' in the if-clause."
+  ],
+  "table": [
+    [
+      "Koşul",
+      "If kısmı",
+      "Ana cümle",
+      "Örnek"
+    ],
+    [
+      "1. (gerçek)",
+      "Present Simple",
+      "will + V1",
+      "If I **have** time, I **will** call you."
+    ],
+    [
+      "2. (hayalî)",
+      "Past Simple",
+      "would + V1",
+      "If I **had** time, I **would** call you."
+    ],
+    [
+      "Tavsiye",
+      "If I were you",
+      "I would + V1",
+      "If I **were** you, I **would** apologise."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "If I would have a car, I would drive to work.",
+      "right": "If I had a car, I would drive to work.",
+      "note_tr": "if kısmında **would** olmaz → Past Simple: had."
+    },
+    {
+      "wrong": "If I was you, I will accept the offer.",
+      "right": "If I were you, I would accept the offer.",
+      "note_tr": "Tavsiye kalıbı: If I **were** you, I **would**…"
+    },
+    {
+      "wrong": "If she knew the answer, she tells us.",
+      "right": "If she knew the answer, she would tell us.",
+      "note_tr": "Ana cümlede **would** düşmez."
+    },
+    {
+      "wrong": "If I win the lottery, I would buy an island.",
+      "right": "If I won the lottery, I would buy an island.",
+      "note_tr": "Hayalî durum → if + **Past Simple**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "If I ___ (have) more free time, I would learn to play the guitar.",
+      "answer": [
+        "had"
+      ],
+      "explain_tr": "if + Past Simple → **had**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "If I were you, I ___ (talk) to your manager about it.",
+      "answer": [
+        "would talk",
+        "'d talk"
+      ],
+      "explain_tr": "Ana cümle → **would talk**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "If she ___ (live) closer, we would see each other more often.",
+      "answer": [
+        "lived"
+      ],
+      "explain_tr": "Hayalî durum → **lived**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "What would you do if you ___ (find) a wallet in the street?",
+      "answer": [
+        "found"
+      ],
+      "explain_tr": "if + Past Simple → **found**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "If it ___ (be) not so expensive, I would buy it.",
+      "answer": [
+        "were",
+        "was"
+      ],
+      "explain_tr": "be → **were** (gündelikte was).",
+      "rule": "conditionals"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Senin yerinde olsam, o işi kabul ederdim.\"",
+      "options": [
+        "If I am you, I will accept that job.",
+        "If I were you, I would accept that job.",
+        "If I would be you, I accepted that job.",
+        "If I were you, I accept that job."
+      ],
+      "answer": [
+        "If I were you, I would accept that job."
+      ],
+      "explain_tr": "If I were you + would + V1.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "If I would know his number, I would call him.",
+        "If I knew his number, I would call him.",
+        "If I knew his number, I will call him.",
+        "If I know his number, I would call him."
+      ],
+      "answer": [
+        "If I knew his number, I would call him."
+      ],
+      "explain_tr": "if + Past Simple, would + V1.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which situation is the LEAST likely?",
+      "options": [
+        "If it rains, we'll stay inside.",
+        "If I see Ali, I'll tell him.",
+        "If I were a bird, I would fly to Kashgar.",
+        "If you heat ice, it melts."
+      ],
+      "answer": [
+        "If I were a bird, I would fly to Kashgar."
+      ],
+      "explain_tr": "Gerçek dışı, hayalî → 2. koşul.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "fix",
+      "prompt": "If I would have enough money, I would travel around the world.",
+      "answer": [
+        "If I had enough money, I would travel around the world.",
+        "If I had enough money, I'd travel around the world."
+      ],
+      "explain_tr": "if kısmında would yok → **had**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "fix",
+      "prompt": "If he studied harder, he can pass the exam.",
+      "answer": [
+        "If he studied harder, he could pass the exam.",
+        "If he studied harder, he would pass the exam."
+      ],
+      "explain_tr": "2. koşul ana cümle: **could / would** + V1.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "fix",
+      "prompt": "I would buy a bigger flat if I earn more.",
+      "answer": [
+        "I would buy a bigger flat if I earned more."
+      ],
+      "explain_tr": "if + Past Simple → **earned**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "transform",
+      "prompt": "2. koşul ile yeniden yaz:\nI don't have a car, so I can't drive you home.",
+      "answer": [
+        "If I had a car, I could drive you home.",
+        "If I had a car, I would drive you home.",
+        "If I had a car, I'd drive you home."
+      ],
+      "explain_tr": "Şimdiki gerçeğin tersi: don't have → If I had…, could/would…",
+      "rule": "conditionals"
+    },
+    {
+      "type": "transform",
+      "prompt": "2. koşul ile yeniden yaz:\nShe isn't here, so she can't help us.",
+      "answer": [
+        "If she were here, she could help us.",
+        "If she was here, she could help us.",
+        "If she were here, she would help us.",
+        "If she was here, she would help us."
+      ],
+      "explain_tr": "isn't → If she were…, could/would + V1.",
+      "rule": "conditionals"
+    }
+  ]
+}

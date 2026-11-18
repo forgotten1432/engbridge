@@ -1,0 +1,221 @@
+{
+  "id": "B1-M5-L1",
+  "level": "B1",
+  "title": "Konu cümlesi ve destekleyici cümleler",
+  "rule": "connectors",
+  "explain_tr": [
+    "İyi bir İngilizce paragraf genelde **4–6 cümledir** ve tek bir fikri anlatır. Yapı: **1) Konu cümlesi** (ana fikir) → **2–3) Destekleyici cümleler** (sebep, açıklama) → **4) Örnek** → **5) Sonuç cümlesi**.",
+    "**Konu cümlesi** paragrafın ilk cümlesidir ve okuyucuya ne anlatacağını söyler. Çok genel (*Technology is a thing.*) ya da çok dar (*I bought a phone on Monday.*) olmamalı: *Smartphones have changed the way people learn languages.* ✓",
+    "**Destekleyici cümleler** konu cümlesini açıklar. Her biri **tam cümle** olmalı: özne + çekimli fiil. *Because it is cheap.* tek başına cümle değildir ✗ (fragment); bir ana cümleye bağla: *Many people use apps **because they are cheap**.*",
+    "**Örnek** için: *For example, … / For instance, … / such as …*. **Sonuç** için: *In short, … / Overall, … / That is why …*.",
+    "Türkçede uzun, virgüllerle bağlı tek cümle doğal olabilir; İngilizcede bu **run-on sentence** sayılır. Her fikir için ayrı cümle kur ve noktayı kullan."
+  ],
+  "explain_en": [
+    "A paragraph = topic sentence + supporting sentences + example + concluding sentence. Each sentence must be complete (subject + finite verb). Avoid fragments and run-on sentences."
+  ],
+  "table": [
+    [
+      "Cümle",
+      "Görev",
+      "Örnek"
+    ],
+    [
+      "1. Konu cümlesi",
+      "Ana fikir",
+      "Learning English online has many advantages."
+    ],
+    [
+      "2. Destek",
+      "Sebep 1",
+      "First, it is **flexible**, so you can study at any time."
+    ],
+    [
+      "3. Destek",
+      "Sebep 2",
+      "It is also usually **cheaper** than a private course."
+    ],
+    [
+      "4. Örnek",
+      "Somut örnek",
+      "**For example**, I practise with an app on the bus every morning."
+    ],
+    [
+      "5. Sonuç",
+      "Toparlama",
+      "**Overall**, online learning is a smart choice for busy people."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "Because online lessons are cheap.",
+      "right": "Many students choose online lessons because they are cheap.",
+      "note_tr": "Tek başına \"Because…\" cümle değildir (fragment)."
+    },
+    {
+      "wrong": "My hometown is beautiful, it has mountains, the food is great, people are friendly, I miss it.",
+      "right": "My hometown is beautiful. It has high mountains and the food is great. The people are also very friendly. That is why I miss it.",
+      "note_tr": "Run-on: virgüllerle bağlanmış cümleleri ayır ve bağlaç ekle."
+    },
+    {
+      "wrong": "For example my brother.",
+      "right": "For example, my brother learned English by watching films.",
+      "note_tr": "Örnek de tam cümle olmalı."
+    },
+    {
+      "wrong": "Sport. It is good for health.",
+      "right": "Doing sport regularly is good for your health.",
+      "note_tr": "Konu cümlesi tam ve açık olmalı."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt": "Which is the best topic sentence for a paragraph about the benefits of reading?",
+      "options": [
+        "I read a book yesterday.",
+        "Reading regularly has several important benefits.",
+        "Books.",
+        "Because reading is good."
+      ],
+      "answer": [
+        "Reading regularly has several important benefits."
+      ],
+      "explain_tr": "Ana fikri söyler; ne çok geniş ne çok dar.",
+      "rule": "connectors"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is NOT a complete sentence?",
+      "options": [
+        "She works in a hospital.",
+        "Because the bus was late.",
+        "The meeting was cancelled.",
+        "We stayed at home."
+      ],
+      "answer": [
+        "Because the bus was late."
+      ],
+      "explain_tr": "\"Because…\" yan cümle; ana cümle yok (fragment).",
+      "rule": "connectors"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which phrase introduces an example?",
+      "options": [
+        "As a result,",
+        "For instance,",
+        "However,",
+        "In conclusion,"
+      ],
+      "answer": [
+        "For instance,"
+      ],
+      "explain_tr": "For instance = For example.",
+      "rule": "connectors"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is the best conclusion?",
+      "options": [
+        "Overall, cycling to work is healthy, cheap and good for the environment.",
+        "For example, I cycle.",
+        "Cycling is a sport.",
+        "Also bikes."
+      ],
+      "answer": [
+        "Overall, cycling to work is healthy, cheap and good for the environment."
+      ],
+      "explain_tr": "Overall + ana fikri toparlama.",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Many people prefer living in small towns. ___ example, life there is usually quieter and cheaper.",
+      "answer": [
+        "For"
+      ],
+      "explain_tr": "Örnek → **For** example.",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Working from home saves time. ___ short, it makes life easier for many employees.",
+      "answer": [
+        "In"
+      ],
+      "explain_tr": "Sonuç → **In** short.",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "My city has many parks ___ as Kuğulu Park and Gençlik Park.",
+      "answer": [
+        "such"
+      ],
+      "explain_tr": "Liste örneği → **such** as.",
+      "rule": "connectors"
+    },
+    {
+      "type": "fix",
+      "prompt": "Because the rent too high. I want to move.",
+      "answer": [
+        "I want to move because the rent is too high.",
+        "Because the rent is too high, I want to move."
+      ],
+      "explain_tr": "İki sorun: fragment (Because… tek başına cümle değil) ve düşen **is**.",
+      "rule": "connectors"
+    },
+    {
+      "type": "fix",
+      "prompt": "I enjoy cooking. Such as last week I made manti for ten people.",
+      "answer": [
+        "I enjoy cooking. For example, last week I made manti for ten people.",
+        "I enjoy cooking. For instance, last week I made manti for ten people."
+      ],
+      "explain_tr": "Cümle başında örnek vermek için **For example, / For instance,** kullanılır; *such as* sadece isimden önce gelir (*dishes such as manti*).",
+      "rule": "connectors"
+    },
+    {
+      "type": "fix",
+      "prompt": "Learning a language takes time, you need to practise every day, you also need patience.",
+      "answer": [
+        "Learning a language takes time. You need to practise every day, and you also need patience.",
+        "Learning a language takes time, so you need to practise every day. You also need patience.",
+        "Learning a language takes time, so you need to practise every day, and you also need patience.",
+        "Learning a language takes time, so you need to practise every day and you also need patience."
+      ],
+      "explain_tr": "Run-on: üç tam cümle sadece virgülle bağlanamaz → **so / and** ekle (ya da nokta koy).",
+      "rule": "connectors",
+      "hint": "Virgülle bağlanmış cümleleri bağlaçla (and / so) düzelt."
+    },
+    {
+      "type": "transform",
+      "prompt": "Bu iki fikri tek bir konu cümlesine çevir:\nPublic transport. It is useful in big cities.",
+      "answer": [
+        "Public transport is very useful in big cities.",
+        "Public transport is useful in big cities."
+      ],
+      "explain_tr": "Tam bir konu cümlesi: özne + is + sıfat.",
+      "rule": "connectors"
+    },
+    {
+      "type": "transform",
+      "prompt": "Fragment'i düzelterek birleştir:\nI like summer. Because I can swim in the sea.",
+      "answer": [
+        "I like summer because I can swim in the sea."
+      ],
+      "explain_tr": "Because yan cümlesini ana cümleye bağla.",
+      "rule": "connectors"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"Overall\" ile bir sonuç cümlesi yaz (paragraf: sabah sporu enerjik ve sağlıklı tutar):\nmorning exercise / good start to the day",
+      "answer": [
+        "Overall, morning exercise is a good start to the day.",
+        "Overall, morning exercise gives you a good start to the day."
+      ],
+      "explain_tr": "Overall + virgül + ana fikir.",
+      "rule": "connectors"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "id": "B1-M4-L3",
+  "level": "B1",
+  "title": "must have / should have / might have",
+  "rule": "modals",
+  "explain_tr": [
+    "**Geçmiş modallar** = **modal + have + V3**. Geçmiş hakkında tahmin, pişmanlık veya eleştiri yapar.",
+    "**must have + V3** = *kesin öyle olmuştur* (güçlü tahmin): *The ground is wet. It **must have rained**.* (Yağmur yağmış olmalı.) Zıttı **can't have + V3** = *olmuş olamaz*: *She **can't have seen** me; she wasn't there.*",
+    "**should have + V3** = *yapmalıydın (ama yapmadın)* – pişmanlık/eleştiri: *I **should have studied** more.* (Daha çok çalışmalıydım.) Olumsuz **shouldn't have + V3** = *yapmamalıydın (ama yaptın)*: *You **shouldn't have said** that.*",
+    "**might / may / could have + V3** = *belki olmuştur* (emin değilim): *He's late. He **might have missed** the bus.* **could have + V3** ayrıca *yapabilirdin (ama yapmadın)*: *You **could have called** me!*",
+    "Hatalar: **have** yerine **had** ya da V2 kullanmak (*must had*, *should have went* ✗) ve *should of* diye yazmak ✗. Kalıp hep aynı: modal + **have** + **V3**."
+  ],
+  "explain_en": [
+    "Past modals: modal + have + past participle. must have = strong deduction; can't have = impossible; might/may/could have = possibility; should(n't) have = criticism or regret about the past."
+  ],
+  "table": [
+    [
+      "Kalıp",
+      "Anlam",
+      "Örnek"
+    ],
+    [
+      "must have + V3",
+      "kesin …-mış olmalı",
+      "You **must have been** tired."
+    ],
+    [
+      "can't have + V3",
+      "…-mış olamaz",
+      "He **can't have finished** already."
+    ],
+    [
+      "might have + V3",
+      "belki …-mıştır",
+      "She **might have forgotten**."
+    ],
+    [
+      "should have + V3",
+      "…-malıydı (yapmadı)",
+      "I **should have left** earlier."
+    ],
+    [
+      "shouldn't have + V3",
+      "…-mamalıydı (yaptı)",
+      "We **shouldn't have eaten** so much."
+    ],
+    [
+      "could have + V3",
+      "…-abilirdi (yapmadı)",
+      "You **could have asked** me."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "She must had forgotten the meeting.",
+      "right": "She must have forgotten the meeting.",
+      "note_tr": "modal + **have** (had değil)."
+    },
+    {
+      "wrong": "I should have went to the doctor.",
+      "right": "I should have gone to the doctor.",
+      "note_tr": "have + **V3**: go–went–**gone**."
+    },
+    {
+      "wrong": "You should of told me.",
+      "right": "You should have told me.",
+      "note_tr": "\"should of\" yanlış yazım → should **have**."
+    },
+    {
+      "wrong": "He must miss the train yesterday.",
+      "right": "He must have missed the train yesterday.",
+      "note_tr": "Geçmiş tahmin → must **have missed**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "The streets are wet. It must ___ rained last night.",
+      "answer": [
+        "have"
+      ],
+      "explain_tr": "must + **have** + V3.",
+      "rule": "modals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I failed the exam. I should have ___ (study) harder.",
+      "answer": [
+        "studied"
+      ],
+      "explain_tr": "should have + **studied**.",
+      "rule": "modals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "You ___ have said that to her. Now she's upset.",
+      "answer": [
+        "shouldn't",
+        "should not"
+      ],
+      "explain_tr": "Yapmamalıydın → **shouldn't** have.",
+      "rule": "modals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "He isn't answering. He might have ___ (leave) his phone at home.",
+      "answer": [
+        "left"
+      ],
+      "explain_tr": "might have + V3: **left**.",
+      "rule": "modals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "She can't have ___ (see) you. She was in Ankara all week.",
+      "answer": [
+        "seen"
+      ],
+      "explain_tr": "can't have + V3: **seen**.",
+      "rule": "modals"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Yorgun olmalısın – bütün gece çalıştın.\"",
+      "options": [
+        "You must be tired – you worked all night.",
+        "You must have been tired – you worked all night.",
+        "You should have been tired – you worked all night.",
+        "You must had been tired – you worked all night."
+      ],
+      "answer": [
+        "You must be tired – you worked all night."
+      ],
+      "explain_tr": "Şu anki durum hakkında tahmin → **must be** (geçmiş değil). Dikkat: anlam şimdi!",
+      "rule": "modals"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Your friend arrived very late. Which sentence criticises him?",
+      "options": [
+        "You must have left early.",
+        "You should have left earlier.",
+        "You might have left earlier.",
+        "You can't have left earlier."
+      ],
+      "answer": [
+        "You should have left earlier."
+      ],
+      "explain_tr": "Eleştiri → should have + V3.",
+      "rule": "modals"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ali has a new Mercedes. ___ a lot of money for it.",
+      "options": [
+        "He must pay",
+        "He must have paid",
+        "He should have paid",
+        "He must paid"
+      ],
+      "answer": [
+        "He must have paid"
+      ],
+      "explain_tr": "Geçmiş hakkında güçlü tahmin → must have paid.",
+      "rule": "modals"
+    },
+    {
+      "type": "fix",
+      "prompt": "I'm not sure where my keys are. I might lost them on the bus.",
+      "answer": [
+        "I'm not sure where my keys are. I might have lost them on the bus.",
+        "I'm not sure where my keys are. I may have lost them on the bus."
+      ],
+      "explain_tr": "might **have** lost.",
+      "rule": "modals"
+    },
+    {
+      "type": "fix",
+      "prompt": "We should have took the earlier flight.",
+      "answer": [
+        "We should have taken the earlier flight."
+      ],
+      "explain_tr": "have + V3: **taken**.",
+      "rule": "modals"
+    },
+    {
+      "type": "fix",
+      "prompt": "You could of asked me for help!",
+      "answer": [
+        "You could have asked me for help!"
+      ],
+      "explain_tr": "could **have** + V3.",
+      "rule": "modals"
+    },
+    {
+      "type": "fix",
+      "prompt": "She looks happy. She must have pass the exam.",
+      "answer": [
+        "She looks happy. She must have passed the exam."
+      ],
+      "explain_tr": "have + V3: **passed**.",
+      "rule": "modals"
+    },
+    {
+      "type": "transform",
+      "prompt": "should have ile pişmanlık cümlesi kur:\nI didn't bring an umbrella, and now I'm wet.",
+      "answer": [
+        "I should have brought an umbrella.",
+        "I should've brought an umbrella."
+      ],
+      "explain_tr": "Yapmadığın şey → should have + V3 (bring–brought–brought).",
+      "rule": "modals"
+    },
+    {
+      "type": "transform",
+      "prompt": "must have ile tahmin cümlesi kur:\nThe lights are off and nobody answers the door. (they / go out)",
+      "answer": [
+        "They must have gone out."
+      ],
+      "explain_tr": "Güçlü tahmin → must have + gone.",
+      "rule": "modals"
+    }
+  ]
+}

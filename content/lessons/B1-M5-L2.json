@@ -1,0 +1,220 @@
+{
+  "id": "B1-M5-L2",
+  "level": "B1",
+  "title": "Bağlaçlar: however, furthermore, as a result",
+  "rule": "connectors",
+  "explain_tr": [
+    "Bağlaçlar (connectors) cümleler arasındaki **mantıksal ilişkiyi** gösterir ve paragrafı akıcı yapar.",
+    "**Zıtlık:** *however* (ancak), *on the other hand* (öte yandan), *although* (-e rağmen), *but*. **Ekleme:** *furthermore / moreover / in addition* (ayrıca, üstelik), *also*. **Sonuç:** *as a result / therefore / so* (sonuç olarak, bu yüzden). **Sebep:** *because / because of / since*.",
+    "**Noktalama çok önemli!** *However, Furthermore, As a result, Therefore* genelde **yeni cümle başında** gelir ve **arkasından virgül** alır: *The hotel was expensive. **However,** the service was excellent.* İki cümleyi virgülle bağlayamazsın: *It was expensive, however the service…* ✗",
+    "*although / because / but / so* ise iki cümleyi **tek cümlede** bağlar: *Although it was expensive, the service was excellent.* / *It was expensive, **but** the service was excellent.*",
+    "**because** + cümle (özne + fiil); **because of** + isim: *because **it was** raining* / *because of **the rain***."
+  ],
+  "explain_en": [
+    "However, Furthermore, As a result, Therefore usually start a new sentence and are followed by a comma. Although, because, but and so join two clauses in one sentence. because + clause; because of + noun."
+  ],
+  "table": [
+    [
+      "İlişki",
+      "Yeni cümle başında (,)",
+      "Tek cümle içinde"
+    ],
+    [
+      "Zıtlık",
+      "However, / On the other hand,",
+      "although, but"
+    ],
+    [
+      "Ekleme",
+      "Furthermore, / Moreover, / In addition,",
+      "and, also"
+    ],
+    [
+      "Sonuç",
+      "As a result, / Therefore,",
+      "so"
+    ],
+    [
+      "Sebep",
+      "—",
+      "because + cümle / because of + isim"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "The flat is small, however it is very cheap.",
+      "right": "The flat is small. However, it is very cheap.",
+      "note_tr": "However iki cümleyi virgülle bağlayamaz; yeni cümle + virgül."
+    },
+    {
+      "wrong": "Because of it was raining, we stayed home.",
+      "right": "Because it was raining, we stayed home.",
+      "note_tr": "Cümle geliyorsa **because** (of değil)."
+    },
+    {
+      "wrong": "Although it was late, but we continued working.",
+      "right": "Although it was late, we continued working.",
+      "note_tr": "although ve but birlikte kullanılmaz."
+    },
+    {
+      "wrong": "He didn't study. As a result he failed.",
+      "right": "He didn't study. As a result, he failed.",
+      "note_tr": "As a result'tan sonra **virgül**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "The course is expensive. ___, it is the best one in the city.",
+      "answer": [
+        "However"
+      ],
+      "explain_tr": "Zıtlık, yeni cümle → **However**.",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "The train was cancelled. As a ___, we arrived two hours late.",
+      "answer": [
+        "result"
+      ],
+      "explain_tr": "Sonuç → As a **result**.",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "This phone has a great camera. ___, the battery lasts for two days.",
+      "answer": [
+        "Furthermore",
+        "Moreover",
+        "In addition",
+        "Also"
+      ],
+      "explain_tr": "Ekleme → **Furthermore / Moreover**.",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We cancelled the picnic because ___ the storm.",
+      "answer": [
+        "of"
+      ],
+      "explain_tr": "because **of** + isim (the storm).",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "___ she was tired, she finished the report.",
+      "answer": [
+        "Although",
+        "Though",
+        "Even though"
+      ],
+      "explain_tr": "Zıtlık, tek cümle → **Although**.",
+      "rule": "connectors"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correctly punctuated sentence.",
+      "options": [
+        "The salary is low, however the job is interesting.",
+        "The salary is low. However, the job is interesting.",
+        "The salary is low however, the job is interesting.",
+        "The salary is low. However the job, is interesting."
+      ],
+      "answer": [
+        "The salary is low. However, the job is interesting."
+      ],
+      "explain_tr": "However → yeni cümle + virgül.",
+      "rule": "connectors"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Çok çalıştı. Bu yüzden terfi aldı.\"",
+      "options": [
+        "She worked hard. However, she got a promotion.",
+        "She worked hard. Therefore, she got a promotion.",
+        "She worked hard. Although she got a promotion.",
+        "She worked hard. Moreover she got a promotion."
+      ],
+      "answer": [
+        "She worked hard. Therefore, she got a promotion."
+      ],
+      "explain_tr": "Sonuç → Therefore,",
+      "rule": "connectors"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is WRONG?",
+      "options": [
+        "Although it was cold, we went swimming.",
+        "It was cold, but we went swimming.",
+        "Although it was cold, but we went swimming.",
+        "It was cold. However, we went swimming."
+      ],
+      "answer": [
+        "Although it was cold, but we went swimming."
+      ],
+      "explain_tr": "although + but birlikte olmaz.",
+      "rule": "connectors"
+    },
+    {
+      "type": "fix",
+      "prompt": "I missed the bus, as a result I was late for work.",
+      "answer": [
+        "I missed the bus, so I was late for work."
+      ],
+      "explain_tr": "as a result iki cümleyi virgülle bağlayamaz. Tek cümlede **so** kullan; ya da iki cümle yap: *I missed the bus. As a result, I was late.*",
+      "rule": "connectors",
+      "hint": "Tek cümle olarak bırak ve doğru bağlacı kullan."
+    },
+    {
+      "type": "fix",
+      "prompt": "Because of the traffic was terrible, I walked.",
+      "answer": [
+        "Because the traffic was terrible, I walked.",
+        "Because of the terrible traffic, I walked."
+      ],
+      "explain_tr": "Cümle → because; isim → because of.",
+      "rule": "connectors"
+    },
+    {
+      "type": "fix",
+      "prompt": "Although he is rich but he isn't happy.",
+      "answer": [
+        "Although he is rich, he isn't happy.",
+        "He is rich, but he isn't happy."
+      ],
+      "explain_tr": "Ya although ya but.",
+      "rule": "connectors"
+    },
+    {
+      "type": "transform",
+      "prompt": "However ile iki cümleye ayırarak birleştir:\nThe city is beautiful / the traffic is terrible.",
+      "answer": [
+        "The city is beautiful. However, the traffic is terrible."
+      ],
+      "explain_tr": "Zıtlık: Cümle 1. However, cümle 2.",
+      "rule": "connectors"
+    },
+    {
+      "type": "transform",
+      "prompt": "As a result ile birleştir:\nIt snowed heavily. The schools were closed.",
+      "answer": [
+        "It snowed heavily. As a result, the schools were closed."
+      ],
+      "explain_tr": "Sebep. As a result, sonuç.",
+      "rule": "connectors"
+    },
+    {
+      "type": "transform",
+      "prompt": "Although ile birleştir:\nThe exam was difficult. Most students passed.",
+      "answer": [
+        "Although the exam was difficult, most students passed.",
+        "Most students passed although the exam was difficult."
+      ],
+      "explain_tr": "Although + zıt fikir, ana cümle.",
+      "rule": "connectors"
+    }
+  ]
+}

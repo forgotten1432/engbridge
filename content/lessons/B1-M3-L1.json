@@ -1,0 +1,225 @@
+{
+  "id": "B1-M3-L1",
+  "level": "B1",
+  "title": "İş hayatı: put off, call off, take over",
+  "rule": "phrasal-verbs",
+  "explain_tr": [
+    "Phrasal verb = fiil + küçük kelime (off, up, over, out…). Anlam çoğu zaman parçalardan tahmin edilemez, **kalıp olarak** öğrenilmelidir.",
+    "**put off** = *ertelemek* (olay yine olacak, sadece daha sonra): *We **put off** the meeting until Friday.* **call off** = *iptal etmek* (olay hiç olmayacak): *They **called off** the match because of the snow.* Türkçede *\"toplantıyı kaldırdılar\"* hem erteleme hem iptal olabilir; İngilizcede ayrımı mutlaka yap.",
+    "**take over** = *(bir işin/şirketin) yönetimini devralmak*: *Ayşe will **take over** the project when I leave.* / *A big company **took over** our firm.*",
+    "Diğer iş kalıpları: **set up** (kurmak: set up a company / a meeting), **carry on** (devam etmek: carry on working), **hand in** (teslim etmek: hand in a report), **fill in** (form doldurmak), **run out of** (tükenmek: We've run out of paper).",
+    "Nesne zamirse (it, them, him) **ortaya** girer: *put **it** off* ✓, *put off it* ✗. İsimse iki yer de olur: *put off the meeting* = *put the meeting off*. Bir fiilden sonra -ing gelir: *Stop **putting off** studying!*"
+  ],
+  "explain_en": [
+    "put off = postpone; call off = cancel; take over = take control/responsibility of something.",
+    "With separable phrasal verbs, pronouns go between the verb and the particle: put it off, call it off."
+  ],
+  "table": [
+    [
+      "Phrasal verb",
+      "Anlam",
+      "Örnek"
+    ],
+    [
+      "put off",
+      "ertelemek",
+      "They **put off** the launch until June."
+    ],
+    [
+      "call off",
+      "iptal etmek",
+      "The strike was **called off**."
+    ],
+    [
+      "take over",
+      "devralmak",
+      "Who will **take over** your tasks?"
+    ],
+    [
+      "set up",
+      "kurmak, ayarlamak",
+      "She **set up** her own business."
+    ],
+    [
+      "hand in",
+      "teslim etmek",
+      "**Hand in** your report by 5 p.m."
+    ],
+    [
+      "run out of",
+      "tükenmek",
+      "We've **run out of** coffee."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "The concert was put off. It will never happen.",
+      "right": "The concert was called off. It will never happen.",
+      "note_tr": "Hiç olmayacaksa → **call off** (iptal)."
+    },
+    {
+      "wrong": "Let's call off the meeting until next week.",
+      "right": "Let's put off the meeting until next week.",
+      "note_tr": "\"until next week\" → erteleme → **put off**."
+    },
+    {
+      "wrong": "Can we put off it?",
+      "right": "Can we put it off?",
+      "note_tr": "Zamir (it) ortaya: put **it** off."
+    },
+    {
+      "wrong": "Who will take on the company after the CEO retires?",
+      "right": "Who will take over the company after the CEO retires?",
+      "note_tr": "Yönetimi devralmak → **take over**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "The football match was ___ off because of heavy rain. It won't be played at all.",
+      "answer": [
+        "called"
+      ],
+      "explain_tr": "Hiç oynanmayacak → **called** off.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Can we ___ off the meeting until Thursday? I'm not ready.",
+      "answer": [
+        "put"
+      ],
+      "explain_tr": "Erteleme → **put** off.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "When the manager left, Kemal ___ over his responsibilities.",
+      "answer": [
+        "took"
+      ],
+      "explain_tr": "Devraldı → **took** over.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We have run ___ of printer paper. Can you order some?",
+      "answer": [
+        "out"
+      ],
+      "explain_tr": "tükendi → run **out** of.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Please hand ___ your reports before Friday.",
+      "answer": [
+        "in"
+      ],
+      "explain_tr": "teslim etmek → hand **in**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Yağmur yüzünden düğünü ertelediler.\"",
+      "options": [
+        "They called off the wedding because of the rain.",
+        "They put off the wedding because of the rain.",
+        "They took over the wedding because of the rain.",
+        "They set up the wedding because of the rain."
+      ],
+      "answer": [
+        "They put off the wedding because of the rain."
+      ],
+      "explain_tr": "Erteleme → put off.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "The boss called off it.",
+        "The boss called it off.",
+        "The boss called of it.",
+        "The boss off called it."
+      ],
+      "answer": [
+        "The boss called it off."
+      ],
+      "explain_tr": "Zamir ortaya girer: call **it** off.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "A big Chinese company bought our company and now controls it. It ___.",
+      "options": [
+        "put us off",
+        "took us over",
+        "called us off",
+        "set us up"
+      ],
+      "answer": [
+        "took us over"
+      ],
+      "explain_tr": "Bir şirketin kontrolünü almak → take over.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "The strike was put off, so the workers never stopped working.",
+      "answer": [
+        "The strike was called off, so the workers never stopped working."
+      ],
+      "explain_tr": "Hiç gerçekleşmedi → **called off**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "I always put off to do my homework.",
+      "answer": [
+        "I always put off doing my homework."
+      ],
+      "explain_tr": "put off + **V-ing**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "The printer isn't working, so we have to put off it until tomorrow.",
+      "answer": [
+        "The printer isn't working, so we have to put it off until tomorrow."
+      ],
+      "explain_tr": "Zamir (it) ortaya: put **it** off.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "Let's take a short break and then carry on to work.",
+      "answer": [
+        "Let's take a short break and then carry on working."
+      ],
+      "explain_tr": "carry on + **V-ing**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "put off ile yeniden yaz:\nWe postponed the trip to next month.",
+      "answer": [
+        "We put off the trip to next month.",
+        "We put off the trip until next month.",
+        "We put the trip off to next month.",
+        "We put the trip off until next month."
+      ],
+      "explain_tr": "postpone = **put off**.",
+      "rule": "phrasal-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "call off ve zamir (it) ile yeniden yaz:\nThey cancelled the party.",
+      "answer": [
+        "They called it off."
+      ],
+      "explain_tr": "cancel = call off; zamir ortaya: called **it** off.",
+      "rule": "phrasal-verbs"
+    }
+  ]
+}

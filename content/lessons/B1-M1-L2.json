@@ -1,0 +1,214 @@
+{
+  "id": "B1-M1-L2",
+  "level": "B1",
+  "title": "Present Simple mi, Continuous mı?",
+  "rule": "tenses",
+  "explain_tr": [
+    "**Present Simple** (I work, she works) alışkanlıkları, düzenli tekrarlanan işleri ve genel gerçekleri anlatır: *I **drink** coffee every morning.* / *Water **boils** at 100 °C.*",
+    "**Present Continuous** (I am working) şu anda ya da bu günlerde devam eden, geçici durumları anlatır: *I**'m reading** a good book this week.* Türkçedeki *-yor* eki iki anlama da gelebildiği için karışır: *\"Ankara'da yaşıyorum\"* kalıcıysa **I live in Ankara**, geçiciyse **I'm living in Ankara for now**.",
+    "Sinyal kelimeler: *always, usually, every day, on Mondays* → Simple; *now, right now, at the moment, this week, currently* → Continuous.",
+    "**Durum fiilleri** (know, want, like, love, need, believe, understand, belong, seem, mean) normalde Continuous olmaz: *I **know** him* (✗ I am knowing him). *think* \"fikrindeyim\" anlamında Simple'dır: *I think it's a good idea*; \"düşünüp duruyorum\" anlamında Continuous olabilir: *I'm thinking about it.*",
+    "Unutma: Continuous'ta **be** düşmez (*I working* ✗ → *I **am** working*), Simple'da 3. tekil şahısta **-s** düşmez (*she work* ✗ → *she **works***)."
+  ],
+  "explain_en": [
+    "Present Simple: habits, routines, facts, schedules. Present Continuous: actions happening now or around now, temporary situations, changing trends.",
+    "Stative verbs (know, want, like, need, believe, understand, belong) are not normally used in the continuous form."
+  ],
+  "table": [
+    [
+      "Kullanım",
+      "Present Simple",
+      "Present Continuous"
+    ],
+    [
+      "Alışkanlık / şu an",
+      "I **work** from home on Fridays.",
+      "I**'m working** from home today."
+    ],
+    [
+      "Kalıcı / geçici",
+      "She **lives** in Izmir.",
+      "She**'s staying** with her aunt this month."
+    ],
+    [
+      "Genel gerçek / değişim",
+      "Prices **go** up every year.",
+      "Prices **are going** up fast these days."
+    ],
+    [
+      "Durum fiili",
+      "I **need** help.",
+      "✗ I am needing help."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I am going to the gym every morning.",
+      "right": "I go to the gym every morning.",
+      "note_tr": "\"every morning\" alışkanlık → Present Simple."
+    },
+    {
+      "wrong": "Look! It rains.",
+      "right": "Look! It's raining.",
+      "note_tr": "Şu anda olan bir şey → Present Continuous."
+    },
+    {
+      "wrong": "I am knowing the answer.",
+      "right": "I know the answer.",
+      "note_tr": "know bir durum fiilidir, Continuous olmaz."
+    },
+    {
+      "wrong": "My brother work in a bank.",
+      "right": "My brother works in a bank.",
+      "note_tr": "3. tekil şahıs (he/she/it) → fiile -s eklenir."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "She usually ___ (take) the metro to work.",
+      "answer": [
+        "takes"
+      ],
+      "explain_tr": "\"usually\" alışkanlık + she → **takes**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Please be quiet, the baby ___ (sleep).",
+      "answer": [
+        "is sleeping",
+        "'s sleeping"
+      ],
+      "explain_tr": "Şu anda devam eden eylem → **is sleeping**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I ___ (not / understand) this word. Can you help me?",
+      "answer": [
+        "don't understand",
+        "do not understand"
+      ],
+      "explain_tr": "understand durum fiili → Simple: **don't understand**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "This week we ___ (work) on a new project, so I'm very busy.",
+      "answer": [
+        "are working",
+        "'re working"
+      ],
+      "explain_tr": "\"this week\" geçici durum → **are working**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "Water is boiling at 100 degrees.",
+        "Water boils at 100 degrees.",
+        "Water boil at 100 degrees.",
+        "Water boiling at 100 degrees."
+      ],
+      "answer": [
+        "Water boils at 100 degrees."
+      ],
+      "explain_tr": "Genel bilimsel gerçek → Present Simple, 3. tekil -s.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Ne düşünüyorsun? – Bence iyi bir fikir.\" Which is natural?",
+      "options": [
+        "I am thinking it's a good idea.",
+        "I think it's a good idea.",
+        "I thinking it's a good idea.",
+        "I'm think it's a good idea."
+      ],
+      "answer": [
+        "I think it's a good idea."
+      ],
+      "explain_tr": "\"Bence\" (fikir) anlamında think → Simple.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence describes a temporary situation?",
+      "options": [
+        "I live with my parents.",
+        "I'm living with my parents until I find a flat.",
+        "I lived with my parents.",
+        "I have lived with my parents."
+      ],
+      "answer": [
+        "I'm living with my parents until I find a flat."
+      ],
+      "explain_tr": "\"until I find a flat\" → geçici → Continuous.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I am wanting a new phone.",
+      "answer": [
+        "I want a new phone."
+      ],
+      "explain_tr": "want durum fiili → Continuous olmaz.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "Listen! Somebody knock on the door.",
+      "answer": [
+        "Listen! Somebody is knocking on the door.",
+        "Listen! Somebody's knocking on the door."
+      ],
+      "explain_tr": "\"Listen!\" → şu anda: **is knocking**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "He don't drink coffee in the evening.",
+      "answer": [
+        "He doesn't drink coffee in the evening.",
+        "He does not drink coffee in the evening."
+      ],
+      "explain_tr": "he/she/it için olumsuz: **doesn't** + V1.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "At the moment I reading an interesting book about history.",
+      "answer": [
+        "At the moment I am reading an interesting book about history.",
+        "At the moment I'm reading an interesting book about history."
+      ],
+      "explain_tr": "Continuous'ta be düşmez: I **am** reading.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Cümleyi \"now\" ile yeniden yaz:\nI drink tea.",
+      "answer": [
+        "I am drinking tea now.",
+        "I'm drinking tea now.",
+        "Now I am drinking tea.",
+        "Now I'm drinking tea."
+      ],
+      "explain_tr": "now → Present Continuous: am + drinking.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Cümleyi \"every Sunday\" ile yeniden yaz:\nMy father is cooking dinner.",
+      "answer": [
+        "My father cooks dinner every Sunday.",
+        "Every Sunday my father cooks dinner.",
+        "Every Sunday, my father cooks dinner."
+      ],
+      "explain_tr": "every Sunday → alışkanlık → **cooks**.",
+      "rule": "tenses"
+    }
+  ]
+}

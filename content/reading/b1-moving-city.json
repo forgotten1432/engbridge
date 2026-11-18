@@ -1,0 +1,147 @@
+{
+  "id": "b1-moving-city",
+  "level": "B1",
+  "title": "From a Village to the City",
+  "topic": "Şehir hayatı",
+  "text": "Two years ago, Erkin moved from a small village near Turpan to Urumqi to study engineering. In the village, everybody knew each other, and life was slow and quiet. In the city, he didn't know anyone, and the noise and traffic were overwhelming at first.\n\nThe first months were the hardest. His flat was small and expensive, and his neighbours rarely said hello. He often felt homesick and called his parents every evening. However, he decided not to give up. He joined a football club at the university, and there he met other students who had also come from the countryside. They understood exactly how he felt.\n\nNow Erkin gets along well with his classmates and knows the city much better. He still misses the fresh fruit and the open sky of his village, but he has also discovered things he loves about the city: libraries, museums and endless opportunities. He says that if he hadn't joined the football club, he might have gone back home.",
+  "glossary": {
+    "overwhelming": {
+      "ipa": "/ˌəʊ.vəˈwel.mɪŋ/",
+      "pos": "adjective",
+      "tr": "bunaltıcı, ezici",
+      "ug": "بېسىم پەيدا قىلىدىغان، ھاڭ-تاڭ قالدۇرىدىغان",
+      "coll": [
+        "an overwhelming feeling"
+      ]
+    },
+    "rarely": {
+      "ipa": "/ˈreə.li/",
+      "pos": "adverb",
+      "tr": "nadiren",
+      "ug": "ناھايىتى ئاز",
+      "coll": [
+        "rarely see",
+        "rarely happen"
+      ]
+    },
+    "homesick": {
+      "ipa": "/ˈhəʊm.sɪk/",
+      "pos": "adjective",
+      "tr": "sıla hasreti çeken",
+      "ug": "يۇرتنى سېغىنغان",
+      "coll": [
+        "feel homesick"
+      ]
+    },
+    "give up": {
+      "ipa": "/ɡɪv ʌp/",
+      "pos": "phrasal verb",
+      "tr": "vazgeçmek, pes etmek",
+      "ug": "ۋاز كەچمەك",
+      "coll": [
+        "give up smoking",
+        "don't give up"
+      ]
+    },
+    "countryside": {
+      "ipa": "/ˈkʌn.tri.saɪd/",
+      "pos": "noun",
+      "tr": "kırsal kesim",
+      "ug": "يېزا، سەھرا",
+      "coll": [
+        "in the countryside"
+      ]
+    },
+    "gets along well with": {
+      "ipa": "/ɡets əˈlɒŋ wel wɪð/",
+      "pos": "phrasal verb",
+      "tr": "ile iyi geçinir",
+      "ug": "…بىلەن ياخشى ئۆتىدۇ",
+      "coll": [
+        "get along with colleagues"
+      ]
+    },
+    "opportunities": {
+      "ipa": "/ˌɒp.əˈtjuː.nə.tiz/",
+      "pos": "noun (plural)",
+      "tr": "fırsatlar",
+      "ug": "پۇرسەتلەر",
+      "coll": [
+        "job opportunities",
+        "endless opportunities"
+      ]
+    },
+    "might have gone": {
+      "ipa": "/maɪt əv ɡɒn/",
+      "pos": "past modal",
+      "tr": "belki gitmiş olurdu",
+      "ug": "بەلكىم كېتىپ قالغان بولاتتى",
+      "coll": [
+        "might have missed",
+        "might have forgotten"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "kind": "comprehension",
+      "q": "Why did Erkin move to Urumqi?",
+      "options": [
+        "To find a job",
+        "To study engineering",
+        "To live with his cousin",
+        "To play football"
+      ],
+      "answer": 1,
+      "explain_tr": "\"…to study engineering.\""
+    },
+    {
+      "kind": "comprehension",
+      "q": "How did Erkin feel in the first months?",
+      "options": [
+        "Excited and happy",
+        "Homesick",
+        "Bored",
+        "Angry with his parents"
+      ],
+      "answer": 1,
+      "explain_tr": "\"He often felt homesick…\""
+    },
+    {
+      "kind": "inference",
+      "q": "Why did the football club help him so much?",
+      "options": [
+        "He became a famous player.",
+        "He met people with similar experiences.",
+        "The club paid him.",
+        "It was near his flat."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…students who had also come from the countryside. They understood exactly how he felt.\""
+    },
+    {
+      "kind": "vocab",
+      "q": "\"Give up\" means …",
+      "options": [
+        "stop trying",
+        "start again",
+        "go up",
+        "give a present"
+      ],
+      "answer": 0,
+      "explain_tr": "give up = vazgeçmek."
+    },
+    {
+      "kind": "comprehension",
+      "q": "What does Erkin still miss?",
+      "options": [
+        "His football club",
+        "Fresh fruit and the open sky",
+        "The city library",
+        "Engineering classes"
+      ],
+      "answer": 1,
+      "explain_tr": "\"He still misses the fresh fruit and the open sky…\""
+    }
+  ]
+}

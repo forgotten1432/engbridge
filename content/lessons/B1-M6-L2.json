@@ -1,0 +1,212 @@
+{
+  "id": "B1-M6-L2",
+  "level": "B1",
+  "title": "Resmî e-posta yazmak",
+  "rule": "register",
+  "explain_tr": [
+    "Resmî e-postanın **5 parçası** vardır: 1) **Selam** – *Dear Ms Kaya,* (isim bilinmiyorsa *Dear Sir or Madam,*) 2) **Amaç** – *I am writing to…* 3) **Ayrıntılar** – kısa paragraflar 4) **Rica / sonraki adım** – *Could you please…? / I would be grateful if…* 5) **Kapanış** – *I look forward to hearing from you. Kind regards, [Ad Soyad]*",
+    "Açılış kalıpları: *I am writing **to ask about** / **to apply for** / **to complain about** / **to confirm**…* (✗ I am writing for ask). Yanıt ise: *Thank you for your email of 3 March.*",
+    "Ek: *Please find attached my CV.* / *I have attached the invoice.* (✗ I attached you the file). Özür: *I apologise for the delay.* / *Sorry for the late reply* (nötr).",
+    "Kapanış: *I look forward to **hearing** from you.* (to + V-ing! ✗ to hear) Sonra *Kind regards, / Best regards,* veya isim biliniyorsa *Yours sincerely,*; isim bilinmiyorsa *Yours faithfully,* (İngiliz kullanımı).",
+    "Unvan: *Mr* (bay), *Ms* (bayan – medeni hâl belirtmez, en güvenlisi), *Dr*. Sadece **soyadı** kullanılır: *Dear Mr Demir* ✓, *Dear Mr Ahmet* ✗."
+  ],
+  "explain_en": [
+    "Formal email: greeting, purpose (I am writing to…), details, request, closing (I look forward to hearing from you. Kind regards,). Use surname with titles: Dear Ms Kaya."
+  ],
+  "table": [
+    [
+      "Bölüm",
+      "Kalıp"
+    ],
+    [
+      "Selam",
+      "Dear Mr / Ms + soyadı, · Dear Sir or Madam,"
+    ],
+    [
+      "Amaç",
+      "I am writing to ask about / apply for / complain about…"
+    ],
+    [
+      "Ek",
+      "Please find attached… · I have attached…"
+    ],
+    [
+      "Rica",
+      "Could you please…? · I would be grateful if you could…"
+    ],
+    [
+      "Kapanış",
+      "I look forward to hearing from you. · Kind regards, / Yours sincerely,"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "Dear Mr Ahmet,",
+      "right": "Dear Mr Yılmaz,",
+      "note_tr": "Unvandan sonra **soyadı**."
+    },
+    {
+      "wrong": "I am writing for ask about the course.",
+      "right": "I am writing to ask about the course.",
+      "note_tr": "I am writing **to** + V1."
+    },
+    {
+      "wrong": "I attached you my CV.",
+      "right": "Please find attached my CV.",
+      "note_tr": "Kalıp: Please find attached…"
+    },
+    {
+      "wrong": "I look forward to hear from you.",
+      "right": "I look forward to hearing from you.",
+      "note_tr": "to + **V-ing**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "Dear Sir or Madam,\nI am writing ___ apply for the position of IT assistant.",
+      "answer": [
+        "to"
+      ],
+      "explain_tr": "I am writing **to** + V1.",
+      "rule": "register"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Please find ___ my CV and a copy of my certificate.",
+      "answer": [
+        "attached"
+      ],
+      "explain_tr": "Please find **attached**.",
+      "rule": "register"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I look forward to ___ (hear) from you.",
+      "answer": [
+        "hearing"
+      ],
+      "explain_tr": "look forward to + **hearing**.",
+      "rule": "register"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I would be grateful ___ you could send me more information.",
+      "answer": [
+        "if"
+      ],
+      "explain_tr": "I would be grateful **if** you could…",
+      "rule": "register"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Thank you ___ your email of 5 June.",
+      "answer": [
+        "for"
+      ],
+      "explain_tr": "Thank you **for** + isim.",
+      "rule": "register"
+    },
+    {
+      "type": "mcq",
+      "prompt": "You don't know the name of the person. How do you start?",
+      "options": [
+        "Hi there,",
+        "Dear Sir or Madam,",
+        "Dear Mr,",
+        "To who it is,"
+      ],
+      "answer": [
+        "Dear Sir or Madam,"
+      ],
+      "explain_tr": "İsim bilinmiyorsa standart selam.",
+      "rule": "register"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is the best opening line for a complaint?",
+      "options": [
+        "I'm angry about your hotel!",
+        "I am writing to complain about my stay at your hotel.",
+        "I write for complaining your hotel.",
+        "Your hotel is bad."
+      ],
+      "answer": [
+        "I am writing to complain about my stay at your hotel."
+      ],
+      "explain_tr": "I am writing to complain about…",
+      "rule": "register"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which ending is correct for a formal email?",
+      "options": [
+        "See you soon,",
+        "Kind regards, Ayşe Demir",
+        "Bye, Ayşe",
+        "Love, Ayşe Demir"
+      ],
+      "answer": [
+        "Kind regards, Ayşe Demir"
+      ],
+      "explain_tr": "Resmî kapanış + ad soyad.",
+      "rule": "register"
+    },
+    {
+      "type": "fix",
+      "prompt": "Dear Mr Yılmaz, I attached you the invoice.",
+      "answer": [
+        "Dear Mr Yılmaz, Please find attached the invoice.",
+        "Dear Mr Yılmaz, I have attached the invoice.",
+        "Dear Mr Yılmaz, Please find the invoice attached.",
+        "Dear Mr Yılmaz, I've attached the invoice."
+      ],
+      "explain_tr": "attach dolaylı nesne almaz (✗ attached you) → **Please find attached…** / **I have attached…**",
+      "rule": "register"
+    },
+    {
+      "type": "fix",
+      "prompt": "I am writing for asking about the price of the English course.",
+      "answer": [
+        "I am writing to ask about the price of the English course."
+      ],
+      "explain_tr": "to + V1: **to ask**.",
+      "rule": "register"
+    },
+    {
+      "type": "fix",
+      "prompt": "Sorry for the late, I was ill.",
+      "answer": [
+        "Sorry for the late reply, I was ill.",
+        "I apologise for the late reply; I was ill.",
+        "I apologise for the delay. I was ill."
+      ],
+      "explain_tr": "late bir sıfat → **late reply** / the delay.",
+      "rule": "register"
+    },
+    {
+      "type": "transform",
+      "prompt": "Resmî bir rica cümlesi yaz:\n(send me / the timetable)",
+      "answer": [
+        "Could you please send me the timetable?",
+        "I would be grateful if you could send me the timetable.",
+        "Could you send me the timetable, please?",
+        "Would you please send me the timetable?"
+      ],
+      "explain_tr": "Could you please… / I would be grateful if you could…",
+      "rule": "register"
+    },
+    {
+      "type": "transform",
+      "prompt": "Bu gündelik mesajı resmî e-posta açılışına çevir:\nHi! I want to know about the job.",
+      "answer": [
+        "Dear Sir or Madam, I am writing to ask about the job.",
+        "Dear Sir or Madam, I am writing to ask about the position.",
+        "Dear Sir or Madam, I am writing to enquire about the position.",
+        "Dear Sir or Madam, I am writing to inquire about the position."
+      ],
+      "explain_tr": "Dear Sir or Madam + I am writing to…",
+      "rule": "register"
+    }
+  ]
+}

@@ -66,28 +66,28 @@
       "modules": [
         { "id": "B1-M1", "title": "1. Cümle yapısı ve yardımcı fiiller", "desc": "Düşen be/have/had'i ortadan kaldırmak, Present Simple vs Continuous, düzensiz fiiller.", "lessons": [
           { "id": "B1-M1-L1", "title": "Düşen 'be': uzun cümlelerde is/are", "ready": true, "count": 12 },
-          { "id": "B1-M1-L2", "title": "Present Simple mi, Continuous mı?" },
-          { "id": "B1-M1-L3", "title": "Düzensiz fiiller: drive–drove–driven" } ] },
+          { "id": "B1-M1-L2", "title": "Present Simple mi, Continuous mı?", "ready": true, "count": 13 },
+          { "id": "B1-M1-L3", "title": "Düzensiz fiiller: drive–drove–driven", "ready": true, "count": 14 } ] },
         { "id": "B1-M2", "title": "2. -ing, to ve used to", "desc": "used to + V1 ile be/get used to + V-ing farkı, fiil + edat kalıpları.", "lessons": [
-          { "id": "B1-M2-L1", "title": "used to + V1 (eskiden)" },
-          { "id": "B1-M2-L2", "title": "be / get used to + V-ing" },
-          { "id": "B1-M2-L3", "title": "Fiil + edat + -ing (look forward to…)" } ] },
+          { "id": "B1-M2-L1", "title": "used to + V1 (eskiden)", "ready": true, "count": 13 },
+          { "id": "B1-M2-L2", "title": "be / get used to + V-ing", "ready": true, "count": 13 },
+          { "id": "B1-M2-L3", "title": "Fiil + edat + -ing (look forward to…)", "ready": true, "count": 14 } ] },
         { "id": "B1-M3", "title": "3. Sık kullanılan phrasal verb'ler", "desc": "put off, call off, come up, figure out, look into, turn down, catch up…", "lessons": [
-          { "id": "B1-M3-L1", "title": "İş hayatı: put off, call off, take over" },
-          { "id": "B1-M3-L2", "title": "Problem çözme: figure out, look into, come up" },
-          { "id": "B1-M3-L3", "title": "İlişkiler: turn down, catch up, get along" } ] },
+          { "id": "B1-M3-L1", "title": "İş hayatı: put off, call off, take over", "ready": true, "count": 14 },
+          { "id": "B1-M3-L2", "title": "Problem çözme: figure out, look into, come up", "ready": true, "count": 14 },
+          { "id": "B1-M3-L3", "title": "İlişkiler: turn down, catch up, get along", "ready": true, "count": 14 } ] },
         { "id": "B1-M4", "title": "4. Koşul cümleleri ve geçmiş modallar", "desc": "2. ve 3. koşul, must/should/might have + V3.", "lessons": [
-          { "id": "B1-M4-L1", "title": "2. koşul: If I had…, I would…" },
-          { "id": "B1-M4-L2", "title": "3. koşul: If I had known…, I would have…" },
-          { "id": "B1-M4-L3", "title": "must have / should have / might have" } ] },
+          { "id": "B1-M4-L1", "title": "2. koşul: If I had…, I would…", "ready": true, "count": 13 },
+          { "id": "B1-M4-L2", "title": "3. koşul: If I had known…, I would have…", "ready": true, "count": 14 },
+          { "id": "B1-M4-L3", "title": "must have / should have / might have", "ready": true, "count": 14 } ] },
         { "id": "B1-M5", "title": "5. Paragraf yazma", "desc": "Konu cümlesi, açıklama, örnek, sonuç; bağlaçlar.", "lessons": [
-          { "id": "B1-M5-L1", "title": "Konu cümlesi ve destekleyici cümleler" },
-          { "id": "B1-M5-L2", "title": "Bağlaçlar: however, furthermore, as a result" },
-          { "id": "B1-M5-L3", "title": "Uzun tek cümleden 4–5 cümlelik paragrafa" } ] },
+          { "id": "B1-M5-L1", "title": "Konu cümlesi ve destekleyici cümleler", "ready": true, "count": 13 },
+          { "id": "B1-M5-L2", "title": "Bağlaçlar: however, furthermore, as a result", "ready": true, "count": 14 },
+          { "id": "B1-M5-L3", "title": "Uzun tek cümleden 4–5 cümlelik paragrafa", "ready": true, "count": 12 } ] },
         { "id": "B1-M6", "title": "6. Akıcılık ve üslup", "desc": "Gündelik ve resmî dil, e-posta, kalıp ifadeler.", "lessons": [
-          { "id": "B1-M6-L1", "title": "Gündelik mi, resmî mi?" },
-          { "id": "B1-M6-L2", "title": "Resmî e-posta yazmak" },
-          { "id": "B1-M6-L3", "title": "Collocation ve deyimler" } ] }
+          { "id": "B1-M6-L1", "title": "Gündelik mi, resmî mi?", "ready": true, "count": 13 },
+          { "id": "B1-M6-L2", "title": "Resmî e-posta yazmak", "ready": true, "count": 13 },
+          { "id": "B1-M6-L3", "title": "Collocation ve deyimler", "ready": true, "count": 14 } ] }
       ]
     },
     {

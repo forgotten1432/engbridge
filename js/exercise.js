@@ -31,6 +31,9 @@ export function renderExercise(root, ex, opts = {}) {
   root.innerHTML = `${head}${body}${ex.hint ? `<details class="small muted" style="margin-top:8px"><summary>İpucu</summary>${md(ex.hint)}</details>` : ''}
     <div class="row" style="margin-top:12px"><button class="btn primary grow" id="exCheck">Kontrol et</button></div><div id="exFb"></div>`;
 
+  // MCQ: compare the picked option exactly (matches() ignores punctuation, which some options differ by).
+  const exact = ex.type === 'mcq' && (ex.options || []).some(o => answers.includes(o));
+  const isRight = v => exact ? answers.includes(v) : matches(v, answers);
   let done = false, picked = null;
   const input = root.querySelector('#exIn');
   root.querySelectorAll('.opt').forEach(b => b.onclick = () => {
@@ -57,7 +60,7 @@ export function renderExercise(root, ex, opts = {}) {
     const ov = root.querySelector('#exOverride');
     if (ov) ov.onclick = () => { ov.remove(); opts.onResult?.(true, user, { override: true }); fb.querySelector('b').textContent = 'Tamam, doğru sayıldı ✓'; };
     if (ex.type === 'mcq') root.querySelectorAll('.opt').forEach(b => {
-      if (matches(b.dataset.v, answers)) b.classList.add('right');
+      if (isRight(b.dataset.v)) b.classList.add('right');
       else if (b.dataset.v === user) b.classList.add('wrong');
     });
     const btn = root.querySelector('#exCheck');
@@ -70,7 +73,7 @@ export function renderExercise(root, ex, opts = {}) {
   function check() {
     const user = ex.type === 'mcq' ? picked : input.value;
     if (!user || !String(user).trim()) { (input || root).focus?.(); return; }
-    finish(matches(user, answers), user);
+    finish(isRight(user), user);
   }
   setTimeout(() => input?.focus({ preventScroll: true }), 50);
 }

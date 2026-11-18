@@ -1,0 +1,202 @@
+{
+  "id": "B1-M5-L3",
+  "level": "B1",
+  "title": "Uzun tek cümleden 4–5 cümlelik paragrafa",
+  "rule": "connectors",
+  "explain_tr": [
+    "Türkçe ve Uygurca düşünerek yazınca çoğu zaman **tek, çok uzun bir cümle** çıkar: fikirler *ve, ama, çünkü, virgül* ile art arda bağlanır. İngilizcede buna **run-on sentence** denir ve okuyucuyu yorar.",
+    "**Yöntem (4 adım):** 1) Uzun cümledeki fikirleri **listele**. 2) Ana fikri bul ve **konu cümlesi** yap. 3) Diğer fikirleri **ayrı tam cümlelere** çevir; her cümlenin öznesi ve çekimli fiili olsun (*is/are/was* düşmesin!). 4) Aralarına uygun **bağlaç** koy: *First, Also, However, For example, As a result, Overall*.",
+    "**Virgül iki tam cümleyi bağlayamaz** (comma splice): *I was tired, I went to bed* ✗ → *I was tired, **so** I went to bed* ✓ veya *I was tired. I went to bed.* ✓",
+    "İyi bir cümle ortalama **12–20 kelimedir**. 35 kelimeyi geçiyorsa bölmeyi düşün.",
+    "Örnek: ✗ *I moved to Istanbul last year for work and it was hard at first because I didn't know anyone and the city very big and expensive but now I have friends and I like it.* → ✓ *I moved to Istanbul last year for work. At first, it was hard because I didn't know anyone. **Also**, the city **was** very big and expensive. **However**, I now have friends there. **As a result**, I really like it.*"
+  ],
+  "explain_en": [
+    "Break run-on sentences into a topic sentence and 3–4 complete supporting sentences. Do not join two complete sentences with only a comma (comma splice). Use connectors to show the logic."
+  ],
+  "table": [
+    [
+      "Sorun",
+      "Örnek (✗)",
+      "Çözüm (✓)"
+    ],
+    [
+      "Comma splice",
+      "It was late, we went home.",
+      "It was late, **so** we went home. / It was late. We went home."
+    ],
+    [
+      "Çok fazla 'and'",
+      "…and… and… and…",
+      "Ayrı cümleler + Also / Then / After that"
+    ],
+    [
+      "Düşen be",
+      "the city very big",
+      "the city **was** very big"
+    ],
+    [
+      "Fragment",
+      "Because I was tired.",
+      "I left early because I was tired."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "The film was long, I fell asleep.",
+      "right": "The film was long, so I fell asleep.",
+      "note_tr": "Comma splice → **so** ekle ya da nokta koy."
+    },
+    {
+      "wrong": "I like my job and my colleagues nice and the office near my house and the salary good.",
+      "right": "I like my job. My colleagues are nice, and the office is near my house. The salary is also good.",
+      "note_tr": "Ayrı cümleler + düşen **are/is** geri geldi."
+    },
+    {
+      "wrong": "We went to the beach, it was crowded, we came back early.",
+      "right": "We went to the beach. It was crowded, so we came back early.",
+      "note_tr": "Üç tam cümle virgülle bağlanamaz."
+    },
+    {
+      "wrong": "Because the hotel was expensive and far from the centre and the food not good.",
+      "right": "We didn't like the hotel because it was expensive and far from the centre. Also, the food was not good.",
+      "note_tr": "Fragment + düşen \"was\"."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is a comma splice (wrong)?",
+      "options": [
+        "It was raining, so we took a taxi.",
+        "It was raining. We took a taxi.",
+        "It was raining, we took a taxi.",
+        "Because it was raining, we took a taxi."
+      ],
+      "answer": [
+        "It was raining, we took a taxi."
+      ],
+      "explain_tr": "İki tam cümle sadece virgülle bağlanmış.",
+      "rule": "connectors"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which is the best way to split this run-on?\n\"My flat is small and old but it is cheap and close to my office.\"",
+      "options": [
+        "My flat is small and old. However, it is cheap and close to my office.",
+        "My flat is small, and old, but, it is cheap, and close to my office.",
+        "My flat small and old. However cheap.",
+        "My flat is small. And old. But cheap."
+      ],
+      "answer": [
+        "My flat is small and old. However, it is cheap and close to my office."
+      ],
+      "explain_tr": "İki fikir: olumsuz + olumlu → However ile ikiye böl.",
+      "rule": "connectors"
+    },
+    {
+      "type": "mcq",
+      "prompt": "What is missing? \"After the meeting, the manager angry because nobody prepared.\"",
+      "options": [
+        "two verbs: was angry / had prepared",
+        "an article",
+        "a comma",
+        "a connector"
+      ],
+      "answer": [
+        "two verbs: was angry / had prepared"
+      ],
+      "explain_tr": "the manager **was** angry; nobody **had** prepared – düşen yardımcı fiiller.",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I missed the bus, ___ I was late for my interview.",
+      "answer": [
+        "so"
+      ],
+      "explain_tr": "Comma splice'ı düzelt: **so** ile bağla.",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "At first, life in London was difficult. ___, I got used to it after a few months.",
+      "answer": [
+        "However"
+      ],
+      "explain_tr": "Zıtlık, yeni cümle → **However**.",
+      "rule": "connectors"
+    },
+    {
+      "type": "cloze",
+      "prompt": "The hotel was clean. The staff ___ also very helpful.",
+      "answer": [
+        "were",
+        "was"
+      ],
+      "explain_tr": "Düşen fiili ekle: the staff **were/was**.",
+      "rule": "connectors"
+    },
+    {
+      "type": "fix",
+      "prompt": "I love my city, it has beautiful parks.",
+      "answer": [
+        "I love my city because it has beautiful parks.",
+        "I love my city, and it has beautiful parks.",
+        "I love my city and it has beautiful parks."
+      ],
+      "explain_tr": "Comma splice → **because** / **and** ile bağla (ya da nokta koy: I love my city. It has…).",
+      "rule": "connectors",
+      "hint": "Bir bağlaç ekle (because / and)."
+    },
+    {
+      "type": "fix",
+      "prompt": "The weather was terrible, we stayed inside all day.",
+      "answer": [
+        "The weather was terrible, so we stayed inside all day.",
+        "The weather was terrible so we stayed inside all day.",
+        "Because the weather was terrible, we stayed inside all day.",
+        "We stayed inside all day because the weather was terrible."
+      ],
+      "explain_tr": "Comma splice → **so** ya da **because** ile bağla (veya nokta koy).",
+      "rule": "connectors",
+      "hint": "Bir bağlaç ekle (so / because)."
+    },
+    {
+      "type": "fix",
+      "prompt": "My new job is interesting. My boss very kind.",
+      "answer": [
+        "My new job is interesting. My boss is very kind."
+      ],
+      "explain_tr": "Düşen **is**.",
+      "rule": "connectors"
+    },
+    {
+      "type": "transform",
+      "prompt": "İki cümleye böl ve \"Also,\" kullan:\nThe restaurant was cheap and the food was delicious.",
+      "answer": [
+        "The restaurant was cheap. Also, the food was delicious."
+      ],
+      "explain_tr": "Cümle 1. Also, cümle 2.",
+      "rule": "connectors"
+    },
+    {
+      "type": "transform",
+      "prompt": "Üç cümleye böl (However, ve As a result, kullan):\nThe exam was hard but I had studied a lot so I passed.",
+      "answer": [
+        "The exam was hard. However, I had studied a lot. As a result, I passed."
+      ],
+      "explain_tr": "Zıtlık → However; sonuç → As a result.",
+      "rule": "connectors"
+    },
+    {
+      "type": "transform",
+      "prompt": "Düşen fiilleri ekleyerek iki cümle yaz:\nMy sister a doctor, she very busy.",
+      "answer": [
+        "My sister is a doctor. She is very busy.",
+        "My sister is a doctor. She's very busy."
+      ],
+      "explain_tr": "Her cümleye **is** + nokta ile ayır.",
+      "rule": "connectors"
+    }
+  ]
+}

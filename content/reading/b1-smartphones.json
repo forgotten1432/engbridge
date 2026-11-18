@@ -1,0 +1,150 @@
+{
+  "id": "b1-smartphones",
+  "level": "B1",
+  "title": "Are We Addicted to Our Phones?",
+  "topic": "Teknoloji",
+  "text": "The average person checks their phone more than eighty times a day. Many of us look at our screens as soon as we wake up and just before we fall asleep. Smartphones are extremely useful; however, a growing number of experts believe they are also changing the way we think and behave.\n\nOne problem is concentration. Every time a notification comes up, our attention moves away from what we are doing. As a result, a task that should take twenty minutes can take an hour. Another problem is sleep. The blue light from screens makes it harder for the brain to relax, so people who use their phones in bed often sleep less.\n\nSo what can we do? Some people turn off notifications or put their phone in another room while they are working. Others set a daily screen-time limit. For example, a teacher in Ankara asked her students to leave their phones at the door for one week. At first they complained, but by Friday most of them said they felt calmer and had finished their homework faster.",
+  "glossary": {
+    "average": {
+      "ipa": "/ˈæv.ər.ɪdʒ/",
+      "pos": "adjective",
+      "tr": "ortalama",
+      "ug": "ئوتتۇرىچە",
+      "coll": [
+        "the average person",
+        "on average"
+      ]
+    },
+    "a growing number of": {
+      "ipa": "/ə ˈɡrəʊ.ɪŋ ˈnʌm.bər əv/",
+      "pos": "phrase",
+      "tr": "giderek artan sayıda",
+      "ug": "بارغانسېرى كۆپىيىۋاتقان",
+      "coll": [
+        "a growing number of people"
+      ],
+      "register": "formal"
+    },
+    "concentration": {
+      "ipa": "/ˌkɒn.sənˈtreɪ.ʃən/",
+      "pos": "noun",
+      "tr": "odaklanma, konsantrasyon",
+      "ug": "دىققەت مەركەزلەشتۈرۈش",
+      "coll": [
+        "lose concentration",
+        "improve concentration"
+      ]
+    },
+    "notification": {
+      "ipa": "/ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "tr": "bildirim",
+      "ug": "ئۇقتۇرۇش",
+      "coll": [
+        "turn off notifications",
+        "get a notification"
+      ]
+    },
+    "comes up": {
+      "ipa": "/kʌmz ʌp/",
+      "pos": "phrasal verb",
+      "tr": "belirir, ortaya çıkar",
+      "ug": "پەيدا بولىدۇ",
+      "coll": [
+        "a message comes up",
+        "something came up"
+      ]
+    },
+    "as a result": {
+      "ipa": "/əz ə rɪˈzʌlt/",
+      "pos": "connector",
+      "tr": "sonuç olarak",
+      "ug": "نەتىجىدە",
+      "coll": [
+        "As a result, …"
+      ]
+    },
+    "turn off": {
+      "ipa": "/tɜːn ɒf/",
+      "pos": "phrasal verb",
+      "tr": "kapatmak",
+      "ug": "ئۆچۈرمەك",
+      "coll": [
+        "turn off the light",
+        "turn off notifications"
+      ]
+    },
+    "complained": {
+      "ipa": "/kəmˈpleɪnd/",
+      "pos": "verb (past)",
+      "tr": "şikâyet ettiler",
+      "ug": "نارازىلىق بىلدۈردى",
+      "coll": [
+        "complain about sth",
+        "complain to sb"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "kind": "comprehension",
+      "q": "According to the text, how often does the average person check their phone?",
+      "options": [
+        "About eight times a day",
+        "More than eighty times a day",
+        "Every hour",
+        "Once in the morning"
+      ],
+      "answer": 1,
+      "explain_tr": "\"…more than eighty times a day.\""
+    },
+    {
+      "kind": "comprehension",
+      "q": "Why do people who use their phones in bed sleep less?",
+      "options": [
+        "They play games all night.",
+        "Blue light makes it harder for the brain to relax.",
+        "The phone is noisy.",
+        "They wake up early to check messages."
+      ],
+      "answer": 1,
+      "explain_tr": "\"The blue light… makes it harder for the brain to relax…\""
+    },
+    {
+      "kind": "inference",
+      "q": "What is the purpose of the last paragraph?",
+      "options": [
+        "To describe the history of phones",
+        "To give possible solutions",
+        "To sell a new app",
+        "To criticise teachers"
+      ],
+      "answer": 1,
+      "explain_tr": "\"So what can we do?\" → çözümler."
+    },
+    {
+      "kind": "vocab",
+      "q": "\"As a result\" in paragraph 2 shows …",
+      "options": [
+        "a contrast",
+        "an example",
+        "a consequence",
+        "a time"
+      ],
+      "answer": 2,
+      "explain_tr": "as a result = sonuç."
+    },
+    {
+      "kind": "comprehension",
+      "q": "How did the students feel at the end of the week?",
+      "options": [
+        "Angry",
+        "Calmer",
+        "Bored",
+        "Lonely"
+      ],
+      "answer": 1,
+      "explain_tr": "\"…they felt calmer…\""
+    }
+  ]
+}

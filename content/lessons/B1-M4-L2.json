@@ -1,0 +1,225 @@
+{
+  "id": "B1-M4-L2",
+  "level": "B1",
+  "title": "3. koşul: If I had known…, I would have…",
+  "rule": "conditionals",
+  "explain_tr": [
+    "**3. koşul (Third Conditional)** geçmişte **olmamış** bir şeyi ve onun **olmamış** sonucunu anlatır; çoğu zaman pişmanlık ya da eleştiri içerir. Türkçedeki *\"Bilseydim, gelirdim / gelmiş olurdum\"*.",
+    "Kalıp: **If + had + V3, … would have + V3**: *If I **had known** about the party, I **would have come**.* (Partiden haberim yoktu, gelmedim.)",
+    "Uzun bir kalıp olduğu için en sık hata **had** veya **have**'i düşürmek: *If I known* ✗, *I would came* ✗, *I would have came* ✗ → **would have come** (V3!). Her iki tarafta da **V3** var.",
+    "Kısaltmalar: *If **I'd** known* = *If I **had** known*; *I **would've** come* = *I would have come*. *'d* hem *had* hem *would* olabilir; if'li kısımda **had** demektir. Yazarken önce açık hâlini kullanmak daha güvenli. ⚠️ *would of* diye yazılmaz!",
+    "**could have / might have + V3** de kullanılır: *If we had left earlier, we **could have caught** the train.* Olumsuz: *If it **hadn't rained**, we **wouldn't have cancelled** the picnic.*"
+  ],
+  "explain_en": [
+    "Third conditional: If + past perfect (had + V3), would have + V3. It describes an imaginary past and its imaginary result. Both clauses need the past participle.",
+    "Never write 'would of'. 'If I'd known' = 'If I had known'."
+  ],
+  "table": [
+    [
+      "Parça",
+      "Kalıp",
+      "Örnek"
+    ],
+    [
+      "If kısmı",
+      "If + had + V3",
+      "If you **had told** me,"
+    ],
+    [
+      "Ana cümle",
+      "would have + V3",
+      "I **would have helped** you."
+    ],
+    [
+      "Olumsuz",
+      "hadn't + V3 / wouldn't have + V3",
+      "If he **hadn't missed** the bus, he **wouldn't have been** late."
+    ],
+    [
+      "Olasılık",
+      "could / might have + V3",
+      "We **might have won**."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "If I knew about the meeting, I would come.",
+      "right": "If I had known about the meeting, I would have come.",
+      "note_tr": "Geçmiş, olmamış durum → **had known** … **would have come**."
+    },
+    {
+      "wrong": "If she had studied, she would passed.",
+      "right": "If she had studied, she would have passed.",
+      "note_tr": "**have** düşmez: would **have** passed."
+    },
+    {
+      "wrong": "If we would have left earlier, we would have caught the train.",
+      "right": "If we had left earlier, we would have caught the train.",
+      "note_tr": "if kısmında **would** değil **had**."
+    },
+    {
+      "wrong": "I would of called you.",
+      "right": "I would have called you.",
+      "note_tr": "\"would of\" yanlış yazımdır → would **have**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "If I ___ (know) you were in hospital, I would have visited you.",
+      "answer": [
+        "had known",
+        "'d known"
+      ],
+      "explain_tr": "if + **had + V3**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "If you had asked me, I ___ (help) you.",
+      "answer": [
+        "would have helped",
+        "'d have helped",
+        "would've helped"
+      ],
+      "explain_tr": "Ana cümle: **would have + V3**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We would have won the match if our best player ___ (not / be) injured.",
+      "answer": [
+        "hadn't been",
+        "had not been"
+      ],
+      "explain_tr": "Olumsuz if: **hadn't been**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "If he had taken a taxi, he ___ (not / miss) his flight.",
+      "answer": [
+        "wouldn't have missed",
+        "would not have missed"
+      ],
+      "explain_tr": "**wouldn't have missed**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "cloze",
+      "prompt": "If they had left home earlier, they could have ___ (catch) the train.",
+      "answer": [
+        "caught"
+      ],
+      "explain_tr": "could have + V3 → **caught**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Yağmur yağmasaydı, pikniğe giderdik.\" (geçmiş)",
+      "options": [
+        "If it didn't rain, we would go on a picnic.",
+        "If it hadn't rained, we would have gone on a picnic.",
+        "If it hadn't rained, we would have went on a picnic.",
+        "If it wouldn't rain, we would have gone on a picnic."
+      ],
+      "answer": [
+        "If it hadn't rained, we would have gone on a picnic."
+      ],
+      "explain_tr": "hadn't + V3, would have + V3 (go–went–**gone**).",
+      "rule": "conditionals"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "If I had seen him, I would have said hello.",
+        "If I had saw him, I would have said hello.",
+        "If I saw him, I would have said hello.",
+        "If I had seen him, I would said hello."
+      ],
+      "answer": [
+        "If I had seen him, I would have said hello."
+      ],
+      "explain_tr": "had **seen**, would have **said**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"If I'd known\" means:",
+      "options": [
+        "If I would know",
+        "If I had known",
+        "If I did know",
+        "If I have known"
+      ],
+      "answer": [
+        "If I had known"
+      ],
+      "explain_tr": "if kısmında 'd = **had**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "fix",
+      "prompt": "If I had drove more carefully, I wouldn't have had the accident.",
+      "answer": [
+        "If I had driven more carefully, I wouldn't have had the accident.",
+        "If I had driven more carefully, I would not have had the accident."
+      ],
+      "explain_tr": "had + V3: drive–drove–**driven**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "fix",
+      "prompt": "If you had told me earlier, I would of changed my plans.",
+      "answer": [
+        "If you had told me earlier, I would have changed my plans.",
+        "If you had told me earlier, I'd have changed my plans."
+      ],
+      "explain_tr": "would **have** (would of değil).",
+      "rule": "conditionals"
+    },
+    {
+      "type": "fix",
+      "prompt": "If she studied harder last year, she would have got the scholarship.",
+      "answer": [
+        "If she had studied harder last year, she would have got the scholarship.",
+        "If she had studied harder last year, she would have gotten the scholarship."
+      ],
+      "explain_tr": "Geçmiş (last year) → **had studied**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "fix",
+      "prompt": "If we had known the road was closed, we would have take another route.",
+      "answer": [
+        "If we had known the road was closed, we would have taken another route."
+      ],
+      "explain_tr": "would have + V3: **taken**.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "transform",
+      "prompt": "3. koşul ile yeniden yaz:\nI didn't know your number, so I didn't call you.",
+      "answer": [
+        "If I had known your number, I would have called you.",
+        "If I'd known your number, I would have called you.",
+        "If I had known your number, I'd have called you."
+      ],
+      "explain_tr": "Geçmişin tersi: had known … would have called.",
+      "rule": "conditionals"
+    },
+    {
+      "type": "transform",
+      "prompt": "3. koşul ile yeniden yaz:\nHe missed the bus, so he was late for the interview.",
+      "answer": [
+        "If he hadn't missed the bus, he wouldn't have been late for the interview.",
+        "If he had not missed the bus, he would not have been late for the interview.",
+        "If he hadn't missed the bus, he would not have been late for the interview.",
+        "If he had not missed the bus, he wouldn't have been late for the interview."
+      ],
+      "explain_tr": "Olumlu olaylar → olumsuz koşul: hadn't missed … wouldn't have been.",
+      "rule": "conditionals"
+    }
+  ]
+}

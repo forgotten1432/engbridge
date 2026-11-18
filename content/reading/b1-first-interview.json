@@ -1,0 +1,164 @@
+{
+  "id": "b1-first-interview",
+  "level": "B1",
+  "title": "My First Job Interview",
+  "topic": "İş hayatı",
+  "text": "I will never forget my first job interview. I had applied for a position as a junior accountant at a large company in Istanbul, and I was extremely nervous. The night before, I couldn't sleep, so I got up at five and read my notes again.\n\nUnfortunately, the metro broke down on the way, and I arrived ten minutes late. I should have left home earlier. The manager, Ms Arslan, was very kind, though. She asked me about my studies and why I wanted to work for them. Then she asked a difficult question: \"Tell me about a problem you couldn't figure out alone.\" I panicked and gave a very short answer.\n\nA week later, they called me and said they had chosen another candidate. I was disappointed, but Ms Arslan gave me some useful feedback. She told me to prepare examples from my own experience. If I had prepared better, I would have answered that question more confidently. Three months later I had another interview, and this time I got the job.",
+  "glossary": {
+    "applied for": {
+      "ipa": "/əˈplaɪd fɔːr/",
+      "pos": "verb + preposition",
+      "tr": "başvurmuştum",
+      "ug": "ئىلتىماس قىلغانىدىم",
+      "coll": [
+        "apply for a job",
+        "apply for a visa"
+      ],
+      "ex": [
+        "She applied for three jobs last month."
+      ]
+    },
+    "nervous": {
+      "ipa": "/ˈnɜː.vəs/",
+      "pos": "adjective",
+      "tr": "gergin, heyecanlı",
+      "ug": "جىددىيلەشكەن",
+      "coll": [
+        "feel nervous",
+        "nervous about the exam"
+      ]
+    },
+    "broke down": {
+      "ipa": "/brəʊk daʊn/",
+      "pos": "phrasal verb (past)",
+      "tr": "bozuldu, arızalandı",
+      "ug": "بۇزۇلۇپ قالدى",
+      "coll": [
+        "the car broke down",
+        "the machine broke down"
+      ]
+    },
+    "should have left": {
+      "ipa": "/ʃʊd əv left/",
+      "pos": "past modal",
+      "tr": "çıkmalıydım (ama çıkmadım)",
+      "ug": "چىقىشىم كېرەك ئىدى",
+      "coll": [
+        "should have known",
+        "should have asked"
+      ]
+    },
+    "figure out": {
+      "ipa": "/ˈfɪɡ.ər aʊt/",
+      "pos": "phrasal verb",
+      "tr": "(düşünerek) çözmek",
+      "ug": "ئويلاپ تاپماق",
+      "coll": [
+        "figure out a problem",
+        "figure out how"
+      ]
+    },
+    "candidate": {
+      "ipa": "/ˈkæn.dɪ.dət/",
+      "pos": "noun",
+      "tr": "aday",
+      "ug": "نامزات",
+      "coll": [
+        "a strong candidate",
+        "the best candidate"
+      ],
+      "register": "workplace"
+    },
+    "disappointed": {
+      "ipa": "/ˌdɪs.əˈpɔɪn.tɪd/",
+      "pos": "adjective",
+      "tr": "hayal kırıklığına uğramış",
+      "ug": "ئۈمىدسىزلەنگەن",
+      "coll": [
+        "disappointed with/about"
+      ]
+    },
+    "feedback": {
+      "ipa": "/ˈfiːd.bæk/",
+      "pos": "noun (uncountable)",
+      "tr": "geri bildirim",
+      "ug": "قايتما ئىنكاس",
+      "coll": [
+        "give feedback",
+        "useful feedback"
+      ],
+      "register": "workplace"
+    },
+    "If I had prepared better": {
+      "ipa": "/ɪf aɪ həd prɪˈpeəd ˈbet.ər/",
+      "pos": "third conditional",
+      "tr": "daha iyi hazırlansaydım",
+      "ug": "ياخشىراق تەييارلانغان بولسام",
+      "coll": [
+        "If I had known…, I would have…"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "kind": "comprehension",
+      "q": "Why was the writer late?",
+      "options": [
+        "He overslept.",
+        "The metro broke down.",
+        "He got lost.",
+        "He forgot the address."
+      ],
+      "answer": 1,
+      "explain_tr": "\"…the metro broke down on the way…\""
+    },
+    {
+      "kind": "comprehension",
+      "q": "Which question was difficult for him?",
+      "options": [
+        "Why he wanted the job",
+        "About his studies",
+        "About a problem he couldn't solve alone",
+        "About his salary"
+      ],
+      "answer": 2,
+      "explain_tr": "\"Tell me about a problem you couldn't figure out alone.\""
+    },
+    {
+      "kind": "inference",
+      "q": "What does \"I should have left home earlier\" show?",
+      "options": [
+        "He is proud.",
+        "He regrets leaving late.",
+        "He always leaves early.",
+        "The manager told him to leave."
+      ],
+      "answer": 1,
+      "explain_tr": "should have + V3 = pişmanlık."
+    },
+    {
+      "kind": "vocab",
+      "q": "\"Broke down\" (about the metro) means …",
+      "options": [
+        "became faster",
+        "stopped working",
+        "was crowded",
+        "was cancelled"
+      ],
+      "answer": 1,
+      "explain_tr": "break down = arızalanmak."
+    },
+    {
+      "kind": "comprehension",
+      "q": "What advice did Ms Arslan give?",
+      "options": [
+        "Arrive earlier",
+        "Wear formal clothes",
+        "Prepare examples from his own experience",
+        "Study accounting again"
+      ],
+      "answer": 2,
+      "explain_tr": "\"…prepare examples from my own experience.\""
+    }
+  ]
+}
