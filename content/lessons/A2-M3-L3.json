@@ -1,0 +1,222 @@
+{
+  "id": "A2-M3-L3",
+  "level": "A2",
+  "title": "as … as, too / enough",
+  "rule": "comparatives",
+  "explain_tr": [
+    "**as + sıfat + as** = *… kadar*: *My brother is **as tall as** my father.* (Babam kadar uzun.) Olumsuz **not as … as** = *… kadar değil*: *Bursa is**n't as big as** Istanbul.*",
+    "**too + sıfat** = *fazla, gereğinden çok* (olumsuz sonuç): *This coffee is **too hot** to drink.* (İçilemeyecek kadar sıcak.) **too** ≠ **very**: *very hot* sadece \"çok sıcak\", *too hot* \"bir sorun var\" demektir.",
+    "**sıfat + enough** = *yeterince*: *He is **old enough** to drive.* Dikkat: **enough sıfattan sonra**, **isimden önce** gelir: *tall enough* ✓, *enough money* ✓, *enough tall* ✗.",
+    "Bu yapılar genelde **to + V1** ya da **for + kişi** ile devam eder: *too expensive **for me***, *warm enough **to swim***.",
+    "Hatalar: *as big than* ✗ → *as big **as***; *too much expensive* ✗ → *too expensive*; *very hot to drink* ✗ → *too hot to drink*."
+  ],
+  "explain_en": [
+    "as + adjective + as = equal; not as … as = less. too + adjective = more than necessary (negative result). adjective + enough / enough + noun = sufficient. Often followed by to + verb or for + person."
+  ],
+  "table": [
+    [
+      "Yapı",
+      "Anlam",
+      "Örnek"
+    ],
+    [
+      "as … as",
+      "… kadar",
+      "She is **as old as** me."
+    ],
+    [
+      "not as … as",
+      "… kadar değil",
+      "Tea is **not as expensive as** coffee."
+    ],
+    [
+      "too + sıfat",
+      "fazla …",
+      "The box is **too heavy** to carry."
+    ],
+    [
+      "sıfat + enough",
+      "yeterince …",
+      "Is the room **big enough**?"
+    ],
+    [
+      "enough + isim",
+      "yeterli …",
+      "We don't have **enough chairs**."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "My sister is as tall than me.",
+      "right": "My sister is as tall as me.",
+      "note_tr": "as … **as**."
+    },
+    {
+      "wrong": "This shirt is enough big for me.",
+      "right": "This shirt is big enough for me.",
+      "note_tr": "Sıfat + **enough**."
+    },
+    {
+      "wrong": "The tea is very hot to drink.",
+      "right": "The tea is too hot to drink.",
+      "note_tr": "Olumsuz sonuç → **too**."
+    },
+    {
+      "wrong": "This car is too much expensive.",
+      "right": "This car is too expensive.",
+      "note_tr": "too + sıfat (much yok)."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "My son is as tall ___ me now.",
+      "answer": [
+        "as"
+      ],
+      "explain_tr": "as … **as**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I can't buy this phone. It's ___ expensive for me.",
+      "answer": [
+        "too"
+      ],
+      "explain_tr": "Sorun var → **too** expensive.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "She isn't old ___ to drive a car. She's only 15.",
+      "answer": [
+        "enough"
+      ],
+      "explain_tr": "sıfat + **enough**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We don't have ___ time to visit the museum today.",
+      "answer": [
+        "enough"
+      ],
+      "explain_tr": "**enough** + isim.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "The water was too cold ___ swim in.",
+      "answer": [
+        "to"
+      ],
+      "explain_tr": "too cold **to** + V1.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Bursa İstanbul kadar kalabalık değil.\"",
+      "options": [
+        "Bursa isn't as crowded as Istanbul.",
+        "Bursa isn't crowded than Istanbul.",
+        "Bursa isn't as crowded than Istanbul.",
+        "Bursa isn't too crowded as Istanbul."
+      ],
+      "answer": [
+        "Bursa isn't as crowded as Istanbul."
+      ],
+      "explain_tr": "not as … as.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "mcq",
+      "prompt": "The box is ___ heavy. I can't lift it.",
+      "options": [
+        "very",
+        "too",
+        "enough",
+        "as"
+      ],
+      "answer": [
+        "too"
+      ],
+      "explain_tr": "Sonuç: kaldıramıyorum → too.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "Is the room enough big for four people?",
+        "Is the room big enough for four people?",
+        "Is the room big enough to four people?",
+        "Is enough the room big for four people?"
+      ],
+      "answer": [
+        "Is the room big enough for four people?"
+      ],
+      "explain_tr": "big enough for + kişi.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "This exam was as difficult than the last one.",
+      "answer": [
+        "This exam was as difficult as the last one."
+      ],
+      "explain_tr": "as … **as**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "I'm not enough tall to reach the top shelf.",
+      "answer": [
+        "I'm not tall enough to reach the top shelf.",
+        "I am not tall enough to reach the top shelf."
+      ],
+      "explain_tr": "**tall enough**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "It's very late to call him now. He's sleeping.",
+      "answer": [
+        "It's too late to call him now. He's sleeping.",
+        "It is too late to call him now. He is sleeping."
+      ],
+      "explain_tr": "Olumsuz sonuç → **too** late.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "We haven't got money enough for a holiday.",
+      "answer": [
+        "We haven't got enough money for a holiday.",
+        "We don't have enough money for a holiday."
+      ],
+      "explain_tr": "**enough money** (isimden önce).",
+      "rule": "comparatives"
+    },
+    {
+      "type": "transform",
+      "prompt": "too ile tek cümle yaz:\nThe soup is very salty. I can't eat it.",
+      "answer": [
+        "The soup is too salty to eat.",
+        "The soup is too salty for me to eat.",
+        "The soup is too salty."
+      ],
+      "explain_tr": "too + sıfat + to + V1.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "transform",
+      "prompt": "as … as ile yeniden yaz:\nAli is 25. Ayşe is 25 too. (old)",
+      "answer": [
+        "Ali is as old as Ayşe.",
+        "Ayşe is as old as Ali."
+      ],
+      "explain_tr": "Eşitlik → as old as.",
+      "rule": "comparatives"
+    }
+  ]
+}

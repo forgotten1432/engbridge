@@ -1,0 +1,212 @@
+{
+  "id": "A2-M1-L1",
+  "level": "A2",
+  "title": "was / were",
+  "rule": "be-basics",
+  "explain_tr": [
+    "**be** fiilinin geçmiş hâli iki tanedir: **was** (I, he, she, it) ve **were** (you, we, they). Türkçedeki *\"-dı / -ydı\"*: *Dün evdeydim* → *I **was** at home yesterday.*",
+    "Olumsuz: **wasn't / weren't** → *She **wasn't** at work.* Soru: be başa gelir → ***Were** you tired?* – *Yes, I **was**. / No, I **wasn't**.*",
+    "Türkçede *\"yorgundum, hastaydı, kalabalıktı\"* tek kelimedir; İngilizcede **was/were mutlaka yazılır**: *I tired yesterday* ✗ → *I **was** tired yesterday* ✓.",
+    "Geçmişteki **there is / there are** → **there was / there were**: *There **were** a lot of people at the party.*",
+    "Zaman ifadeleri: *yesterday, last night/week/year, two days ago, in 2020, when I was a child*."
+  ],
+  "explain_en": [
+    "Past of be: was (I/he/she/it), were (you/we/they). Negative: wasn't/weren't. Question: Was/Were + subject…? Never drop was/were before adjectives, nouns or places."
+  ],
+  "table": [
+    [
+      "Özne",
+      "Olumlu",
+      "Olumsuz",
+      "Soru"
+    ],
+    [
+      "I / he / she / it",
+      "was",
+      "wasn't",
+      "Was he…?"
+    ],
+    [
+      "you / we / they",
+      "were",
+      "weren't",
+      "Were they…?"
+    ],
+    [
+      "there",
+      "there was (tekil) / there were (çoğul)",
+      "there wasn't / weren't",
+      "Was there…? / Were there…?"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I tired yesterday.",
+      "right": "I was tired yesterday.",
+      "note_tr": "Sıfattan (tired) önce **was** düşmez."
+    },
+    {
+      "wrong": "They was at the cinema.",
+      "right": "They were at the cinema.",
+      "note_tr": "they → **were**."
+    },
+    {
+      "wrong": "Did you be at home last night?",
+      "right": "Were you at home last night?",
+      "note_tr": "be ile soru: did kullanılmaz → **Were** you…?"
+    },
+    {
+      "wrong": "There was many people at the concert.",
+      "right": "There were many people at the concert.",
+      "note_tr": "Çoğul (people) → there **were**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I ___ very happy yesterday because I passed my exam.",
+      "answer": [
+        "was"
+      ],
+      "explain_tr": "I → **was**.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "cloze",
+      "prompt": "My parents ___ in Kashgar last summer.",
+      "answer": [
+        "were"
+      ],
+      "explain_tr": "Çoğul özne → **were**.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "cloze",
+      "prompt": "___ you at the meeting this morning?",
+      "answer": [
+        "Were"
+      ],
+      "explain_tr": "you ile soru → **Were** you…?",
+      "rule": "be-basics"
+    },
+    {
+      "type": "cloze",
+      "prompt": "The film ___ (not) very good, so we left early.",
+      "answer": [
+        "wasn't",
+        "was not"
+      ],
+      "explain_tr": "Tekil, olumsuz → **wasn't**.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "cloze",
+      "prompt": "There ___ a lot of cars on the road yesterday.",
+      "answer": [
+        "were"
+      ],
+      "explain_tr": "Çoğul (cars) → there **were**.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Dün hastaydım.\"",
+      "options": [
+        "I ill yesterday.",
+        "I was ill yesterday.",
+        "I were ill yesterday.",
+        "I am ill yesterday."
+      ],
+      "answer": [
+        "I was ill yesterday."
+      ],
+      "explain_tr": "Geçmiş + I → was.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct question.",
+      "options": [
+        "Was they late?",
+        "Did they late?",
+        "Were they late?",
+        "They were late?"
+      ],
+      "answer": [
+        "Were they late?"
+      ],
+      "explain_tr": "they → Were + özne.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Was your brother at home?\" – \"No, he ___.\"",
+      "options": [
+        "wasn't",
+        "weren't",
+        "didn't",
+        "isn't"
+      ],
+      "answer": [
+        "wasn't"
+      ],
+      "explain_tr": "Kısa cevap: No, he wasn't.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "fix",
+      "prompt": "We was very tired after the trip.",
+      "answer": [
+        "We were very tired after the trip."
+      ],
+      "explain_tr": "we → **were**.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "fix",
+      "prompt": "The weather beautiful last weekend.",
+      "answer": [
+        "The weather was beautiful last weekend."
+      ],
+      "explain_tr": "Düşen **was**.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "fix",
+      "prompt": "Did she be at school yesterday?",
+      "answer": [
+        "Was she at school yesterday?"
+      ],
+      "explain_tr": "be ile did kullanılmaz → **Was** she…?",
+      "rule": "be-basics"
+    },
+    {
+      "type": "fix",
+      "prompt": "There was two cats in the garden.",
+      "answer": [
+        "There were two cats in the garden."
+      ],
+      "explain_tr": "two cats → **were**.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "transform",
+      "prompt": "Geçmişe çevir (yesterday ile):\nI am at home today.",
+      "answer": [
+        "I was at home yesterday.",
+        "Yesterday I was at home."
+      ],
+      "explain_tr": "am → **was**.",
+      "rule": "be-basics"
+    },
+    {
+      "type": "transform",
+      "prompt": "Soru cümlesine çevir:\nThe shops were open.",
+      "answer": [
+        "Were the shops open?"
+      ],
+      "explain_tr": "were başa gelir.",
+      "rule": "be-basics"
+    }
+  ]
+}

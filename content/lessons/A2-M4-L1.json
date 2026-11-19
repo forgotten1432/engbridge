@@ -1,0 +1,215 @@
+{
+  "id": "A2-M4-L1",
+  "level": "A2",
+  "title": "I have been / Have you ever…?",
+  "rule": "tenses",
+  "explain_tr": [
+    "**Present Perfect** = **have / has + V3**. Geçmişte olan ama **ne zaman olduğu önemli olmayan** deneyimleri anlatır: *I **have been** to London.* (Londra'da bulundum – ne zaman olduğu söylenmiyor.)",
+    "**he/she/it → has**, diğerleri → **have**: *She **has visited** Kashgar twice.* Kısaltma: *I've, she's, we've*.",
+    "Deneyim sorusu: ***Have** you **ever** + V3?* = *Hiç … mı?* → *Have you ever eaten lagman?* Cevap: *Yes, I have. / No, I haven't.* Olumsuz deneyim: **never** → *I've **never** been to Japan.*",
+    "**been** vs **gone**: *She **has been** to Paris* (gitti ve döndü). *She **has gone** to Paris* (şu an orada, dönmedi).",
+    "En sık hatalar: **have'i düşürmek** (*I been to Izmir* ✗), V2 kullanmak (*I have went* ✗ → *have **gone***), ve *never*'ı olumsuzla kullanmak (*I haven't never* ✗)."
+  ],
+  "explain_en": [
+    "Present perfect = have/has + past participle. Use it for life experiences without a specific time: Have you ever…? I've never… been (and came back) vs gone (still there)."
+  ],
+  "table": [
+    [
+      "Özne",
+      "Olumlu",
+      "Olumsuz",
+      "Soru"
+    ],
+    [
+      "I/you/we/they",
+      "have + V3",
+      "haven't + V3",
+      "Have you ever + V3?"
+    ],
+    [
+      "he/she/it",
+      "has + V3",
+      "hasn't + V3",
+      "Has she ever + V3?"
+    ],
+    [
+      "Deneyim yok",
+      "never + V3",
+      "—",
+      "I've **never** tried it."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I been to Antalya three times.",
+      "right": "I have been to Antalya three times.",
+      "note_tr": "**have** düşmez."
+    },
+    {
+      "wrong": "Have you ever went to Germany?",
+      "right": "Have you ever been to Germany?",
+      "note_tr": "have + V3 (went V2'dir)."
+    },
+    {
+      "wrong": "She have seen that film.",
+      "right": "She has seen that film.",
+      "note_tr": "she → **has**."
+    },
+    {
+      "wrong": "I haven't never eaten sushi.",
+      "right": "I have never eaten sushi.",
+      "note_tr": "never zaten olumsuz → **have never**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "Have you ever ___ (be) to Urumqi?",
+      "answer": [
+        "been"
+      ],
+      "explain_tr": "be → **been**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "My mother ___ never flown on a plane.",
+      "answer": [
+        "has"
+      ],
+      "explain_tr": "she → **has**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I have ___ (eat) Turkish food many times.",
+      "answer": [
+        "eaten"
+      ],
+      "explain_tr": "eat → **eaten**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "___ you ever met a famous person?",
+      "answer": [
+        "Have"
+      ],
+      "explain_tr": "**Have** you ever…?",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We have never ___ (see) snow in our city.",
+      "answer": [
+        "seen"
+      ],
+      "explain_tr": "see → **seen**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Hiç at bindin mi?\"",
+      "options": [
+        "Did you ever ride a horse?",
+        "Have you ever ridden a horse?",
+        "Have you ever rode a horse?",
+        "Are you ever ridden a horse?"
+      ],
+      "answer": [
+        "Have you ever ridden a horse?"
+      ],
+      "explain_tr": "Have + ever + V3 (ride–rode–ridden).",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ali is in Germany now. He ___ to Germany.",
+      "options": [
+        "has been",
+        "has gone",
+        "have gone",
+        "is been"
+      ],
+      "answer": [
+        "has gone"
+      ],
+      "explain_tr": "Hâlâ orada → has gone.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Have you ever tried kumys?\" – \"No, I ___.\"",
+      "options": [
+        "didn't",
+        "haven't",
+        "don't",
+        "hasn't"
+      ],
+      "answer": [
+        "haven't"
+      ],
+      "explain_tr": "Kısa cevap: No, I haven't.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I have went to Bursa twice.",
+      "answer": [
+        "I have been to Bursa twice.",
+        "I've been to Bursa twice."
+      ],
+      "explain_tr": "have **been** (went değil).",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "She has never drive a car.",
+      "answer": [
+        "She has never driven a car."
+      ],
+      "explain_tr": "has + V3 → **driven**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "Do you ever been to London?",
+      "answer": [
+        "Have you ever been to London?"
+      ],
+      "explain_tr": "Deneyim sorusu → **Have** you ever…?",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "They has visited many countries.",
+      "answer": [
+        "They have visited many countries."
+      ],
+      "explain_tr": "they → **have**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "never ile yeniden yaz:\nI have not played golf in my life.",
+      "answer": [
+        "I have never played golf.",
+        "I've never played golf.",
+        "I have never played golf in my life.",
+        "I've never played golf in my life."
+      ],
+      "explain_tr": "have never + V3.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Have you ever ile soru yaz:\n(eat / Uyghur polo)",
+      "answer": [
+        "Have you ever eaten Uyghur polo?",
+        "Have you ever eaten polo?"
+      ],
+      "explain_tr": "Have you ever + eaten.",
+      "rule": "tenses"
+    }
+  ]
+}

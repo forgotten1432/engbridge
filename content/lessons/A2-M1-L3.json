@@ -1,0 +1,251 @@
+{
+  "id": "A2-M1-L3",
+  "level": "A2",
+  "title": "En sık 30 düzensiz fiil",
+  "rule": "irregular-verbs",
+  "explain_tr": [
+    "En sık kullanılan fiillerin çoğu **düzensizdir**: geçmiş hâli (**V2**) -ed almaz, ezberlenmelidir. *go → **went**, see → **saw**, eat → **ate***.",
+    "Gruplarla ezberlemek kolaylaştırır. **Aynı kalanlar:** *put–put, cut–cut, cost–cost, let–let*. **-ought/-aught:** *buy–bought, bring–brought, think–thought, teach–taught, catch–caught*. **i → a:** *drink–drank, swim–swam, begin–began, sing–sang*. **ee/ea → e:** *meet–met, feel–felt, keep–kept, sleep–slept, leave–left*.",
+    "Diğer çok sık olanlar: *be–was/were, have–had, do–did, go–went, get–got, make–made, say–said, come–came, take–took, give–gave, know–knew, write–wrote, find–found, tell–told, sit–sat, stand–stood, read–read* (okunuşu /red/!), *pay–paid, lose–lost, win–won*.",
+    "Olumsuz ve soruda **did** varsa fiil yine **V1** olur: *I **didn't go*** (✗ didn't went), *Did you **see** him?* (✗ Did you saw)."
+  ],
+  "explain_en": [
+    "Common irregular verbs have special past forms (go→went, see→saw). After did / didn't always use the base form."
+  ],
+  "table": [
+    [
+      "V1",
+      "V2",
+      "V1",
+      "V2"
+    ],
+    [
+      "go",
+      "went",
+      "buy",
+      "bought"
+    ],
+    [
+      "see",
+      "saw",
+      "bring",
+      "brought"
+    ],
+    [
+      "eat",
+      "ate",
+      "think",
+      "thought"
+    ],
+    [
+      "take",
+      "took",
+      "meet",
+      "met"
+    ],
+    [
+      "come",
+      "came",
+      "leave",
+      "left"
+    ],
+    [
+      "get",
+      "got",
+      "put",
+      "put"
+    ],
+    [
+      "make",
+      "made",
+      "write",
+      "wrote"
+    ],
+    [
+      "say",
+      "said",
+      "drink",
+      "drank"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I goed to the market.",
+      "right": "I went to the market.",
+      "note_tr": "go → **went**."
+    },
+    {
+      "wrong": "She buyed a new dress.",
+      "right": "She bought a new dress.",
+      "note_tr": "buy → **bought**."
+    },
+    {
+      "wrong": "We didn't went out last night.",
+      "right": "We didn't go out last night.",
+      "note_tr": "didn't + **go**."
+    },
+    {
+      "wrong": "Did you saw the match?",
+      "right": "Did you see the match?",
+      "note_tr": "Did + **see**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "Last night we ___ (eat) at a Uyghur restaurant.",
+      "answer": [
+        "ate"
+      ],
+      "explain_tr": "eat → **ate**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I ___ (see) Ali at the station this morning.",
+      "answer": [
+        "saw"
+      ],
+      "explain_tr": "see → **saw**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "She ___ (bring) some cake to the office.",
+      "answer": [
+        "brought"
+      ],
+      "explain_tr": "bring → **brought**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "They ___ (leave) home at seven o'clock.",
+      "answer": [
+        "left"
+      ],
+      "explain_tr": "leave → **left**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I ___ (think) the exam was easy.",
+      "answer": [
+        "thought"
+      ],
+      "explain_tr": "think → **thought**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "cloze",
+      "prompt": "He ___ (put) his keys on the table.",
+      "answer": [
+        "put"
+      ],
+      "explain_tr": "put → **put** (değişmez).",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Past of \"take\":",
+      "options": [
+        "taked",
+        "took",
+        "tooked",
+        "taken"
+      ],
+      "answer": [
+        "took"
+      ],
+      "explain_tr": "take → **took**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Dün iki kitap okudum.\"",
+      "options": [
+        "I readed two books yesterday.",
+        "I read two books yesterday.",
+        "I reading two books yesterday.",
+        "I red two books yesterday."
+      ],
+      "answer": [
+        "I read two books yesterday."
+      ],
+      "explain_tr": "read → **read** (yazılış aynı, okunuş /red/).",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "Did you went to school?",
+        "Did you go to school?",
+        "Did you goes to school?",
+        "You did went to school?"
+      ],
+      "answer": [
+        "Did you go to school?"
+      ],
+      "explain_tr": "Did + V1.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "We swimmed in the sea every day.",
+      "answer": [
+        "We swam in the sea every day."
+      ],
+      "explain_tr": "swim → **swam**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "I meeted my friends after work.",
+      "answer": [
+        "I met my friends after work."
+      ],
+      "explain_tr": "meet → **met**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "He didn't knew the answer.",
+      "answer": [
+        "He didn't know the answer.",
+        "He did not know the answer."
+      ],
+      "explain_tr": "didn't + **know**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "fix",
+      "prompt": "My father teached me how to drive.",
+      "answer": [
+        "My father taught me how to drive."
+      ],
+      "explain_tr": "teach → **taught**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "Geçmişe çevir (yesterday ile):\nI write an email to my teacher.",
+      "answer": [
+        "I wrote an email to my teacher yesterday.",
+        "Yesterday I wrote an email to my teacher.",
+        "Yesterday, I wrote an email to my teacher."
+      ],
+      "explain_tr": "write → **wrote**.",
+      "rule": "irregular-verbs"
+    },
+    {
+      "type": "transform",
+      "prompt": "Soru cümlesine çevir:\nShe went to the doctor.",
+      "answer": [
+        "Did she go to the doctor?"
+      ],
+      "explain_tr": "Did + she + **go**.",
+      "rule": "irregular-verbs"
+    }
+  ]
+}

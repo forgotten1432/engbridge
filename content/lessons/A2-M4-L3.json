@@ -1,0 +1,218 @@
+{
+  "id": "A2-M4-L3",
+  "level": "A2",
+  "title": "Past Simple mi, Present Perfect mi?",
+  "rule": "tenses",
+  "explain_tr": [
+    "Türkçede ikisi de *\"-dı\"* ile çevrilebildiği için en çok karışan konulardan biri: *\"Londra'ya gittim.\"*",
+    "**Past Simple**: geçmişte **belirli, bitmiş bir zaman** var (ya da biliniyor): *yesterday, last week, in 2019, two days ago, when I was a child*. → *I **went** to London **in 2019**.*",
+    "**Present Perfect**: zaman **belirtilmiyor** veya zaman dilimi **hâlâ devam ediyor**: *ever, never, already, yet, just, today, this week, so far*. → *I**'ve been** to London.* (hayatımda) / *I**'ve drunk** three coffees **today**.*",
+    "Genelde **önce Present Perfect ile konu açılır, sonra ayrıntı Past Simple ile verilir**: *Have you ever been to Izmir? – Yes, I have. I **went** there last summer. It **was** wonderful.*",
+    "Altın kural: **yesterday / ago / last … / in 2020 / When…?** ile **asla** Present Perfect kullanma: *I have seen him yesterday* ✗ → *I **saw** him yesterday* ✓. *When have you arrived?* ✗ → *When **did** you arrive?* ✓"
+  ],
+  "explain_en": [
+    "Past simple: finished time (yesterday, ago, last…, in 2019, when?). Present perfect: no specific time, experiences, unfinished time periods (today, this week), ever/never/already/yet/just."
+  ],
+  "table": [
+    [
+      "Past Simple",
+      "Present Perfect"
+    ],
+    [
+      "I **saw** Ali **yesterday**.",
+      "I**'ve** never **seen** Ali."
+    ],
+    [
+      "She **lost** her keys **last night**.",
+      "She**'s lost** her keys. (şimdi yok)"
+    ],
+    [
+      "**When did** you **arrive**?",
+      "**Have** you **arrived yet**?"
+    ],
+    [
+      "We **went** to Van **in 2021**.",
+      "We**'ve been** to Van twice."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I have seen this film last week.",
+      "right": "I saw this film last week.",
+      "note_tr": "last week → **Past Simple**."
+    },
+    {
+      "wrong": "When have you moved to Istanbul?",
+      "right": "When did you move to Istanbul?",
+      "note_tr": "When…? → **did**."
+    },
+    {
+      "wrong": "Did you ever eat lagman?",
+      "right": "Have you ever eaten lagman?",
+      "note_tr": "Deneyim (ever) → **Present Perfect**."
+    },
+    {
+      "wrong": "I lived here since 2020.",
+      "right": "I have lived here since 2020.",
+      "note_tr": "since + hâlâ devam → **Present Perfect**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I ___ (visit) Kashgar in 2018.",
+      "answer": [
+        "visited"
+      ],
+      "explain_tr": "in 2018 → **visited**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "She ___ (never / try) Indian food.",
+      "answer": [
+        "has never tried",
+        "'s never tried"
+      ],
+      "explain_tr": "Deneyim + never → **has never tried**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We ___ (meet) our new teacher two days ago.",
+      "answer": [
+        "met"
+      ],
+      "explain_tr": "ago → **met**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "___ you ever been to Africa?",
+      "answer": [
+        "Have"
+      ],
+      "explain_tr": "ever → **Have** you…?",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "When ___ you start learning English?",
+      "answer": [
+        "did"
+      ],
+      "explain_tr": "When → **did**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I've drunk three cups of tea ___ (bu sabah, hâlâ sabah).",
+      "answer": [
+        "this morning",
+        "today"
+      ],
+      "explain_tr": "Devam eden zaman dilimi → **this morning / today**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Dün Ali'yi gördüm.\"",
+      "options": [
+        "I have seen Ali yesterday.",
+        "I saw Ali yesterday.",
+        "I have saw Ali yesterday.",
+        "I see Ali yesterday."
+      ],
+      "answer": [
+        "I saw Ali yesterday."
+      ],
+      "explain_tr": "yesterday → Past Simple.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I have finished my homework an hour ago.",
+        "I finished my homework an hour ago.",
+        "I have finish my homework an hour ago.",
+        "I did finished my homework an hour ago."
+      ],
+      "answer": [
+        "I finished my homework an hour ago."
+      ],
+      "explain_tr": "ago → Past Simple.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "A: \"Have you ever been to Antalya?\" B: \"Yes. I ___ there last summer.\"",
+      "options": [
+        "have gone",
+        "went",
+        "have been",
+        "go"
+      ],
+      "answer": [
+        "went"
+      ],
+      "explain_tr": "Ayrıntı + last summer → went.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I have bought this car in 2015.",
+      "answer": [
+        "I bought this car in 2015."
+      ],
+      "explain_tr": "in 2015 → **bought**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "Did you finish your report yet?",
+      "answer": [
+        "Have you finished your report yet?"
+      ],
+      "explain_tr": "yet → **Present Perfect**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "When have you arrived in Turkey?",
+      "answer": [
+        "When did you arrive in Turkey?"
+      ],
+      "explain_tr": "When → **did** + V1.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "She has lost her phone yesterday.",
+      "answer": [
+        "She lost her phone yesterday."
+      ],
+      "explain_tr": "yesterday → **lost**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Present Perfect + Past Simple ile iki cümle yaz:\n(I / be / to Van) + (I / go / there / in 2022)",
+      "answer": [
+        "I have been to Van. I went there in 2022.",
+        "I've been to Van. I went there in 2022."
+      ],
+      "explain_tr": "Deneyim → have been; ayrıntı → went.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Doğru zamanla yeniden yaz:\nI have spoken to my boss yesterday.",
+      "answer": [
+        "I spoke to my boss yesterday."
+      ],
+      "explain_tr": "yesterday → Past Simple.",
+      "rule": "tenses"
+    }
+  ]
+}

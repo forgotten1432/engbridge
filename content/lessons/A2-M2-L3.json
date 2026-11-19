@@ -1,0 +1,219 @@
+{
+  "id": "A2-M2-L3",
+  "level": "A2",
+  "title": "Present Continuous ile randevular",
+  "rule": "tenses",
+  "explain_tr": [
+    "**Present Continuous** (am/is/are + V-ing) sadece \"şu an\" için değil, **kesinleşmiş gelecek randevular** için de kullanılır. Genelde zaman ve yer bellidir, başkalarıyla ayarlanmıştır: *I**'m meeting** Ayşe at 6 tomorrow.* / *We**'re flying** to Urumqi on Friday.*",
+    "Ajanda testi: Takvimine yazabileceğin bir şeyse Present Continuous çok doğaldır. *I'm seeing the dentist on Monday.* (Randevu var.)",
+    "Karşılaştır: *I'm **going to** buy a car* (niyet/plan) – *I'm **buying** a car on Saturday; I've already chosen it* (kesin ayarlanmış). *will* ise anlık karar: *I'll buy it!*",
+    "**Saatli tarifeler** (tren, film, ders programı) için **Present Simple**: *The train **leaves** at 8:15. The film **starts** at nine.*",
+    "Yine unutma: **be düşmez**: *I meeting my boss tomorrow* ✗ → *I **am** meeting…* ✓"
+  ],
+  "explain_en": [
+    "Present continuous for fixed future arrangements (time, place, people agreed). Present simple for timetables (The train leaves at 8). be going to for intentions; will for instant decisions."
+  ],
+  "table": [
+    [
+      "Anlam",
+      "Yapı",
+      "Örnek"
+    ],
+    [
+      "Ayarlanmış randevu",
+      "am/is/are + V-ing",
+      "I**'m having** dinner with Kemal tonight."
+    ],
+    [
+      "Niyet / plan",
+      "be going to + V1",
+      "I**'m going to** learn to swim."
+    ],
+    [
+      "Tarife",
+      "Present Simple",
+      "The bus **leaves** at 7:30."
+    ],
+    [
+      "Anlık karar",
+      "will + V1",
+      "OK, I**'ll come** with you."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I meet my friends tomorrow evening.",
+      "right": "I'm meeting my friends tomorrow evening.",
+      "note_tr": "Ayarlanmış randevu → **am meeting**."
+    },
+    {
+      "wrong": "We flying to Antalya on Saturday.",
+      "right": "We're flying to Antalya on Saturday.",
+      "note_tr": "**are** düşmez."
+    },
+    {
+      "wrong": "The train is leaving at 8:15 every day.",
+      "right": "The train leaves at 8:15 every day.",
+      "note_tr": "Tarife → Present Simple."
+    },
+    {
+      "wrong": "What do you do tonight?",
+      "right": "What are you doing tonight?",
+      "note_tr": "Gelecek planı sorusu → **are you doing**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I ___ (see) the doctor at 10 o'clock tomorrow.",
+      "answer": [
+        "am seeing",
+        "'m seeing"
+      ],
+      "explain_tr": "Randevu → **am seeing**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "What ___ you doing this weekend?",
+      "answer": [
+        "are"
+      ],
+      "explain_tr": "**are** you doing…?",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "The film ___ (start) at 9 p.m., so don't be late.",
+      "answer": [
+        "starts"
+      ],
+      "explain_tr": "Tarife → **starts**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "My parents ___ (come) to visit us on Sunday.",
+      "answer": [
+        "are coming",
+        "'re coming"
+      ],
+      "explain_tr": "Ayarlanmış → **are coming**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We aren't ___ (go) to the wedding because we're working.",
+      "answer": [
+        "going"
+      ],
+      "explain_tr": "aren't + **going**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Yarın öğlen müdürle görüşüyorum.\" (randevu var)",
+      "options": [
+        "I meet the manager tomorrow at noon.",
+        "I'm meeting the manager tomorrow at noon.",
+        "I meeting the manager tomorrow at noon.",
+        "I will meeting the manager tomorrow at noon."
+      ],
+      "answer": [
+        "I'm meeting the manager tomorrow at noon."
+      ],
+      "explain_tr": "Ayarlanmış randevu → Present Continuous.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is about a timetable?",
+      "options": [
+        "I'm playing football on Friday.",
+        "Our plane takes off at 6:40.",
+        "I'll call you later.",
+        "I'm going to study tonight."
+      ],
+      "answer": [
+        "Our plane takes off at 6:40."
+      ],
+      "explain_tr": "Tarife → Present Simple.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "A: \"Are you free on Thursday?\" B: \"No, sorry, ___ my cousin.\"",
+      "options": [
+        "I visit",
+        "I'm visiting",
+        "I visited",
+        "I'm visit"
+      ],
+      "answer": [
+        "I'm visiting"
+      ],
+      "explain_tr": "Ayarlanmış plan → I'm visiting.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "She having a party next Saturday.",
+      "answer": [
+        "She is having a party next Saturday.",
+        "She's having a party next Saturday."
+      ],
+      "explain_tr": "**is** having.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "What time does you meet Ali tomorrow?",
+      "answer": [
+        "What time are you meeting Ali tomorrow?",
+        "What time do you meet Ali tomorrow?"
+      ],
+      "explain_tr": "Randevu sorusu → **are you meeting**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "The lesson is starting at 9:00 every Monday.",
+      "answer": [
+        "The lesson starts at 9:00 every Monday."
+      ],
+      "explain_tr": "Düzenli program → **starts**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I'm play tennis with Murat tomorrow.",
+      "answer": [
+        "I'm playing tennis with Murat tomorrow.",
+        "I am playing tennis with Murat tomorrow."
+      ],
+      "explain_tr": "am + **playing**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Present Continuous ile randevu cümlesi yaz:\n(we / have lunch / with our boss / on Friday)",
+      "answer": [
+        "We are having lunch with our boss on Friday.",
+        "We're having lunch with our boss on Friday.",
+        "On Friday we are having lunch with our boss.",
+        "On Friday we're having lunch with our boss."
+      ],
+      "explain_tr": "are + having.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Soru cümlesi yaz (tonight):\n(what / you / do)",
+      "answer": [
+        "What are you doing tonight?"
+      ],
+      "explain_tr": "What + are + you + doing?",
+      "rule": "tenses"
+    }
+  ]
+}

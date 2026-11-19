@@ -1,0 +1,216 @@
+{
+  "id": "A2-M4-L2",
+  "level": "A2",
+  "title": "already, yet, just",
+  "rule": "tenses",
+  "explain_tr": [
+    "Bu üç kelime çoğunlukla **Present Perfect** ile kullanılır ve sonucu **şimdiye** bağlar.",
+    "**just** = *az önce, yeni*: *I**'ve just finished** my homework.* (have ile V3 **arasına** girer.)",
+    "**already** = *çoktan, zaten* (beklenenden erken): *She**'s already left**.* (Yine have ile V3 arasına.)",
+    "**yet** = *henüz / daha* – **olumsuz ve soru** cümlelerinde, **cümle sonunda**: *I **haven't** finished **yet**.* (Henüz bitirmedim.) / *Have you eaten **yet**?* (Yemek yedin mi?)",
+    "Hatalar: *yet*'i olumlu cümlede kullanmak (*I have finished yet* ✗ → *already*), *already/just*'i yanlış yere koymak (*I have finished just* ✗), have'i düşürmek (*I just finished* – Amerikan İngilizcesinde olur, ama bu derste Present Perfect öğreniyoruz)."
+  ],
+  "explain_en": [
+    "just = a very short time ago; already = sooner than expected (both between have and V3). yet = until now, in negatives and questions, at the end of the sentence."
+  ],
+  "table": [
+    [
+      "Kelime",
+      "Cümle türü",
+      "Yeri",
+      "Örnek"
+    ],
+    [
+      "just",
+      "olumlu",
+      "have + just + V3",
+      "I've **just** arrived."
+    ],
+    [
+      "already",
+      "olumlu (ve soru)",
+      "have + already + V3",
+      "He's **already** paid."
+    ],
+    [
+      "yet",
+      "olumsuz / soru",
+      "cümle sonu",
+      "Has she called **yet**? / She hasn't called **yet**."
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I have finished my report yet.",
+      "right": "I have already finished my report.",
+      "note_tr": "Olumlu → **already** (yet değil)."
+    },
+    {
+      "wrong": "Have you yet eaten?",
+      "right": "Have you eaten yet?",
+      "note_tr": "yet cümle **sonunda**."
+    },
+    {
+      "wrong": "She has arrived just.",
+      "right": "She has just arrived.",
+      "note_tr": "just have ile V3 **arasında**."
+    },
+    {
+      "wrong": "I didn't finish yet.",
+      "right": "I haven't finished yet.",
+      "note_tr": "yet → Present Perfect: haven't + V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I'm not hungry. I've ___ had lunch.",
+      "answer": [
+        "already",
+        "just"
+      ],
+      "explain_tr": "**already / just** + V3.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Has the bus arrived ___?",
+      "answer": [
+        "yet"
+      ],
+      "explain_tr": "Soru → cümle sonu **yet**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "She hasn't replied to my email ___.",
+      "answer": [
+        "yet"
+      ],
+      "explain_tr": "Olumsuz → **yet**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Look! I've ___ bought a new phone. It's in the box.",
+      "answer": [
+        "just"
+      ],
+      "explain_tr": "Az önce → **just**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "We have already ___ (see) this film.",
+      "answer": [
+        "seen"
+      ],
+      "explain_tr": "already + **seen**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Henüz karar vermedim.\"",
+      "options": [
+        "I haven't decided yet.",
+        "I have decided yet.",
+        "I haven't yet decided already.",
+        "I didn't decided yet."
+      ],
+      "answer": [
+        "I haven't decided yet."
+      ],
+      "explain_tr": "haven't + V3 + yet.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Where does \"just\" go? Choose the correct word order.",
+      "options": [
+        "I have just cleaned the kitchen.",
+        "I have cleaned just the kitchen.",
+        "I have cleaned the kitchen just.",
+        "Just I have cleaned the kitchen."
+      ],
+      "answer": [
+        "I have just cleaned the kitchen."
+      ],
+      "explain_tr": "have + just + V3.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "Have you finished already your homework?",
+        "Have you finished your homework yet?",
+        "Have you yet finished your homework?",
+        "Did you finished your homework yet?"
+      ],
+      "answer": [
+        "Have you finished your homework yet?"
+      ],
+      "explain_tr": "Soru + yet sonda.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "He has left already the office.",
+      "answer": [
+        "He has already left the office.",
+        "He's already left the office."
+      ],
+      "explain_tr": "already have ile V3 **arasına**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I have just eat breakfast.",
+      "answer": [
+        "I have just eaten breakfast.",
+        "I've just eaten breakfast."
+      ],
+      "explain_tr": "have + **eaten**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "They haven't yet arrived.",
+      "answer": [
+        "They haven't arrived yet.",
+        "They have not arrived yet."
+      ],
+      "explain_tr": "yet → cümle **sonu**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I have read this book yet.",
+      "answer": [
+        "I have already read this book.",
+        "I've already read this book."
+      ],
+      "explain_tr": "Olumlu → **already**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "yet ile soru yaz:\n(you / call / your mother)",
+      "answer": [
+        "Have you called your mother yet?"
+      ],
+      "explain_tr": "Have + you + called + yet?",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "just ile yeniden yaz:\nThe film started one minute ago.",
+      "answer": [
+        "The film has just started.",
+        "The film's just started."
+      ],
+      "explain_tr": "has + just + started.",
+      "rule": "tenses"
+    }
+  ]
+}

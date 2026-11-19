@@ -1,0 +1,221 @@
+{
+  "id": "A2-M2-L2",
+  "level": "A2",
+  "title": "will (karar, tahmin)",
+  "rule": "tenses",
+  "explain_tr": [
+    "**will + V1** üç durumda kullanılır: 1) **O anda verilen karar**: *The phone is ringing. – I**'ll answer** it!* 2) **Fikre dayalı tahmin**: *I think it **will be** a great match.* 3) **Söz, teklif, rica**: *I **'ll help** you. / **Will** you **open** the window?*",
+    "**will** bütün kişiler için aynıdır ve arkasından **V1** gelir: *She **will come*** (✗ will comes, ✗ will to come, ✗ will coming).",
+    "Olumsuz: **won't** (= will not): *I **won't** tell anyone.* Soru: ***Will** you **be** at home?*",
+    "**will mi going to mu?** Önceden plan → *going to*: *I'm going to visit Ali tomorrow* (dün karar verdim). Şimdi karar → *will*: *Oh, Ali is ill? I'll visit him tomorrow.* Tahminde: kanıt varsa *going to*, fikir/tahminse (*I think, probably, maybe*) genelde *will*.",
+    "Türkçedeki *\"-ecek\"* hem will hem going to olabilir; bu yüzden durumu düşün."
+  ],
+  "explain_en": [
+    "will + base verb: instant decisions, opinions/predictions (I think…, probably), promises, offers and requests. Negative won't. Plans already made → going to."
+  ],
+  "table": [
+    [
+      "Durum",
+      "Örnek"
+    ],
+    [
+      "Anlık karar",
+      "I'm thirsty. I**'ll get** some water."
+    ],
+    [
+      "Fikir/tahmin",
+      "I think you **will like** this film."
+    ],
+    [
+      "Söz",
+      "I **won't be** late, I promise."
+    ],
+    [
+      "Teklif",
+      "That bag looks heavy. I**'ll carry** it."
+    ],
+    [
+      "Rica",
+      "**Will** you **help** me?"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "She will comes tomorrow.",
+      "right": "She will come tomorrow.",
+      "note_tr": "will + **V1**."
+    },
+    {
+      "wrong": "I will to call you later.",
+      "right": "I will call you later.",
+      "note_tr": "will'den sonra **to** yok."
+    },
+    {
+      "wrong": "A: The door is open. B: I'm going to close it.",
+      "right": "A: The door is open. B: I'll close it.",
+      "note_tr": "O anda karar → **will**."
+    },
+    {
+      "wrong": "I promise I don't tell anybody.",
+      "right": "I promise I won't tell anybody.",
+      "note_tr": "Söz → **won't**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "It's cold in here. I ___ close the window.",
+      "answer": [
+        "will",
+        "'ll"
+      ],
+      "explain_tr": "Anlık karar → **will / 'll**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I think Turkey ___ win the match.",
+      "answer": [
+        "will"
+      ],
+      "explain_tr": "I think + tahmin → **will**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Don't worry, I ___ (not) forget your birthday.",
+      "answer": [
+        "won't",
+        "will not"
+      ],
+      "explain_tr": "Söz, olumsuz → **won't**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "___ you help me with these boxes, please?",
+      "answer": [
+        "Will",
+        "Can",
+        "Could",
+        "Would"
+      ],
+      "explain_tr": "Rica → **Will** you…?",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "She will ___ (be) 30 next month.",
+      "answer": [
+        "be"
+      ],
+      "explain_tr": "will + **be**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "A: \"We don't have any bread.\" B: \"___\"",
+      "options": [
+        "I'm going to buy some.",
+        "I'll buy some.",
+        "I buy some.",
+        "I will buying some."
+      ],
+      "answer": [
+        "I'll buy some."
+      ],
+      "explain_tr": "O anda karar → I'll.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is about a plan made before?",
+      "options": [
+        "I'll have the soup, please.",
+        "I think it will snow.",
+        "I'm going to start a course in May. I've already paid.",
+        "I'll help you."
+      ],
+      "answer": [
+        "I'm going to start a course in May. I've already paid."
+      ],
+      "explain_tr": "Önceden plan (already paid) → going to.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "He won't to come.",
+        "He won't come.",
+        "He won't comes.",
+        "He doesn't will come."
+      ],
+      "answer": [
+        "He won't come."
+      ],
+      "explain_tr": "won't + V1.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I think it will raining tomorrow.",
+      "answer": [
+        "I think it will rain tomorrow."
+      ],
+      "explain_tr": "will + **rain**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "Will you to marry me?",
+      "answer": [
+        "Will you marry me?"
+      ],
+      "explain_tr": "Will + özne + V1 (to yok).",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "She will goes to university next year.",
+      "answer": [
+        "She will go to university next year."
+      ],
+      "explain_tr": "will + **go**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I promise I am not late again.",
+      "answer": [
+        "I promise I won't be late again.",
+        "I promise I will not be late again."
+      ],
+      "explain_tr": "Söz → **won't be**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "will ile teklif cümlesi yaz:\nYour friend's bag is very heavy. (carry)",
+      "answer": [
+        "I'll carry it for you.",
+        "I will carry it for you.",
+        "I'll carry it.",
+        "I will carry it.",
+        "I'll carry your bag.",
+        "I will carry your bag."
+      ],
+      "explain_tr": "Teklif → I'll + V1.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "\"I think\" ve will ile tahmin yaz:\n(the exam / be / easy)",
+      "answer": [
+        "I think the exam will be easy."
+      ],
+      "explain_tr": "I think + will + be.",
+      "rule": "tenses"
+    }
+  ]
+}

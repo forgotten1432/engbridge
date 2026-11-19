@@ -1,0 +1,221 @@
+{
+  "id": "A2-M2-L1",
+  "level": "A2",
+  "title": "going to (plan)",
+  "rule": "tenses",
+  "explain_tr": [
+    "**be going to + V1** önceden **planlanmış** gelecek eylemleri anlatır: *I'**m going to visit** my aunt next week.* (Plan yaptım, karar verilmiş.)",
+    "Ayrıca şu anki **kanıta** dayanan tahmin için: *Look at those clouds! It'**s going to rain**.*",
+    "Kalıp: **am / is / are + going to + V1**. En sık hata **be**'yi düşürmek: *I going to buy* ✗ → *I **am** going to buy* ✓. İkinci hata **to**'yu unutmak ya da -ing eklemek: *going buy* ✗, *going to buying* ✗.",
+    "Olumsuz: *She **isn't going to** come.* Soru: ***Are** you **going to** study tonight?*",
+    "Günlük konuşmada *going to* çoğu zaman **gonna** gibi duyulur; ama **yazıda going to** kullan."
+  ],
+  "explain_en": [
+    "be going to + base verb: plans and intentions, and predictions based on present evidence. Don't drop am/is/are."
+  ],
+  "table": [
+    [
+      "Özne",
+      "Olumlu",
+      "Olumsuz",
+      "Soru"
+    ],
+    [
+      "I",
+      "I'm going to + V1",
+      "I'm not going to + V1",
+      "Am I going to…?"
+    ],
+    [
+      "he/she/it",
+      "is going to + V1",
+      "isn't going to + V1",
+      "Is she going to…?"
+    ],
+    [
+      "you/we/they",
+      "are going to + V1",
+      "aren't going to + V1",
+      "Are you going to…?"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "I going to visit my grandparents.",
+      "right": "I am going to visit my grandparents.",
+      "note_tr": "**am** düşmez."
+    },
+    {
+      "wrong": "She is going buy a car.",
+      "right": "She is going to buy a car.",
+      "note_tr": "**to** düşmez."
+    },
+    {
+      "wrong": "We are going to watching a film.",
+      "right": "We are going to watch a film.",
+      "note_tr": "going to + **V1**."
+    },
+    {
+      "wrong": "Look at the sky! It will rain.",
+      "right": "Look at the sky! It's going to rain.",
+      "note_tr": "Kanıta dayalı tahmin → **going to**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "I ___ going to start a new job next month.",
+      "answer": [
+        "am",
+        "'m"
+      ],
+      "explain_tr": "I → **am** going to.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "They are going ___ move to Izmir in the summer.",
+      "answer": [
+        "to"
+      ],
+      "explain_tr": "going **to** + V1.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "My sister is going to ___ (study) medicine.",
+      "answer": [
+        "study"
+      ],
+      "explain_tr": "going to + **V1**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "___ you going to come to the party on Saturday?",
+      "answer": [
+        "Are"
+      ],
+      "explain_tr": "you ile soru → **Are**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "He ___ going to buy that phone. It's too expensive.",
+      "answer": [
+        "isn't",
+        "is not",
+        "'s not"
+      ],
+      "explain_tr": "Olumsuz → **isn't** going to.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Bu yaz Kaşgar'ı ziyaret edeceğiz.\" (planlı)",
+      "options": [
+        "We going to visit Kashgar this summer.",
+        "We are going to visit Kashgar this summer.",
+        "We are going visit Kashgar this summer.",
+        "We are going to visiting Kashgar this summer."
+      ],
+      "answer": [
+        "We are going to visit Kashgar this summer."
+      ],
+      "explain_tr": "are + going to + V1.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Look! That glass is at the edge of the table. It ___.",
+      "options": [
+        "is going to fall",
+        "going to fall",
+        "is going fall",
+        "falls"
+      ],
+      "answer": [
+        "is going to fall"
+      ],
+      "explain_tr": "Görünen kanıt → is going to.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Is she going to call you?",
+        "She is going to calls you?",
+        "Does she going to call you?",
+        "Is she going call you?"
+      ],
+      "answer": [
+        "Is she going to call you?"
+      ],
+      "explain_tr": "Is + özne + going to + V1?",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I going to learn Chinese next year.",
+      "answer": [
+        "I am going to learn Chinese next year.",
+        "I'm going to learn Chinese next year."
+      ],
+      "explain_tr": "**am** going to.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "We are going to visiting the museum tomorrow.",
+      "answer": [
+        "We are going to visit the museum tomorrow.",
+        "We're going to visit the museum tomorrow."
+      ],
+      "explain_tr": "going to + **visit**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "He is going play tennis after work.",
+      "answer": [
+        "He is going to play tennis after work.",
+        "He's going to play tennis after work."
+      ],
+      "explain_tr": "going **to** play.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "Do you going to cook dinner tonight?",
+      "answer": [
+        "Are you going to cook dinner tonight?"
+      ],
+      "explain_tr": "Soru: **Are** you going to…?",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "going to ile plan cümlesi yaz:\n(I / paint / my room / this weekend)",
+      "answer": [
+        "I am going to paint my room this weekend.",
+        "I'm going to paint my room this weekend.",
+        "This weekend I am going to paint my room.",
+        "This weekend I'm going to paint my room."
+      ],
+      "explain_tr": "am + going to + paint.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Olumsuz yap:\nThey are going to sell their house.",
+      "answer": [
+        "They aren't going to sell their house.",
+        "They are not going to sell their house.",
+        "They're not going to sell their house."
+      ],
+      "explain_tr": "aren't going to.",
+      "rule": "tenses"
+    }
+  ]
+}

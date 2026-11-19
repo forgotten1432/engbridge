@@ -1,0 +1,226 @@
+{
+  "id": "A2-M3-L2",
+  "level": "A2",
+  "title": "the biggest / the most",
+  "rule": "comparatives",
+  "explain_tr": [
+    "Üç ya da daha fazla şey arasında **en** … olanı söylemek için **superlative** kullanılır: *Everest is **the highest** mountain in the world.*",
+    "**Kısa sıfatlar:** **the + -est** → *the cheapest, the oldest, the biggest* (ikileme), *the easiest* (y → iest). **Uzun sıfatlar:** **the most** + sıfat → *the most expensive, the most beautiful*.",
+    "Düzensizler: **good → the best**, **bad → the worst**, **far → the furthest**.",
+    "**the** düşmez: *She is best student* ✗ → *She is **the** best student.* Grup/yer için **in**: *the tallest **in** the class, the biggest city **in** Turkey*; zaman için genelde **of**: *the best day **of** my life*.",
+    "**ever** + Present Perfect ile sık kullanılır: *It's **the best** film I've **ever** seen.* (Şimdiye kadar izlediğim en iyi film.)"
+  ],
+  "explain_en": [
+    "Superlatives: the + adjective-est (the biggest) or the most + long adjective (the most expensive). Irregular: the best, the worst. Use 'in' with places/groups."
+  ],
+  "table": [
+    [
+      "Sıfat",
+      "Comparative",
+      "Superlative"
+    ],
+    [
+      "cheap",
+      "cheaper",
+      "the cheapest"
+    ],
+    [
+      "big",
+      "bigger",
+      "the biggest"
+    ],
+    [
+      "happy",
+      "happier",
+      "the happiest"
+    ],
+    [
+      "beautiful",
+      "more beautiful",
+      "the most beautiful"
+    ],
+    [
+      "good",
+      "better",
+      "the best"
+    ],
+    [
+      "bad",
+      "worse",
+      "the worst"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "This is the most cheapest phone.",
+      "right": "This is the cheapest phone.",
+      "note_tr": "Kısa sıfat → sadece **-est**."
+    },
+    {
+      "wrong": "He is the taller boy in the class.",
+      "right": "He is the tallest boy in the class.",
+      "note_tr": "Grup içinde en → **-est**."
+    },
+    {
+      "wrong": "It was the most good day of my life.",
+      "right": "It was the best day of my life.",
+      "note_tr": "good → **the best**."
+    },
+    {
+      "wrong": "Istanbul is biggest city of Turkey.",
+      "right": "Istanbul is the biggest city in Turkey.",
+      "note_tr": "**the** + yer için **in**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "This is ___ (cheap) restaurant in our street.",
+      "answer": [
+        "the cheapest"
+      ],
+      "explain_tr": "**the cheapest**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Ayşe is the ___ (intelligent) student in our class.",
+      "answer": [
+        "most intelligent"
+      ],
+      "explain_tr": "Uzun → **most intelligent**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "That was the ___ (bad) film I've ever seen.",
+      "answer": [
+        "worst"
+      ],
+      "explain_tr": "bad → **worst**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Winter is the ___ (cold) season of the year.",
+      "answer": [
+        "coldest"
+      ],
+      "explain_tr": "cold → **coldest**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "It's the best book I have ___ read.",
+      "answer": [
+        "ever"
+      ],
+      "explain_tr": "the best … I've **ever** read.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Turpan is one of the ___ (hot) places in China.",
+      "answer": [
+        "hottest"
+      ],
+      "explain_tr": "hot → **hottest**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Ailemizin en yaşlısı büyükbabam.\"",
+      "options": [
+        "My grandfather is the oldest in our family.",
+        "My grandfather is older in our family.",
+        "My grandfather is the most old in our family.",
+        "My grandfather is oldest of our family."
+      ],
+      "answer": [
+        "My grandfather is the oldest in our family."
+      ],
+      "explain_tr": "the oldest + in.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "She is the most happy person I know.",
+        "She is the happiest person I know.",
+        "She is the happyest person I know.",
+        "She is happiest person I know."
+      ],
+      "answer": [
+        "She is the happiest person I know."
+      ],
+      "explain_tr": "happy → the happiest.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which word fits? \"It is the ___ expensive car in the shop.\"",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "best"
+      ],
+      "answer": [
+        "most"
+      ],
+      "explain_tr": "the most + uzun sıfat.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "This is the most easy exercise in the book.",
+      "answer": [
+        "This is the easiest exercise in the book."
+      ],
+      "explain_tr": "easy → **the easiest**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "Who is best football player in the world?",
+      "answer": [
+        "Who is the best football player in the world?"
+      ],
+      "explain_tr": "**the** best.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "Antalya is the more popular city for tourists in Turkey.",
+      "answer": [
+        "Antalya is the most popular city for tourists in Turkey."
+      ],
+      "explain_tr": "en → **the most**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "transform",
+      "prompt": "Superlative ile cümle yaz:\nAli is 1.70, Kemal is 1.85, Murat is 1.78. (tall)",
+      "answer": [
+        "Kemal is the tallest.",
+        "Kemal is the tallest of the three.",
+        "Kemal is the tallest boy.",
+        "Kemal is the tallest one."
+      ],
+      "explain_tr": "Kemal → the tallest.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "transform",
+      "prompt": "Superlative ile cümle yaz:\nThis is a very good day. I have never had a better day. (good / of my life)",
+      "answer": [
+        "This is the best day of my life.",
+        "It is the best day of my life.",
+        "It's the best day of my life."
+      ],
+      "explain_tr": "the best day of my life.",
+      "rule": "comparatives"
+    }
+  ]
+}

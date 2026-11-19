@@ -6,6 +6,7 @@
     "irregular-verbs": { "tr": "Düzensiz fiiller", "en": "Irregular verb forms (V2/V3)" },
     "used-to": { "tr": "used to / be used to", "en": "used to + V1 vs be/get used to + V-ing" },
     "gerund-infinitive": { "tr": "-ing mi, to mu?", "en": "Gerunds vs infinitives after verbs" },
+    "comparatives": { "tr": "Karşılaştırma", "en": "Comparatives, superlatives, as…as, too/enough" },
     "phrasal-verbs": { "tr": "Phrasal verb'ler", "en": "Phrasal verbs in daily and workplace contexts" },
     "conditionals": { "tr": "Koşul cümleleri", "en": "Conditional sentences (zero, first, second, third, mixed)" },
     "modals": { "tr": "Modal fiiller", "en": "Modal verbs and past modals" },
@@ -44,21 +45,21 @@
       "id": "A2", "title": "Temel", "desc": "Geçmiş ve gelecek, karşılaştırma, günlük ihtiyaçlar.",
       "modules": [
         { "id": "A2-M1", "title": "1. Geçmiş zaman (Past Simple)", "lessons": [
-          { "id": "A2-M1-L1", "title": "was / were" },
-          { "id": "A2-M1-L2", "title": "Düzenli fiiller: worked, played" },
-          { "id": "A2-M1-L3", "title": "En sık 30 düzensiz fiil" } ] },
+          { "id": "A2-M1-L1", "title": "was / were", "ready": true, "count": 14 },
+          { "id": "A2-M1-L2", "title": "Düzenli fiiller: worked, played", "ready": true, "count": 14 },
+          { "id": "A2-M1-L3", "title": "En sık 30 düzensiz fiil", "ready": true, "count": 15 } ] },
         { "id": "A2-M2", "title": "2. Gelecek", "lessons": [
-          { "id": "A2-M2-L1", "title": "going to (plan)" },
-          { "id": "A2-M2-L2", "title": "will (karar, tahmin)" },
-          { "id": "A2-M2-L3", "title": "Present Continuous ile randevular" } ] },
+          { "id": "A2-M2-L1", "title": "going to (plan)", "ready": true, "count": 14 },
+          { "id": "A2-M2-L2", "title": "will (karar, tahmin)", "ready": true, "count": 14 },
+          { "id": "A2-M2-L3", "title": "Present Continuous ile randevular", "ready": true, "count": 14 } ] },
         { "id": "A2-M3", "title": "3. Karşılaştırma", "lessons": [
-          { "id": "A2-M3-L1", "title": "bigger / more expensive" },
-          { "id": "A2-M3-L2", "title": "the biggest / the most" },
-          { "id": "A2-M3-L3", "title": "as … as, too / enough" } ] },
+          { "id": "A2-M3-L1", "title": "bigger / more expensive", "ready": true, "count": 14 },
+          { "id": "A2-M3-L2", "title": "the biggest / the most", "ready": true, "count": 14 },
+          { "id": "A2-M3-L3", "title": "as … as, too / enough", "ready": true, "count": 14 } ] },
         { "id": "A2-M4", "title": "4. Present Perfect'e giriş", "lessons": [
-          { "id": "A2-M4-L1", "title": "I have been / Have you ever…?" },
-          { "id": "A2-M4-L2", "title": "already, yet, just" },
-          { "id": "A2-M4-L3", "title": "Past Simple mi, Present Perfect mi?" } ] }
+          { "id": "A2-M4-L1", "title": "I have been / Have you ever…?", "ready": true, "count": 14 },
+          { "id": "A2-M4-L2", "title": "already, yet, just", "ready": true, "count": 14 },
+          { "id": "A2-M4-L3", "title": "Past Simple mi, Present Perfect mi?", "ready": true, "count": 15 } ] }
       ]
     },
     {

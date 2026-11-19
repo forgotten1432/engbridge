@@ -1,0 +1,220 @@
+{
+  "id": "A2-M1-L2",
+  "level": "A2",
+  "title": "Düzenli fiiller: worked, played",
+  "rule": "tenses",
+  "explain_tr": [
+    "**Past Simple** geçmişte olup bitmiş eylemleri anlatır: *I **worked** yesterday.* Düzenli fiillere **-ed** eklenir ve bu hâl **bütün kişiler için aynıdır**: I/you/she/they **worked**.",
+    "Yazım kuralları: **-e** ile bitene sadece **-d**: *live → lived, like → liked*. **Ünsüz + y** → **-ied**: *study → studied, try → tried* (ama ünlü + y: *play → played*). Kısa fiil, tek ünlü + tek ünsüz → son harf ikilenir: *stop → stopped, plan → planned*.",
+    "Olumsuz: **didn't + V1** → *I **didn't work*** (✗ didn't worked). Soru: **Did + özne + V1?** → ***Did** you **watch** the match?*",
+    "Telaffuz: *-ed* üç şekilde okunur: /t/ (worked, stopped), /d/ (played, lived), /ɪd/ sadece -t/-d ile bitenlerde (wanted, needed).",
+    "Türkçede geçmiş **-dı** ile belli olur; İngilizcede de mutlaka işaret gerekir: *Yesterday I watch TV* ✗ → *Yesterday I **watched** TV* ✓."
+  ],
+  "explain_en": [
+    "Regular past simple: verb + -ed for all persons. Spelling: live→lived, study→studied, stop→stopped. Negative: didn't + base verb. Question: Did + subject + base verb?"
+  ],
+  "table": [
+    [
+      "Kural",
+      "V1",
+      "V2"
+    ],
+    [
+      "+ed",
+      "work, play",
+      "worked, played"
+    ],
+    [
+      "-e → +d",
+      "live, dance",
+      "lived, danced"
+    ],
+    [
+      "ünsüz + y → -ied",
+      "study, carry",
+      "studied, carried"
+    ],
+    [
+      "ikileme",
+      "stop, plan",
+      "stopped, planned"
+    ],
+    [
+      "Olumsuz",
+      "—",
+      "didn't + V1"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "Yesterday I watch a film.",
+      "right": "Yesterday I watched a film.",
+      "note_tr": "Geçmiş → **-ed**."
+    },
+    {
+      "wrong": "She didn't liked the food.",
+      "right": "She didn't like the food.",
+      "note_tr": "didn't + **V1**."
+    },
+    {
+      "wrong": "I studyed English last night.",
+      "right": "I studied English last night.",
+      "note_tr": "study → **studied**."
+    },
+    {
+      "wrong": "Did you visited your grandmother?",
+      "right": "Did you visit your grandmother?",
+      "note_tr": "Did + **V1**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "We ___ (play) football in the park last Sunday.",
+      "answer": [
+        "played"
+      ],
+      "explain_tr": "play → **played** (ünlü + y).",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "She ___ (study) for three hours yesterday.",
+      "answer": [
+        "studied"
+      ],
+      "explain_tr": "study → **studied**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "The bus ___ (stop) in front of the school.",
+      "answer": [
+        "stopped"
+      ],
+      "explain_tr": "stop → **stopped** (ikileme).",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "I didn't ___ (watch) the news last night.",
+      "answer": [
+        "watch"
+      ],
+      "explain_tr": "didn't + **V1**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "cloze",
+      "prompt": "___ you call your mother yesterday?",
+      "answer": [
+        "Did"
+      ],
+      "explain_tr": "Geçmiş soru → **Did**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the correct spelling.",
+      "options": [
+        "planed",
+        "planned",
+        "planied",
+        "plannd"
+      ],
+      "answer": [
+        "planned"
+      ],
+      "explain_tr": "plan → **planned**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Dün akşam annem bana yardım etti.\"",
+      "options": [
+        "My mother help me last night.",
+        "My mother helped me last night.",
+        "My mother helps me last night.",
+        "My mother did helped me last night."
+      ],
+      "answer": [
+        "My mother helped me last night."
+      ],
+      "explain_tr": "Geçmiş → helped.",
+      "rule": "tenses"
+    },
+    {
+      "type": "mcq",
+      "prompt": "In which word is -ed pronounced /ɪd/?",
+      "options": [
+        "worked",
+        "played",
+        "wanted",
+        "lived"
+      ],
+      "answer": [
+        "wanted"
+      ],
+      "explain_tr": "-t ile biten fiil → /ɪd/.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "I lived in Ankara two years ago and I work in a bank.",
+      "answer": [
+        "I lived in Ankara two years ago and I worked in a bank."
+      ],
+      "explain_tr": "İkinci fiil de geçmiş: **worked**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "He didn't called me yesterday.",
+      "answer": [
+        "He didn't call me yesterday.",
+        "He did not call me yesterday."
+      ],
+      "explain_tr": "didn't + **call**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "They tryed to open the door.",
+      "answer": [
+        "They tried to open the door."
+      ],
+      "explain_tr": "try → **tried**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "fix",
+      "prompt": "Did she finished her homework?",
+      "answer": [
+        "Did she finish her homework?"
+      ],
+      "explain_tr": "Did + **finish**.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Geçmişe çevir (last weekend ile):\nI clean my room.",
+      "answer": [
+        "I cleaned my room last weekend.",
+        "Last weekend I cleaned my room.",
+        "Last weekend, I cleaned my room."
+      ],
+      "explain_tr": "clean → cleaned.",
+      "rule": "tenses"
+    },
+    {
+      "type": "transform",
+      "prompt": "Olumsuz yap:\nWe visited the museum.",
+      "answer": [
+        "We didn't visit the museum.",
+        "We did not visit the museum."
+      ],
+      "explain_tr": "didn't + V1.",
+      "rule": "tenses"
+    }
+  ]
+}

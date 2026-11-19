@@ -1,0 +1,224 @@
+{
+  "id": "A2-M3-L1",
+  "level": "A2",
+  "title": "bigger / more expensive",
+  "rule": "comparatives",
+  "explain_tr": [
+    "İki şeyi karşılaştırırken **comparative** + **than** kullanılır. Türkçedeki *\"-den daha …\"*: *Ankara **is bigger than** Konya.*",
+    "**Kısa sıfatlar** (tek heceli): **-er** → *cheap → cheaper, old → older*. -e ile biten: *large → larger*. Tek ünlü + tek ünsüz: son harf ikilenir → *big → bigger, hot → hotter*. Ünsüz + y: *easy → easier, happy → happier*.",
+    "**Uzun sıfatlar** (2+ hece): **more** + sıfat → *more expensive, more interesting, more comfortable*. **Asla ikisi birden olmaz**: *more cheaper* ✗.",
+    "Düzensizler: **good → better**, **bad → worse**, **far → further/farther**, *many/much → more*, *little → less*.",
+    "Karşılaştırmada da **be** düşmez: *My flat bigger than yours* ✗ → *My flat **is** bigger than yours.* *than* düşmesin: *She is taller me* ✗ → *taller **than** me*. **Daha çok/biraz**: *much bigger, a bit cheaper*."
+  ],
+  "explain_en": [
+    "Comparatives: short adjectives + -er (bigger, easier); long adjectives: more + adjective (more expensive). Irregular: good→better, bad→worse. Use than. Never 'more + -er'."
+  ],
+  "table": [
+    [
+      "Sıfat",
+      "Comparative",
+      "Kural"
+    ],
+    [
+      "cheap",
+      "cheaper",
+      "+er"
+    ],
+    [
+      "big",
+      "bigger",
+      "ikileme"
+    ],
+    [
+      "easy",
+      "easier",
+      "y → ier"
+    ],
+    [
+      "expensive",
+      "more expensive",
+      "more +"
+    ],
+    [
+      "good",
+      "better",
+      "düzensiz"
+    ],
+    [
+      "bad",
+      "worse",
+      "düzensiz"
+    ]
+  ],
+  "pairs": [
+    {
+      "wrong": "My phone is more cheaper than yours.",
+      "right": "My phone is cheaper than yours.",
+      "note_tr": "Kısa sıfat → sadece **-er**."
+    },
+    {
+      "wrong": "This book is interestinger than that one.",
+      "right": "This book is more interesting than that one.",
+      "note_tr": "Uzun sıfat → **more**."
+    },
+    {
+      "wrong": "Istanbul is bigger that Bursa.",
+      "right": "Istanbul is bigger than Bursa.",
+      "note_tr": "**than** (that değil)."
+    },
+    {
+      "wrong": "Today is gooder than yesterday.",
+      "right": "Today is better than yesterday.",
+      "note_tr": "good → **better**."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "cloze",
+      "prompt": "A car is ___ (fast) than a bicycle.",
+      "answer": [
+        "faster"
+      ],
+      "explain_tr": "fast → **faster**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "This hotel is ___ (expensive) than the one near the station.",
+      "answer": [
+        "more expensive"
+      ],
+      "explain_tr": "Uzun → **more expensive**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "July is usually ___ (hot) than May in Turkey.",
+      "answer": [
+        "hotter"
+      ],
+      "explain_tr": "hot → **hotter** (ikileme).",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "My English is ___ (good) now than last year.",
+      "answer": [
+        "better"
+      ],
+      "explain_tr": "good → **better**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "The second exam was ___ (easy) than the first one.",
+      "answer": [
+        "easier"
+      ],
+      "explain_tr": "easy → **easier**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Kashgar is further from Istanbul ___ Ankara is.",
+      "answer": [
+        "than"
+      ],
+      "explain_tr": "Karşılaştırma → **than**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "mcq",
+      "prompt": "\"Kardeşim benden uzun.\"",
+      "options": [
+        "My brother is taller than me.",
+        "My brother taller than me.",
+        "My brother is more tall than me.",
+        "My brother is taller that me."
+      ],
+      "answer": [
+        "My brother is taller than me."
+      ],
+      "explain_tr": "is + taller + than.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which comparative is correct?",
+      "options": [
+        "more cheaper",
+        "badder",
+        "more comfortable",
+        "beautifuller"
+      ],
+      "answer": [
+        "more comfortable"
+      ],
+      "explain_tr": "comfortable uzun → more comfortable.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "mcq",
+      "prompt": "The weather today is ___ than yesterday. It's raining and very cold.",
+      "options": [
+        "better",
+        "worse",
+        "more bad",
+        "badder"
+      ],
+      "answer": [
+        "worse"
+      ],
+      "explain_tr": "bad → worse.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "Living in a village is more quieter than living in a city.",
+      "answer": [
+        "Living in a village is quieter than living in a city."
+      ],
+      "explain_tr": "quiet → **quieter** (more yok).",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "This exercise more difficult than the last one.",
+      "answer": [
+        "This exercise is more difficult than the last one."
+      ],
+      "explain_tr": "Düşen **is**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "fix",
+      "prompt": "My new flat is biger than my old one.",
+      "answer": [
+        "My new flat is bigger than my old one."
+      ],
+      "explain_tr": "big → **bigger**.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "transform",
+      "prompt": "Karşılaştırma cümlesi yaz:\nThe train takes 3 hours. The bus takes 5 hours. (fast)",
+      "answer": [
+        "The train is faster than the bus."
+      ],
+      "explain_tr": "fast → faster than.",
+      "rule": "comparatives"
+    },
+    {
+      "type": "transform",
+      "prompt": "Karşılaştırma cümlesi yaz:\nThe red bag costs 900 TL. The black bag costs 400 TL. (expensive)",
+      "answer": [
+        "The red bag is more expensive than the black bag.",
+        "The red bag is more expensive than the black one.",
+        "The red bag is much more expensive than the black bag.",
+        "The red bag is much more expensive than the black one."
+      ],
+      "explain_tr": "more expensive than.",
+      "rule": "comparatives"
+    }
+  ]
+}
