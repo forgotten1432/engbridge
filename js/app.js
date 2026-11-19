@@ -10,14 +10,15 @@ import { renderRead } from './views/read.js';
 import { renderErrors } from './views/errors.js';
 import { renderVault } from './views/vault.js';
 import { renderAI } from './views/ai.js';
+import { renderTutor, setTabSwitcher } from './views/tutor.js';
 
-const VIEWS = { learn: renderLearn, read: renderRead, errors: renderErrors, vault: renderVault, ai: renderAI };
-let current = 'learn';
+const VIEWS = { tutor: renderTutor, learn: renderLearn, read: renderRead, errors: renderErrors, vault: renderVault, ai: renderAI };
+let current = 'tutor';
 
 async function show(tab, params) {
   stop();
   current = tab;
-  $$('.tabs button').forEach(b => b.classList.toggle('on', b.dataset.tab === tab));
+  $$('.tabs button').forEach(b => b.classList.toggle('on', b.dataset.tab === (tab === 'ai' ? 'tutor' : tab)));
   const view = $('#view');
   try { await VIEWS[tab](view, params); }
   catch (e) { console.error(e); view.innerHTML = `<div class="card">Bir sorun oluştu: ${e.message}</div>`; }
@@ -57,7 +58,8 @@ function init() {
   sel.onchange = () => { get().profile.level = sel.value; save(); toast(`Seviyen: ${sel.value}`); show(current); };
   $$('.tabs button').forEach(b => b.onclick = () => show(b.dataset.tab));
   onChange(badges);
-  seed().then(() => { badges(); show('learn'); });
+  setTabSwitcher(show);
+  seed().then(() => { badges(); show('tutor'); });
   if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(e => console.warn('sw', e));
   if (navigator.storage?.persist) navigator.storage.persist().catch(() => {});
 }

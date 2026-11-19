@@ -50,3 +50,4 @@ export async function lexiconLookup(word) {
   for (const t of tries) if (t && lexMap.has(t)) return lexMap.get(t);
   return null;
 }
+export const tutorSeed = () => json('content/tutor.json');

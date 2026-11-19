@@ -28,7 +28,8 @@ const PROMPTS = {
   C2: ['"Efficiency is the enemy of creativity." Discuss.', 'Critically assess the claim that cities, not nations, will shape the future.'],
 };
 
-export function renderAI(view) {
+export function renderAI(view, params) {
+  if (params?.sub) sub = params.sub;
   const s = get();
   view.innerHTML = `<h1>AI Öğretmen</h1>
     <div class="seg">${[['write', '✍️ Yazı'], ['chat', '💬 Sohbet'], ['gen', '🧪 Alıştırma'], ['me', '⚙️ Profil']].map(([k, l]) => `<button data-s="${k}" class="${sub === k ? 'on' : ''}">${l}</button>`).join('')}</div>

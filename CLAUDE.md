@@ -7,6 +7,7 @@
 - Origin: the owner supplied a spec for "EngBridge B1→B2" and asked to extend it to **all levels A1–C2**, build the skeleton first and add content little by little.
 
 ## Architecture (see README.md for the full layout and content formats)
+- **Main screen is the AI tutor** (`js/tutor.js` + `js/views/tutor.js`, owner's choice on 2026-11-19 after disliking the plain lesson → exercise flow). It follows `docs/ogretmen-yontemi.md` (the owner's tutor instructions): homework or next lesson → Stage 1 (6 vocab + grammar + 5 exercises) → Stage 2 (reading + one-question-at-a-time conversation, 5 turns) → end-of-lesson summary, error-log update, homework, next lesson. Memory = `state.tutor`, seeded once from `content/tutor.json`; position advances 3 lessons per module. Every AI response is JSON (`call(..., {json:true})` in `ai.js`). The static lessons (Dersler tab) stay as offline reference; the old AI tools/settings are reached from Öğretmen → Diğer (view `ai`, no nav button).
 - `js/app.js` tab router + first-run seeding; `js/store.js` localStorage state (`engbridge.v1`) + JSON backup/restore; `js/srs.js` SM-2; `js/text.js` answer normalisation (contractions, case, punctuation) and dictation word diff; `js/exercise.js` shared player for `cloze | fix | mcq | transform`; `js/errors.js` Error Hunter log; `js/ai.js` Gemini; `js/views/*.js` the five tabs.
 - All learning content is JSON in `content/`. `content/curriculum.json` holds `rules` (error categories) and the A1–C2 plan (6 levels, 23 modules, 69 lessons). A lesson shows as available only when it has `"ready": true` and a file `content/lessons/<id>.json` exists.
 - Wrong answers from lessons, dictation and AI reviews go to the Error Hunter (SM-2, mastered after 3 correct in a row).
@@ -20,13 +21,13 @@
 - `[hidden]{display:none!important}` in CSS is required (the bottom sheet used `display:flex` and blocked all taps).
 
 ## Content status (as of 2026-11-18)
-- Lessons done: `A1-M1-L1` (am/is/are) and **all 18 B1 lessons** (B1-M1 … B1-M6), 12–14 exercises each.
+- Lessons done: `A1-M1-L1` (am/is/are), **all 18 B1 lessons** and **all 12 A2 lessons**, 12–15 exercises each. Rule `comparatives` was added for A2-M3.
 - Reading (10): `a1-my-day`, `a2-new-neighbours`, `a2-busy-weekend`, `b1-remote-work`, `b1-first-interview`, `b1-language-learning`, `b1-moving-city`, `b1-smartphones`, `b2-four-day-week`, `b2-silk-road` (glossary with IPA/TR/UG, 4–5 questions each). Glossary keys must not contain apostrophes (text is HTML-escaped before matching).
 - 44 dictation sentences (A1–C2), 16 seed vocab cards, 15 diagnostic errors (from the owner's learner profile).
 - `matches()` in `text.js` ignores punctuation, so a `fix` item must need a word change (not only punctuation); MCQ compares the chosen option exactly.
 - Open lexicon `content/lexicon/{A1..C2}.json` (8,648 words: CEFR-J/Octanove levels, WordNet definitions via Openjam, CMU IPA), built by `tools/build_lexicon.py`; shown in Kelimeler → 📚 Sözlük and on tapping any word in a reading passage. Keep the licence credits (README + AI → Profil) when changing it.
 - Candidate open sources not yet added: Tatoeba EN–TR/EN–UG sentence pairs (CC BY 2.0 FR, per-sentence attribution; tatoeba.org/manythings.org are not reachable from Claude's sandbox, the owner has to upload the file), VOA Learning English texts (public domain, credit learningenglish.voanews.com).
-- **Next:** A2 lessons (12) and the rest of A1 (11), then B2, C1, C2; more C1/C2 reading passages and dictation.
+- **Next:** tune the tutor with the owner's feedback; rest of A1 (11 static lessons), then B2, C1, C2; more C1/C2 reading passages and dictation.
 - Learner profile to target: B1 overall; weaknesses: dropping is/are/was/were/had in multi-clause sentences, irregular verbs (drive/drove/driven vs derive), phrasal verb precision (put off vs call off, come up, figure out, turn down, take over, catch up), third conditional, used to + V1 vs be used to + V-ing, run-on sentences instead of 4–5 sentence paragraphs with connectors.
 - Uyghur translations were written by Claude and have not been checked by a native speaker; say so when adding more.
 

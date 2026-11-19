@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "level": "B1",
+    "receptive": "B2 — strong at extracting main ideas from paraphrased passages and recognising formal business/polite vocabulary (afford, inconvenience).",
+    "productive": "A2+–B1 — communicates ideas clearly, but drops auxiliary/linking verbs under cognitive load and tends to write single-sentence answers instead of 3–5 sentence paragraphs.",
+    "languages": "Native/fluent in Turkish and Uyghur (Arabic script).",
+    "interests": "Learns best through video tutorials combined with hands-on building and troubleshooting (e.g. technical Minecraft mods: Create, Mekanism, Modern Industrialization). Values practical, real-world fluency and structured step-by-step feedback.",
+    "goal": "CEFR B1 → confident B2 in reading, speaking, listening and writing."
+  },
+  "modules": [
+    { "n": 1, "title": "Core Clause Structure & Auxiliary Verbs", "focus": "Eliminating dropped be (am/is/are) and have/had; Present Simple vs Continuous; top irregular verbs (drive–drove–driven).", "lesson": "B1-M1", "status": "in-progress" },
+    { "n": 2, "title": "Gerunds, Infinitives & Used To Patterns", "focus": "used to + V1 (past habits), be used to + V-ing (familiarity), get used to + V-ing (adapting); verb + preposition patterns.", "lesson": "B1-M2", "status": "not-started" },
+    { "n": 3, "title": "High-Frequency Everyday Phrasal Verbs", "focus": "put off vs call off, come up, figure out, look into, turn down, catch up; separable pronoun order.", "lesson": "B1-M3", "status": "not-started" },
+    { "n": 4, "title": "Conditionals & Hypothetical Thinking", "focus": "Zero, 1st, 2nd and 3rd conditionals (If I knew… vs If I had known…); past modals of deduction (must/should/might have).", "lesson": "B1-M4", "status": "not-started" },
+    { "n": 5, "title": "Structured Paragraph Writing", "focus": "Expanding 1-sentence replies into cohesive 4–5 sentence paragraphs: topic sentences, connectors (furthermore, however, as a result), punctuation.", "lesson": "B1-M5", "status": "not-started" },
+    { "n": 6, "title": "B2 Fluency & Register Control", "focus": "Shifting between casual conversation and professional writing with idioms, collocations and nuanced B2 vocabulary.", "lesson": "B1-M6", "status": "not-started" }
+  ],
+  "position": { "module": 1, "lesson": 2 },
+  "next": "Eliminating dropped have / had auxiliaries in Present Perfect & Past Perfect sentences, plus high-frequency irregular verbs in everyday storytelling.",
+  "log": [
+    { "title": "Initial 10-question adaptive placement test", "summary": "Identified B1 overall (B2 receptive / A2+–B1 productive) and generated the 6-module roadmap.", "vocab": [], "at": "2026-11-01" },
+    { "title": "Module 1, Lesson 1 — Clause completeness (be), present tenses & learning collocations", "summary": "Grammar practised: keeping am/is/are before adjectives and -ing verbs; Present Simple vs Present Continuous (is driving vs derived); zero conditional introductory comma.", "vocab": ["pick up", "keep track of", "tend to", "figure out", "hands-on", "gradually"], "at": "2026-11-01" }
+  ],
+  "homework": {
+    "prompt": "What is one skill or subject you are currently trying to improve, and what hands-on method helps you keep track of your progress?",
+    "targets": ["pick up", "keep track of", "tend to", "figure out", "hands-on", "gradually"],
+    "checklist": ["3–4 connected sentences", "At least two target expressions", "A complete finite verb (am/is/are…) in every clause"],
+    "from": "Module 1, Lesson 1"
+  },
+  "patterns": [
+    { "title": "Dropped linking/auxiliary be (is / are)", "wrong": "Watching videos [is] more effective because when you [are] learning…", "right": "Watching videos is more effective because when you are learning…", "rule": "Every English clause needs a finite verb: is/are before adjectives, am/is/are before -ing verbs.", "tag": "aux-drop" },
+    { "title": "Separable phrasal verb pronoun order", "wrong": "I felt I figured out it.", "right": "I felt I figured it out.", "rule": "Object pronouns go between verb and particle: figure it out, pick it up, put it off.", "tag": "phrasal-verbs" },
+    { "title": "Time duration with take", "wrong": "It took my lots of time to figure out…", "right": "It took me a lot of time to figure out…", "rule": "Use an object pronoun after take + duration: It took me two hours.", "tag": "general" },
+    { "title": "Transitive verb cause (no 'to')", "wrong": "…small details that causes to mistakes.", "right": "…small details that cause mistakes.", "rule": "cause + direct object (compare: lead to mistakes).", "tag": "vocabulary" },
+    { "title": "Reflexive pronoun agreement", "wrong": "…by watching videos and making it oneself.", "right": "…by watching videos and making it myself.", "rule": "Match the reflexive to the subject: I → myself, you → yourself.", "tag": "general" },
+    { "title": "drive vs derive", "wrong": "Today she derived because of the rain.", "right": "Today she is driving because of the rain.", "rule": "drive–drove–driven; derive = to obtain from a source.", "tag": "irregular-verbs" },
+    { "title": "put off vs call off", "wrong": "…call off the meeting until next Tuesday.", "right": "…put off the meeting until next Tuesday.", "rule": "put off = postpone; call off = cancel completely.", "tag": "phrasal-verbs" },
+    { "title": "3rd conditional auxiliary had", "wrong": "If I known you were coming…", "right": "If I had known you were coming…", "rule": "If + had + V3, would have + V3.", "tag": "conditionals" },
+    { "title": "be used to + gerund", "wrong": "…now I am used to hear it.", "right": "…now I am used to hearing it.", "rule": "to is a preposition here, so -ing follows.", "tag": "used-to" },
+    { "title": "Paragraph length & introductory comma", "wrong": "If I forget something I… (one-sentence answer)", "right": "If I forget something, I… (3–4 connected sentences)", "rule": "Comma after an introductory if-clause; expand 1-sentence answers into 3–4 connected sentences.", "tag": "connectors" }
+  ],
+  "turkish": "normal"
+}

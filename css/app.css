@@ -111,3 +111,18 @@ details.level summary::-webkit-details-marker{display:none}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--nav) + env(safe-area-inset-bottom) + 14px);z-index:30;background:#111827;border:1px solid var(--line);padding:10px 14px;border-radius:12px;max-width:90vw}
 .spin{display:inline-block;width:16px;height:16px;border:2px solid var(--muted);border-top-color:transparent;border-radius:50%;animation:s .8s linear infinite;vertical-align:-3px}
 @keyframes s{to{transform:rotate(360deg)}}
+
+/* tutor */
+.warn-card{border-color:#92400e;background:#2a1a08}
+.mods{display:grid;gap:6px;margin-top:8px}
+.modrow{display:flex;align-items:center;gap:10px;background:var(--card2);border-radius:10px;padding:8px 10px;font-size:14px}
+.modrow .n{width:24px;height:24px;border-radius:50%;background:#0b1222;display:grid;place-items:center;font-weight:700;font-size:13px;flex:none}
+.modrow.in-progress .n{background:var(--warn);color:#111}.modrow.done .n{background:var(--ok);color:#052e16}
+.stepper{display:flex;gap:4px;flex-wrap:wrap;margin:8px 0 4px}
+.stepper span{font-size:12px;padding:3px 8px;border-radius:99px;background:var(--card);border:1px solid var(--line);color:var(--muted)}
+.stepper span.on{background:var(--primary);border-color:var(--primary2);color:#fff}.stepper span.done{color:#86efac;border-color:#166534}
+.vcard .term{font-size:20px}.en{font-size:17px;margin-top:4px}
+.hw{font-size:17px;font-style:italic}
+.tbl{width:100%;border-collapse:collapse;margin:8px 0;font-size:14px}.tbl th,.tbl td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}.tbl th{background:var(--card2)}
+.review{margin:-2px 0 6px;border-left:3px solid var(--warn);padding:2px 0 2px 10px}
+details.card summary{cursor:pointer}

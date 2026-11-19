@@ -1,12 +1,12 @@
 // Offline support. App shell: cache-first. Content JSON: network-first with cache fallback,
 // so new lessons appear as soon as they are published.
-const VERSION = 'engbridge-v6';
+const VERSION = 'engbridge-v7';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './icon.svg', './icon-180.png', './icon-192.png', './icon-512.png',
   './css/app.css?v=1', './js/app.js?v=1', './js/app.js', './js/store.js', './js/srs.js', './js/text.js', './js/speech.js',
-  './js/ui.js', './js/content.js', './js/errors.js', './js/ai.js', './js/exercise.js',
-  './js/views/learn.js', './js/views/read.js', './js/views/errors.js', './js/views/vault.js', './js/views/ai.js',
-  './content/curriculum.json', './content/dictation.json', './content/vocab.json', './content/errors.json', './content/reading/index.json',
+  './js/ui.js', './js/content.js', './js/errors.js', './js/ai.js', './js/exercise.js', './js/tutor.js',
+  './js/views/learn.js', './js/views/read.js', './js/views/errors.js', './js/views/vault.js', './js/views/ai.js', './js/views/tutor.js',
+  './content/curriculum.json', './content/dictation.json', './content/vocab.json', './content/errors.json', './content/reading/index.json', './content/tutor.json',
 ];
 
 self.addEventListener('install', e => {

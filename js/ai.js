@@ -74,7 +74,7 @@ export async function resolveAutoModel(force = false) {
 
 export const currentModel = () => get().settings.lastModel || get().settings.model?.trim() || get().settings.autoModel || '';
 
-async function call(contents, { system, json = false, temperature = 0.4 } = {}) {
+export async function call(contents, { system, json = false, temperature = 0.4 } = {}) {
   const st = get().settings;
   const auto = !st.model?.trim();
   let model = auto ? await resolveAutoModel() : st.model.trim();

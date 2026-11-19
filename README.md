@@ -9,11 +9,12 @@ Derleme adımı yok: düz HTML, CSS ve ES modülleri. GitHub Pages'te ya da `pyt
 
 | Sekme | İçerik |
 |---|---|
-| 📘 Dersler | A1–C2 müfredat. Her derste Türkçe/İngilizce anlatım, yanlış ↔ doğal örnek çiftleri ve 4 tür alıştırma: boşluk doldurma, hatayı düzeltme, çoktan seçmeli, cümle birleştirme/dönüştürme. %80 ile ders tamamlanır. |
+| 🧑‍🏫 Öğretmen | **Ana ekran.** Gemini ile çalışan kişisel öğretmen (`docs/ogretmen-yontemi.md` yöntemi). Önce bekleyen ödev teslim edilir ya da sıradaki derse geçilir. **1. aşama:** 6 kelime (kayıt, IPA, Türkçe, Uygurca, kalıplar, örnek) + dilbilgisi + 5 alıştırma. **2. aşama:** kısa B1+/B2 okuma + tek tek sorulan 5 soruluk sohbet; her cevaptan sonra sadece önemli hatalar ve B2 sürümü. **Ders sonu:** özet, hata günlüğü güncellemesi, 3–4 cümlelik ödev, sıradaki ders. Öğrenci hafızası (profil, 6 modül, ders günlüğü, ödev, hata günlüğü) telefonda saklanır ve `.md` olarak indirilebilir. Yarım kalan ders uygulama kapansa da kaldığı yerden açılır. |
+| 📘 Dersler | Hazır dersler (AI'sız, internetsiz çalışır); öğretmenin başvuru kaynağı. A1–C2 müfredat. Her derste Türkçe/İngilizce anlatım, yanlış ↔ doğal örnek çiftleri ve 4 tür alıştırma: boşluk doldurma, hatayı düzeltme, çoktan seçmeli, cümle birleştirme/dönüştürme. %80 ile ders tamamlanır. |
 | 🎧 Okuma | Seviyeli okuma parçaları. Altı çizili kelimeye dokununca IPA, Türkçe, Uygurca (sağdan sola) ve kalıplar; kelime kasasına ekleme. Sesli okuma (normal/yavaş), 4 soru. **Dikte:** 0.8× / 1× / 1.15× hızda dinle-yaz, kelime kelime karşılaştırma; atlanan küçük kelimeler (is, are, have, had, a, the…) kırmızı. |
 | 🎯 Hatalar | Derslerdeki, diktedeki ve AI değerlendirmesindeki her yanlış SM-2 ile tekrar listesine girer. Farklı günlerde 3 kez üst üste doğru cevaplanınca "ustalaşıldı" olur. 15 teşhis hatasıyla başlar. |
 | 🗂️ Kelimeler | SM-2 kelime kartları (Tekrar / Zor / İyi / Kolay), kendi kartını ekleme, **Anki için .tsv dışa aktarma**. **📚 Sözlük:** A1–C2 seviyeli 8.648 kelime (IPA, İngilizce tanım ve örnek); Türkçe anlamı yazıp kasaya eklenir. Okuma parçalarında herhangi bir kelimeye dokununca da bu sözlük açılır. |
-| ✨ AI | Kendi Gemini anahtarınla (BYOK): paragraf değerlendirme, rol yapma sohbeti, en çok hata yapılan konuya göre sınırsız alıştırma, Markdown ilerleme özeti, yedek indir/yükle. |
+| ✨ AI (Öğretmen → Diğer) | Kendi Gemini anahtarınla (BYOK): anahtar ve model ayarı, paragraf değerlendirme, rol yapma sohbeti, en çok hata yapılan konuya göre sınırsız alıştırma, Markdown ilerleme özeti, yedek indir/yükle. |
 
 AI dışındaki her şey internetsiz çalışır. Gemini anahtarı yalnızca cihazın `localStorage`'ında durur.
 
@@ -50,6 +51,9 @@ Tüm içerik `content/` klasöründe JSON olarak durur. Kod değişmeden içerik
 "glossary": { "put off": { "ipa": "/pʊt ɒf/", "pos": "phrasal verb", "tr": "ertelemek", "ug": "كېچىكتۈرمەك", "coll": ["put off a meeting"], "ex": ["…"] } },
 "questions": [{ "kind": "comprehension|inference|vocab", "q": "…", "options": ["…"], "answer": 0, "explain_tr": "…" }]
 ```
+
+### Öğretmen hafızası
+`content/tutor.json` ilk açılışta öğretmen hafızasına kopyalanır (profil, modüller, konum, ders günlüğü, bekleyen ödev, hata günlüğü). Sonrasında hafıza yalnızca telefonda (`localStorage` → `tutor`) güncellenir; yedek dosyasına da girer.
 
 ### Dikte, kelime ve teşhis hataları
 - `content/dictation.json` → `{ "id", "level", "text", "tr" }`
